@@ -1,16 +1,102 @@
-# React + Vite
+# 🩺 Appointment Booking App (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern appointment booking web application built with **React**, **TypeScript**, and **TailwindCSS**, designed to help users easily schedule appointments with professionals such as doctors, therapists, or consultants.
 
-Currently, two official plugins are available:
+This project focuses on creating a **responsive and intuitive user interface**, with a future-ready structure for backend integration using **Ruby on Rails** or any REST API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✨ **Modern UI** – Elegant and minimal interface using TailwindCSS (Purple, Grey, and Black theme).
+- 🧑‍💻 **User-Friendly Booking Flow** – Simple step-by-step process for selecting a professional, viewing availability, and booking.
+- 📅 **Calendar Integration (Frontend Mock)** – Displays available dates and times for appointments.
+- 🔐 **Authentication Pages (UI only)** – Clean login and signup screens ready for integration with Clerk, Auth0, or a custom Rails API.
+- 🧭 **Dashboard Interface** – Organized views for both users and professionals (UI only).
+- 💡 **Scalable Design System** – Consistent typography (Lato Sans-Serif) and reusable components.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tech Stack
+
+| Area               | Technology              |
+| ------------------ | ----------------------- |
+| Frontend Framework | React (Vite or Next.js) |
+| Styling            | TailwindCSS             |
+| Icons              | Lucide Icons            |
+| Fonts              | Lato Sans-Serif         |
+| Type Checking      | TypeScript              |
+| Future Backend     | Ruby on Rails (API)     |
+
+---
+
+## 📄 Pages Overview
+
+1. **Landing Page** – Overview of the platform with call-to-action to book or sign up.
+2. **Login & Signup** – Simple authentication pages (frontend only).
+3. **Dashboard (Client View)** – Displays upcoming and past appointments.
+4. **Book Appointment Page** – Choose a professional, select date & time, and confirm.
+5. **Appointment Confirmation** – Displays booking summary.
+6. **Professional Dashboard (optional)** – Professionals can view and manage bookings.
+7. **Profile Page** – User profile settings (UI only).
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/appointment-app.git
+
+# Navigate to the project folder
+cd appointment-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+---
+
+## 🧩 Folder Structure
+
+```
+src/
+ ┣ components/     # Reusable UI components
+ ┣ pages/          # Individual route views
+ ┣ layouts/        # Shared page layouts
+ ┣ assets/         # Images, icons, and fonts
+ ┣ styles/         # Global styles and Tailwind config
+ ┗ App.tsx         # App entry point
+```
+
+---
+
+## 🔮 Future Enhancements
+
+- Integrate backend using **Ruby on Rails API**
+- Add **real-time notifications** for appointment reminders
+- Implement **role-based dashboards** (Client & Professional)
+- Connect **Google Calendar API** for automatic scheduling
+
+---
+
+## 📸 Design Source
+
+All designs were created using **UX Pilot**, following a clean and accessible layout with:
+
+- Purple, Grey, and Black color palette
+- Rounded corners and subtle shadows
+- Lato Sans-Serif typography
+
+---
+
+## 👨‍💻 Author
+
+**Peter Robert**  
+Frontend Developer | React + Rails  
+💼 [Upwork Profile](#)  
+🌐 [Portfolio Website](#)  
+📧 yourname@email.com
