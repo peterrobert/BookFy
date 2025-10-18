@@ -1,6 +1,6 @@
 import "./App.css";
+import Footer from "./Components/Footer";
 import Navigation from "./Components/Navigation";
-import ProffesionalCard from "./Components/ProffesionalCard";
 import LandingPage from "./Pages/LandingPage";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <>
       <Navigation />
       <LandingPage />
+      <Footer />
     </>
   );
 }

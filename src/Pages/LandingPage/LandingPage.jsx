@@ -6,6 +6,7 @@ import HowItworksSection from "./HowItworksSection";
 import TestimonySection from "./TestimonySection";
 import StatsSection from "./StatsSection";
 import ProffessionalCallSection from "./ProfessionalCallSection";
+import FaqSection from "./FaqSection";
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
       <TestimonySection />
       <StatsSection />
       <ProffessionalCallSection />
+      <FaqSection />
     </>
   );
 };

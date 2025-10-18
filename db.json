@@ -382,5 +382,47 @@
     "role": "Nurse Practitioner",
     "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg"
   }
+],
+"faqs":[
+  {
+    "id": "1",
+    "question": "How do I book an appointment?",
+    "answer": "Simply browse through our professionals, select your preferred service provider, choose an available time slot, and complete the booking with secure payment. You'll receive instant confirmation."
+  },
+  {
+    "id": "2",
+    "question": "Can I reschedule or cancel my appointment?",
+    "answer": "Yes, you can reschedule or cancel your booking up to 24 hours before the appointment through your dashboard. Late cancellations may incur a small fee depending on the provider’s policy."
+  },
+  {
+    "id": "3",
+    "question": "Do I need to create an account to book?",
+    "answer": "Yes, creating an account allows you to manage bookings, view your history, save favorite professionals, and get personalized recommendations."
+  },
+  {
+    "id": "4",
+    "question": "How do I pay for my appointment?",
+    "answer": "All payments are handled securely through our integrated payment gateway. You can pay using credit/debit cards, PayPal, or mobile money depending on your region."
+  },
+  {
+    "id": "5",
+    "question": "Are the professionals verified?",
+    "answer": "Yes, every professional on our platform goes through a verification process to ensure qualifications, professionalism, and customer safety."
+  },
+  {
+    "id": "6",
+    "question": "What happens if my professional cancels?",
+    "answer": "In the rare event of a cancellation, you’ll be notified immediately and offered the option to reschedule with another professional or receive a full refund."
+  },
+  {
+    "id": "7",
+    "question": "Can I leave a review after my appointment?",
+    "answer": "Absolutely! After your session, you’ll be prompted to rate and review your experience to help others make informed choices."
+  },
+  {
+    "id": "8",
+    "question": "Is my data secure?",
+    "answer": "We take your privacy seriously. All personal and payment data is encrypted and stored following industry-grade security standards."
+  }
 ]
 }

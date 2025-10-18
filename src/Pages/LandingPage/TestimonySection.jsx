@@ -1,6 +1,6 @@
 import React from "react";
 import AppReviewCard from "../../Components/AppReviewCard";
-import { useTestimonials } from "../../hooks/useTestimonies";
+import { useTestimonials } from "../../hooks/LandingPage";
 import AppSpinner from "../../Components/AppSpinner";
 
 const TestimonySection = () => {
