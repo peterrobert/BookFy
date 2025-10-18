@@ -1,6 +1,11 @@
-import AppButton from "./AppButton";
+import { NavLink } from "react-router-dom";
+import AppButton from "../Components/AppButton";
 
 const NavItems = [
+  {
+    label: "Landing page",
+    href: "/",
+  },
   {
     label: "Home",
     href: "/home",
@@ -27,12 +32,25 @@ const Navigation = () => {
   const navItems = () => {
     return NavItems.map((item) => {
       return (
-        <span
-          className="text-gray-700 hover:text-purple-primary font-medium transition-colors cursor-pointer"
-          key={item.label}
+        <NavLink
+          to={item.href}
+          className={({ isActive }) =>
+            `pb-1 font-medium text-gray-700 relative ${
+              isActive ? "text-purple-600" : ""
+            }`
+          }
         >
-          {item.label}
-        </span>
+          <span
+            className={({ isActive }) =>
+              isActive
+                ? "absolute left-0 bottom-0 w-full h-[2px] bg-purple-600 transition-all duration-300"
+                : ""
+            }
+            key={item.label}
+          >
+            {item.label}
+          </span>
+        </NavLink>
       );
     });
   };
