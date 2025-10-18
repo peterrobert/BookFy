@@ -1,5 +1,5 @@
 import React from "react";
-import AppReviewCard from "../../Components/AppReviewCard";
+import AppReviewCard from "../../Layouts/AppReviewCard";
 import { useTestimonials } from "../../hooks/LandingPage";
 import AppSpinner from "../../Components/AppSpinner";
 
