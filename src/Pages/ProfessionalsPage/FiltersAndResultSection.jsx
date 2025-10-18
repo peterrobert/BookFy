@@ -1,258 +1,269 @@
+import { useProfessionals } from "../../hooks/LandingPage/useProfessionals";
+import ProfessionalCard from "../../Components/ProffesionalCard";
+import AppSpinner from "../../Components/AppSpinner";
+
 // ---- ASIDE: filters section ----- //
 const FiltersSection = () => {
   return (
-    <aside id="filters-sidebar" class="lg:w-1/4">
-      <div class="bg-white rounded-xl border border-black shadow-lg p-6 sticky top-24">
-        <div class="flex items-center justify-between mb-6">
-          <h3 class="text-xl font-bold text-black">Filters</h3>
-          <button class="text-purple-primary font-medium hover:text-purple-dark">
+    <aside id="filters-sidebar" className="lg:w-1/4">
+      <div className="bg-white rounded-xl border border-black shadow-lg p-6 sticky top-24">
+        <div className="flex items-center justify-between mb-6">
+          <h3 className="text-xl font-bold text-black">Filters</h3>
+          <button className="text-purple-primary font-medium hover:text-purple-dark">
             Clear All
           </button>
         </div>
 
-        <div class="space-y-6">
+        <div className="space-y-6">
           <div id="category-filter">
-            <h4 class="font-semibold text-gray-800 mb-3">Category</h4>
-            <div class="space-y-2">
-              <label class="flex items-center">
+            <h4 className="font-semibold text-gray-800 mb-3">Category</h4>
+            <div className="space-y-2">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Healthcare (1,250)</span>
+                <span className="ml-2 text-gray-700">Healthcare (1,250)</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Beauty & Spa (890)</span>
+                <span className="ml-2 text-gray-700">Beauty & Spa (890)</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Fitness (670)</span>
+                <span className="ml-2 text-gray-700">Fitness (670)</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Consulting (540)</span>
+                <span className="ml-2 text-gray-700">Consulting (540)</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Education (780)</span>
+                <span className="ml-2 text-gray-700">Education (780)</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Home Services (920)</span>
+                <span className="ml-2 text-gray-700">Home Services (920)</span>
               </label>
             </div>
           </div>
 
-          <div id="price-filter" class="border-t border-gray-200 pt-6">
-            <h4 class="font-semibold text-gray-800 mb-3">Price Range</h4>
-            <div class="space-y-2">
-              <label class="flex items-center">
+          <div id="price-filter" className="border-t border-gray-200 pt-6">
+            <h4 className="font-semibold text-gray-800 mb-3">Price Range</h4>
+            <div className="space-y-2">
+              <label className="flex items-center">
                 <input
                   type="radio"
                   name="price"
-                  class="text-purple-primary focus:ring-purple-primary"
+                  className="text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Under $50</span>
+                <span className="ml-2 text-gray-700">Under $50</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="radio"
                   name="price"
-                  class="text-purple-primary focus:ring-purple-primary"
+                  className="text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">$50 - $100</span>
+                <span className="ml-2 text-gray-700">$50 - $100</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="radio"
                   name="price"
-                  class="text-purple-primary focus:ring-purple-primary"
+                  className="text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">$100 - $200</span>
+                <span className="ml-2 text-gray-700">$100 - $200</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="radio"
                   name="price"
-                  class="text-purple-primary focus:ring-purple-primary"
+                  className="text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">$200+</span>
+                <span className="ml-2 text-gray-700">$200+</span>
               </label>
             </div>
           </div>
 
-          <div id="rating-filter" class="border-t border-gray-200 pt-6">
-            <h4 class="font-semibold text-gray-800 mb-3">Rating</h4>
-            <div class="space-y-2">
-              <label class="flex items-center">
+          <div id="rating-filter" className="border-t border-gray-200 pt-6">
+            <h4 className="font-semibold text-gray-800 mb-3">Rating</h4>
+            <div className="space-y-2">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <div class="ml-2 flex items-center">
-                  <div class="flex text-yellow-400 mr-2">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                <div className="ml-2 flex items-center">
+                  <div className="flex text-yellow-400 mr-2">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
                   </div>
-                  <span class="text-gray-700">5 Stars (420)</span>
+                  <span className="text-gray-700">5 Stars (420)</span>
                 </div>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <div class="ml-2 flex items-center">
-                  <div class="flex text-yellow-400 mr-2">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                <div className="ml-2 flex items-center">
+                  <div className="flex text-yellow-400 mr-2">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-regular fa-star"></i>
                   </div>
-                  <span class="text-gray-700">4+ Stars (890)</span>
+                  <span className="text-gray-700">4+ Stars (890)</span>
                 </div>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <div class="ml-2 flex items-center">
-                  <div class="flex text-yellow-400 mr-2">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
+                <div className="ml-2 flex items-center">
+                  <div className="flex text-yellow-400 mr-2">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-regular fa-star"></i>
+                    <i className="fa-regular fa-star"></i>
                   </div>
-                  <span class="text-gray-700">3+ Stars (1,200)</span>
+                  <span className="text-gray-700">3+ Stars (1,200)</span>
                 </div>
               </label>
             </div>
           </div>
 
-          <div id="availability-filter" class="border-t border-gray-200 pt-6">
-            <h4 class="font-semibold text-gray-800 mb-3">Availability</h4>
-            <div class="space-y-2">
-              <label class="flex items-center">
+          <div
+            id="availability-filter"
+            className="border-t border-gray-200 pt-6"
+          >
+            <h4 className="font-semibold text-gray-800 mb-3">Availability</h4>
+            <div className="space-y-2">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Available Today</span>
+                <span className="ml-2 text-gray-700">Available Today</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Available This Week</span>
+                <span className="ml-2 text-gray-700">Available This Week</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Weekend Available</span>
+                <span className="ml-2 text-gray-700">Weekend Available</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Evening Hours</span>
+                <span className="ml-2 text-gray-700">Evening Hours</span>
               </label>
             </div>
           </div>
 
-          <div id="distance-filter" class="border-t border-gray-200 pt-6">
-            <h4 class="font-semibold text-gray-800 mb-3">Distance</h4>
-            <div class="space-y-2">
-              <label class="flex items-center">
+          <div id="distance-filter" className="border-t border-gray-200 pt-6">
+            <h4 className="font-semibold text-gray-800 mb-3">Distance</h4>
+            <div className="space-y-2">
+              <label className="flex items-center">
                 <input
                   type="radio"
                   name="distance"
-                  class="text-purple-primary focus:ring-purple-primary"
+                  className="text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Within 5 miles</span>
+                <span className="ml-2 text-gray-700">Within 5 miles</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="radio"
                   name="distance"
-                  class="text-purple-primary focus:ring-purple-primary"
+                  className="text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Within 10 miles</span>
+                <span className="ml-2 text-gray-700">Within 10 miles</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="radio"
                   name="distance"
-                  class="text-purple-primary focus:ring-purple-primary"
+                  className="text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Within 25 miles</span>
+                <span className="ml-2 text-gray-700">Within 25 miles</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="radio"
                   name="distance"
-                  class="text-purple-primary focus:ring-purple-primary"
+                  className="text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Any distance</span>
+                <span className="ml-2 text-gray-700">Any distance</span>
               </label>
             </div>
           </div>
 
-          <div id="services-filter" class="border-t border-gray-200 pt-6">
-            <h4 class="font-semibold text-gray-800 mb-3">Special Services</h4>
-            <div class="space-y-2">
-              <label class="flex items-center">
+          <div id="services-filter" className="border-t border-gray-200 pt-6">
+            <h4 className="font-semibold text-gray-800 mb-3">
+              Special Services
+            </h4>
+            <div className="space-y-2">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Home Visits</span>
+                <span className="ml-2 text-gray-700">Home Visits</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Virtual Consultations</span>
+                <span className="ml-2 text-gray-700">
+                  Virtual Consultations
+                </span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Group Sessions</span>
+                <span className="ml-2 text-gray-700">Group Sessions</span>
               </label>
-              <label class="flex items-center">
+              <label className="flex items-center">
                 <input
                   type="checkbox"
-                  class="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
+                  className="rounded border-gray-300 text-purple-primary focus:ring-purple-primary"
                 />
-                <span class="ml-2 text-gray-700">Emergency Services</span>
+                <span className="ml-2 text-gray-700">Emergency Services</span>
               </label>
             </div>
           </div>
@@ -264,15 +275,100 @@ const FiltersSection = () => {
 // ---- ASIDE: results section ----- //
 
 // --- PROFESSIONALS DISPLAY SECTION ---- //
-const ProfessionalsDisplaySection = () => {};
+const ProfessionalsDisplaySection = () => {
+  const { data, isLoading, isError } = useProfessionals();
+
+  const displayProffessionals = () => {
+    if (isLoading) return <AppSpinner />;
+    if (isError) return <div>Error loading professionals.</div>;
+    return data.map((professional) => (
+      <ProfessionalCard key={professional.id} professional={professional} />
+    ));
+  };
+  return (
+    <main id="professionals-grid" className="lg:w-3/4">
+      <div
+        id="results-header"
+        className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8"
+      >
+        <div>
+          <h2 className="text-2xl font-bold text-black mb-2">
+            2,847 Professionals Found
+          </h2>
+          <p className="text-gray-600">
+            Showing results for "All Categories" in "San Francisco, CA"
+          </p>
+        </div>
+        <div className="flex items-center space-x-4 mt-4 md:mt-0">
+          <span className="text-gray-700 font-medium">Sort by:</span>
+          <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:border-purple-primary">
+            <option>Recommended</option>
+            <option>Highest Rated</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Distance</option>
+            <option>Newest</option>
+          </select>
+          <div className="flex border border-gray-300 rounded-lg">
+            <button className="p-2 bg-purple-primary text-white rounded-l-lg">
+              <i className="fa-solid fa-th-large"></i>
+            </button>
+            <button className="p-2 text-gray-500 hover:bg-gray-100 rounded-r-lg">
+              <i className="fa-solid fa-list"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="professionals-cards-grid"
+        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-12"
+      >
+        {displayProffessionals()}
+      </div>
+
+      <div
+        id="pagination-section"
+        className="flex justify-center items-center space-x-2"
+      >
+        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors">
+          <i className="fa-solid fa-chevron-left"></i>
+        </button>
+        <button className="px-4 py-2 bg-purple-primary text-white rounded-lg border border-black font-semibold">
+          1
+        </button>
+        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
+          2
+        </button>
+        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
+          3
+        </button>
+        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
+          4
+        </button>
+        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
+          5
+        </button>
+        <span className="px-2 text-gray-500">...</span>
+        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
+          47
+        </button>
+        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-100 transition-colors">
+          <i className="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </main>
+  );
+};
 // --- PROFESSIONALS DISPLAY SECTION ---- //
 
 const FiltersAndResultSection = () => {
   return (
-    <section id="filters-and-results" class="py-8 px-5 bg-gray-50">
-      <div class="container mx-auto">
-        <div class="flex flex-col lg:flex-row gap-8">
-          <FiltersAndResultSection />
+    <section id="filters-and-results" className="py-8 px-5 bg-gray-50">
+      <div className="container mx-auto">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <FiltersSection />
+          <ProfessionalsDisplaySection />
         </div>
       </div>
     </section>
