@@ -19,14 +19,14 @@ This project focuses on creating a **responsive and intuitive user interface**, 
 
 ## 🧱 Tech Stack
 
-| Area               | Technology              |
-| ------------------ | ----------------------- |
-| Frontend Framework | React (Vite or Next.js) |
-| Styling            | TailwindCSS             |
-| Icons              | Lucide Icons            |
-| Fonts              | Lato Sans-Serif         |
-| Type Checking      | TypeScript              |
-| Future Backend     | Ruby on Rails (API)     |
+| Area               | Technology          |
+| ------------------ | ------------------- |
+| Frontend Framework | React (Vite)        |
+| Styling            | TailwindCSS         |
+| Icons              | Lucide Icons        |
+| Fonts              | Lato Sans-Serif     |
+| Type Checking      | TypeScript          |
+| Future Backend     | Ruby on Rails (API) |
 
 ---
 
@@ -46,10 +46,10 @@ This project focuses on creating a **responsive and intuitive user interface**, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/appointment-app.git
+git clone https://github.com/peterrobert/BookFy
 
 # Navigate to the project folder
-cd appointment-app
+cd bookfy
 
 # Install dependencies
 npm install
@@ -85,7 +85,7 @@ src/
 
 ## 📸 Design Source
 
-All designs were created using **UX Pilot**, following a clean and accessible layout with:
+All designs were created following a clean and accessible layout with:
 
 - Purple, Grey, and Black color palette
 - Rounded corners and subtle shadows
@@ -96,7 +96,7 @@ All designs were created using **UX Pilot**, following a clean and accessible la
 ## 👨‍💻 Author
 
 **Peter Robert**  
-Frontend Developer | React + Rails  
-💼 [Upwork Profile](#)  
-🌐 [Portfolio Website](#)  
-📧 yourname@email.com
+Frontend Developer | React + Rails | golang
+💼 [Upwork Profile](https://www.upwork.com/freelancers/~01f1e3809fc80b9dd0)  
+🌐 [Portfolio Website](https://peterportfolio-3764i41v3-peterroberts-projects.vercel.app/)  
+📧 pwambui93@gmail.com
