@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useProfessionals } from "../../hooks/LandingPage/useProfessionals";
 import ProfessionalCard from "../../Components/ProffesionalCard";
 import AppSpinner from "../../Components/AppSpinner";
@@ -277,12 +278,33 @@ const FiltersSection = () => {
 // --- PROFESSIONALS DISPLAY SECTION ---- //
 const ProfessionalsDisplaySection = () => {
   const { data, isLoading, isError } = useProfessionals();
+  const [currentPage, setCurrentPage] = useState(1);
+
+  // --- PAGINATION ----
+  const itemsPerPage = 6;
+  const totalPages = data ? Math.ceil(data.length / itemsPerPage) : 0;
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const currentItems = data?.slice(startIndex, startIndex + itemsPerPage);
 
   const displayProffessionals = () => {
     if (isLoading) return <AppSpinner />;
     if (isError) return <div>Error loading professionals.</div>;
-    return data.map((professional) => (
+    return currentItems.map((professional) => (
       <ProfessionalCard key={professional.id} professional={professional} />
+    ));
+  };
+
+  const displayPagination = () => {
+    return Array.from({ length: totalPages }, (_, i) => (
+      <button
+        key={i}
+        className={`px-3 py-1 border rounded ${
+          currentPage === i + 1 ? "bg-purple-primary text-white" : ""
+        }`}
+        onClick={() => setCurrentPage(i + 1)}
+      >
+        {i + 1}
+      </button>
     ));
   };
   return (
@@ -293,11 +315,9 @@ const ProfessionalsDisplaySection = () => {
       >
         <div>
           <h2 className="text-2xl font-bold text-black mb-2">
-            2,847 Professionals Found
+            {data?.length} Professionals Found
           </h2>
-          <p className="text-gray-600">
-            Showing results for "All Categories" in "San Francisco, CA"
-          </p>
+          <p className="text-gray-600">Showing results for "All Categories"</p>
         </div>
         <div className="flex items-center space-x-4 mt-4 md:mt-0">
           <span className="text-gray-700 font-medium">Sort by:</span>
@@ -331,31 +351,7 @@ const ProfessionalsDisplaySection = () => {
         id="pagination-section"
         className="flex justify-center items-center space-x-2"
       >
-        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors">
-          <i className="fa-solid fa-chevron-left"></i>
-        </button>
-        <button className="px-4 py-2 bg-purple-primary text-white rounded-lg border border-black font-semibold">
-          1
-        </button>
-        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
-          2
-        </button>
-        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
-          3
-        </button>
-        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
-          4
-        </button>
-        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
-          5
-        </button>
-        <span className="px-2 text-gray-500">...</span>
-        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-purple-50 hover:border-purple-primary hover:text-purple-primary transition-colors">
-          47
-        </button>
-        <button className="px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-100 transition-colors">
-          <i className="fa-solid fa-chevron-right"></i>
-        </button>
+        {displayPagination()}
       </div>
     </main>
   );
