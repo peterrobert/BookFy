@@ -1,4 +1,6 @@
-function AccountTypeCard({ type }) {
+import AppButton from "../../../Components/AppButton";
+
+function AccountTypeCard({ type, handleSelectedType }) {
   return (
     <div
       key={type.id}
@@ -12,18 +14,20 @@ function AccountTypeCard({ type }) {
           ></i>
         </div>
         <h3 className="text-2xl font-bold text-black mb-4">{type.title}</h3>
-        <p className="text-gray-600 mb-6">{type.description}</p>
+        <p className="text-gray-600 mb-6 font-light">{type.description}</p>
         <ul className="text-left space-y-3 mb-8">
           {type.features.map((feature, index) => (
-            <li key={index} className="flex items-center">
+            <li key={index} className="flex items-center font-light">
               <i className="fa-solid fa-check text-purple-primary mr-3"></i>
               <span className="text-gray-700">{feature}</span>
             </li>
           ))}
         </ul>
-        <button className="w-full bg-purple-primary text-white py-3 rounded-lg border border-black font-semibold hover:bg-purple-dark transition-colors">
-          {type.buttonText}
-        </button>
+        <AppButton
+          onClick={() => handleSelectedType(type.id)}
+          label={type.buttonText}
+          className="w-full bg-purple-primary text-white py-3 rounded-lg border border-black font-semibold hover:bg-purple-dark transition-colors"
+        />
       </div>
     </div>
   );

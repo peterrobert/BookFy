@@ -1,3 +1,4 @@
+import { useState } from "react";
 import AccountTypeCard from "./AccountTypeCard";
 
 const accountTypeData = [
@@ -32,11 +33,23 @@ const accountTypeData = [
 ];
 
 const AccountTypeSelection = () => {
+  const [selectedType, setSelectedType] = useState("client");
+
+  const handleAccountTypeSelect = (type) => {
+    setSelectedType(type);
+  };
+
   const renderAccountTypeCards = () => {
     return accountTypeData.map((type) => (
-      <AccountTypeCard key={type.id} type={type} />
+      <AccountTypeCard
+        key={type.id}
+        type={type}
+        handleSelectedType={handleAccountTypeSelect}
+      />
     ));
   };
+
+  console.log("Selected Account Type:", selectedType);
 
   return (
     <section id="account-type-selection" className="py-16 px-5">
