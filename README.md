@@ -1,4 +1,4 @@
-# 🩺 Appointment Booking App (Frontend)
+# Appointment Booking App (Frontend)
 
 A clean and modern appointment booking web application built with **React**, **TypeScript**, and **TailwindCSS**, designed to help users easily schedule appointments with professionals such as doctors, therapists, or consultants.
 

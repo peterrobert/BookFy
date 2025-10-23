@@ -20,17 +20,13 @@ const ProffesionalCard = ({ professional }) => {
   } = professional || {};
   const navigate = useNavigate();
 
-  const handleNavigateToProfile = () => {
-    navigate(`/professionals/${id}`);
-  };
-
   return (
     <>
       <div className="bg-white rounded-xl border border-black shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group">
         <div className="relative">
           <img
             src={avatar}
-            alt="Emily Rodriguez"
+            alt={name}
             className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
           />
           {verified && (
