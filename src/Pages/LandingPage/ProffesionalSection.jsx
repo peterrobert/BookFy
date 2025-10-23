@@ -2,7 +2,7 @@
 import AppButton from "../../Components/AppButton";
 import AppSpinner from "../../Components/AppSpinner";
 import ProffesionalCard from "../../Components/ProffesionalCard";
-import { useProfessionals } from "../../hooks/LandingPage";
+import { useProfessionals } from "../../hooks";
 
 const ProffesionalSection = () => {
   const { data, isLoading, isError } = useProfessionals();

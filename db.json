@@ -1,4 +1,43 @@
 {
+  "categories": [
+    {
+      "id": 1,
+      "title": "Healthcare",
+      "icon": "fa-solid fa-user-md",
+      "professionals": "1,250+ Professionals"
+    },
+    {
+      "id": 2,
+      "title": "Technology",
+      "icon": "fa-solid fa-laptop-code",
+      "professionals": "2,800+ Professionals"
+    },
+    {
+      "id": 3,
+      "title": "Education",
+      "icon": "fa-solid fa-graduation-cap",
+      "professionals": "950+ Professionals"
+    },
+    {
+      "id": 4,
+      "title": "Finance",
+      "icon": "fa-solid fa-coins",
+      "professionals": "1,400+ Professionals"
+    },
+    {
+      "id": 5,
+      "title": "Creative Arts",
+      "icon": "fa-solid fa-palette",
+      "professionals": "1,050+ Professionals"
+    },
+    {
+      "id": 6,
+      "title": "Engineering",
+      "icon": "fa-solid fa-cogs",
+      "professionals": "1,700+ Professionals"
+    }
+  ],
+
   "professionals": [
     {
       "id": 1,
@@ -93,7 +132,7 @@
     {
       "id": 7,
       "name": "Mia Brown",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-12.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
       "profession": "Makeup Artist",
       "location": "Beauty Loft",
       "distance": "1.2 miles",
@@ -108,7 +147,7 @@
     {
       "id": 8,
       "name": "Oliver Davis",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-15.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
       "profession": "Fitness Coach",
       "location": "NextGen Gym",
       "distance": "2.9 miles",
@@ -123,7 +162,7 @@
     {
       "id": 9,
       "name": "Isabella Garcia",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-17.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
       "profession": "Yoga Instructor",
       "location": "Serenity Yoga",
       "distance": "1.5 miles",
@@ -138,7 +177,7 @@
     {
       "id": 10,
       "name": "James Carter",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-19.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
       "profession": "Tattoo Artist",
       "location": "InkHouse Studio",
       "distance": "4.5 miles",
@@ -153,7 +192,7 @@
     {
       "id": 11,
       "name": "Ella Martinez",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-20.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg",
       "profession": "Nutritionist",
       "location": "HealthWise Center",
       "distance": "3.8 miles",
@@ -168,7 +207,7 @@
     {
       "id": 12,
       "name": "William Green",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-21.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-3.jpg",
       "profession": "Barber",
       "location": "The Cut Room",
       "distance": "0.8 miles",
@@ -183,7 +222,7 @@
     {
       "id": 13,
       "name": "Charlotte Evans",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-22.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg",
       "profession": "Fashion Stylist",
       "location": "Trendy Hub",
       "distance": "5.2 miles",
@@ -198,7 +237,7 @@
     {
       "id": 14,
       "name": "Benjamin Scott",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-23.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
       "profession": "Physiotherapist",
       "location": "Rehab Zone",
       "distance": "3.3 miles",
@@ -213,7 +252,7 @@
     {
       "id": 15,
       "name": "Harper Lewis",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-24.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg",
       "profession": "Tattoo Artist",
       "location": "Ink Paradise",
       "distance": "2.6 miles",
@@ -228,7 +267,7 @@
     {
       "id": 16,
       "name": "Lucas Walker",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-25.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
       "profession": "Chef",
       "location": "Gourmet Haven",
       "distance": "1.9 miles",
@@ -243,7 +282,7 @@
     {
       "id": 17,
       "name": "Amelia Turner",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-26.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
       "profession": "Hair Colorist",
       "location": "Pure Salon",
       "distance": "2.3 miles",
@@ -258,7 +297,7 @@
     {
       "id": 18,
       "name": "Henry Adams",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-27.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
       "profession": "Fitness Instructor",
       "location": "ShapeUp Gym",
       "distance": "3.6 miles",
@@ -273,7 +312,7 @@
     {
       "id": 19,
       "name": "Grace Parker",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-28.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
       "profession": "Makeup Artist",
       "location": "Glam Studio",
       "distance": "1.5 miles",
@@ -288,7 +327,7 @@
     {
       "id": 20,
       "name": "Daniel Foster",
-      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-29.jpg",
+      "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
       "profession": "Photographer",
       "location": "Foster Frames",
       "distance": "4.1 miles",

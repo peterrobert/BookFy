@@ -1,6 +1,6 @@
 import AppFaqCard from "../../Components/AppFaqCard";
 import AppSpinner from "../../Components/AppSpinner";
-import { useFaqs } from "../../hooks/LandingPage";
+import { useFaqs } from "../../hooks";
 
 // --- FAQ SECTION COMPONENT --- //
 const FaqSection = () => {

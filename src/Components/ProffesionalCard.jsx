@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import AppButton from "./AppButton";
 
 // --- PROFESSIONAL CARD COMPONENT --- //
 const ProffesionalCard = ({ professional }) => {
   const {
+    id,
     name,
     online,
     location,
@@ -16,6 +18,7 @@ const ProffesionalCard = ({ professional }) => {
     skills,
     verified,
   } = professional || {};
+  const navigate = useNavigate();
 
   return (
     <>
@@ -90,7 +93,10 @@ const ProffesionalCard = ({ professional }) => {
               </span>
             </div>
           </div>
-          <AppButton label="Book Appointment" />
+          <AppButton
+            label="Book Appointment"
+            onClick={() => handleNavigateToProfile(id)}
+          />
         </div>
       </div>
     </>

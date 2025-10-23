@@ -16,15 +16,6 @@ const CategoriesSection = () => {
           <div className="bg-white p-6 rounded-xl border border-black shadow-lg hover:shadow-xl transition-all cursor-pointer group">
             <div className="text-center">
               <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-purple-primary transition-colors">
-                <i className="fa-solid fa-user-md text-purple-primary text-2xl group-hover:text-white"></i>
-              </div>
-              <h3 className="font-semibold text-black mb-2">Healthcare</h3>
-              <p className="text-sm text-gray-600">1,250+ Professionals</p>
-            </div>
-          </div>
-          <div className="bg-white p-6 rounded-xl border border-black shadow-lg hover:shadow-xl transition-all cursor-pointer group">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-purple-primary transition-colors">
                 <i className="fa-solid fa-cut text-purple-primary text-2xl group-hover:text-white"></i>
               </div>
               <h3 className="font-semibold text-black mb-2">Beauty & Spa</h3>

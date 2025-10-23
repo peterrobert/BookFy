@@ -12,7 +12,7 @@ const NavItems = [
   },
   {
     label: "Browse Professionals",
-    href: "/browse-professionals",
+    href: "/professionals",
   },
   {
     label: "How It Works",
@@ -35,21 +35,13 @@ const Navigation = () => {
         <NavLink
           to={item.href}
           className={({ isActive }) =>
-            `pb-1 font-medium text-gray-700 relative ${
+            `pb-1  text-gray-700 relative font-light ${
               isActive ? "text-purple-600" : ""
             }`
           }
           key={item.label}
         >
-          <span
-            className={({ isActive }) =>
-              isActive
-                ? "absolute left-0 bottom-0 w-full h-[2px] bg-purple-600 transition-all duration-300"
-                : null
-            }
-          >
-            {item.label}
-          </span>
+          <span>{item.label}</span>
         </NavLink>
       );
     });
