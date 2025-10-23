@@ -37,7 +37,7 @@ This project focuses on creating a **responsive and intuitive user interface**, 
 3. **Dashboard (Client View)** – Displays upcoming and past appointments.
 4. **Book Appointment Page** – Choose a professional, select date & time, and confirm.
 5. **Appointment Confirmation** – Displays booking summary.
-6. **Professional Dashboard (optional)** – Professionals can view and manage bookings.
+6. **Professional Dashboard** – Professionals can view and manage bookings.
 7. **Profile Page** – User profile settings (UI only).
 
 ---
