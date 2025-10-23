@@ -41,15 +41,7 @@ const Navigation = () => {
           }
           key={item.label}
         >
-          <span
-            className={({ isActive }) =>
-              isActive
-                ? "absolute left-0 bottom-0 w-full h-[2px] bg-purple-600 transition-all duration-300"
-                : null
-            }
-          >
-            {item.label}
-          </span>
+          <span>{item.label}</span>
         </NavLink>
       );
     });

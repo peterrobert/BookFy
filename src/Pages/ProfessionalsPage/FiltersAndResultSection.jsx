@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useProfessionals } from "../../hooks/LandingPage/useProfessionals";
+import { useProfessionals } from "../../hooks";
 import ProfessionalCard from "../../Components/ProffesionalCard";
 import AppSpinner from "../../Components/AppSpinner";
 

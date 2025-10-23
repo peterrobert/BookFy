@@ -14,7 +14,7 @@ const HeroSection = () => {
             Find Your Perfect
             <span className="text-purple-primary"> Professional</span>
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8 font-light">
             Browse through thousands of verified professionals across various
             categories. Use our advanced filters to find exactly what you're
             looking for.
