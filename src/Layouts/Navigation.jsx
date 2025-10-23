@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import AppButton from "../Components/AppButton";
 
 const NavItems = [
@@ -29,6 +29,8 @@ const NavItems = [
 ];
 
 const Navigation = () => {
+  const navigate = useNavigate();
+
   const navItems = () => {
     return NavItems.map((item) => {
       return (
@@ -65,8 +67,16 @@ const Navigation = () => {
           {navItems()}
         </nav>
         <div className="flex items-center space-x-4">
-          <AppButton label="Log In" variant="text" />
-          <AppButton label="Sign Up" variant="primary" />
+          <AppButton
+            label="Log In"
+            variant="text"
+            onClick={() => navigate("/login")}
+          />
+          <AppButton
+            label="Sign Up"
+            variant="primary"
+            onClick={() => navigate("/signup")}
+          />
         </div>
         <button className="lg:hidden text-gray-700">
           <i className="fa-solid fa-bars text-xl"></i>
