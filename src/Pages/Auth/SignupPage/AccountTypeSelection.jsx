@@ -1,5 +1,7 @@
 import { useState } from "react";
 import AccountTypeCard from "./AccountTypeCard";
+import SignupClientForm from "./SignupClientForm";
+import SignupProffesionalForm from "./SignupProffesionalForm";
 
 const accountTypeData = [
   {
@@ -49,26 +51,31 @@ const AccountTypeSelection = () => {
     ));
   };
 
-  console.log("Selected Account Type:", selectedType);
-
   return (
-    <section id="account-type-selection" className="py-16 px-5">
-      <div className="container mx-auto">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-black mb-6">
-              Choose Your Account Type
-            </h2>
-            <p className="text-lg text-gray-600">
-              Select how you'd like to use Appointment Palette
-            </p>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-            {renderAccountTypeCards()}
+    <>
+      <section id="account-type-selection" className="py-8 px-5">
+        <div className="container mx-auto">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-black mb-6">
+                Choose Your Account Type
+              </h2>
+              <p className="text-lg text-gray-600">
+                Select how you'd like to use Appointment Palette
+              </p>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+              {renderAccountTypeCards()}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      {selectedType === "client" ? (
+        <SignupClientForm />
+      ) : (
+        <SignupProffesionalForm />
+      )}
+    </>
   );
 };
 
