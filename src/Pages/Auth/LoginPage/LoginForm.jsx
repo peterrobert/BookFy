@@ -1,10 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import AppInputField from "../../../Components/AppInputField";
 import AppButton from "../../../Components/AppButton";
 
 function LoginForm() {
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -101,19 +103,30 @@ function LoginForm() {
       </div>
 
       <div id="social-login" className="grid grid-cols-1 gap-4">
-        <button className="w-full bg-white text-gray-700 py-3 px-4 rounded-lg border border-black font-medium hover:bg-gray-50 transition-colors flex items-center justify-center space-x-3">
-          <i className="fa-brands fa-google text-red-500 text-lg"></i>
-          <span>Continue with Google</span>
-        </button>
+        <AppButton
+          label="Continue with Google"
+          icon={<i className="fa-brands fa-google text-red-500 text-lg"></i>}
+          onClick={() => console.log("Sign in with google")}
+          variant="outline"
+          className="w-full bg-white text-gray-700 py-3 px-4 rounded-lg border border-black font-medium hover:bg-gray-50 transition-colors flex items-center justify-center space-x-3"
+        />
         <div className="grid grid-cols-2 gap-4">
-          <button className="bg-white text-gray-700 py-3 px-4 rounded-lg border border-black font-medium hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2">
-            <i className="fa-brands fa-facebook text-blue-600 text-lg"></i>
-            <span>Facebook</span>
-          </button>
-          <button className="bg-white text-gray-700 py-3 px-4 rounded-lg border border-black font-medium hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2">
-            <i className="fa-brands fa-apple text-black text-lg"></i>
-            <span>Apple</span>
-          </button>
+          <AppButton
+            label="Facebook"
+            onClick={() => console.log("sign in with facebook")}
+            variant="outline"
+            icon={
+              <i className="fa-brands fa-facebook text-blue-600 text-lg"></i>
+            }
+            className="bg-white text-gray-700 py-3 px-4 rounded-lg border border-black font-medium hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
+          />
+          <AppButton
+            label="Apple"
+            onClick={() => console.log("sign in with Apple")}
+            variant="outline"
+            icon={<i className="fa-brands fa-apple text-black text-lg"></i>}
+            className="bg-white text-gray-700 py-3 px-4 rounded-lg border border-black font-medium hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
+          />
         </div>
       </div>
 
@@ -122,8 +135,11 @@ function LoginForm() {
         className="text-center mt-8 p-4 bg-purple-50 rounded-lg border border-purple-200"
       >
         <p className="text-gray-700">
-          Don't have an account?
-          <span className="text-purple-primary hover:text-purple-dark font-semibold transition-colors cursor-pointer">
+          Don't have an account? &nbsp;
+          <span
+            className="text-purple-primary hover:text-purple-dark font-semibold transition-colors cursor-pointer"
+            onClick={() => navigate("/signup")}
+          >
             Create one here
           </span>
         </p>

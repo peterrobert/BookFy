@@ -18,7 +18,12 @@ const ProffesionalCard = ({ professional }) => {
     skills,
     verified,
   } = professional || {};
+
   const navigate = useNavigate();
+
+  const handleNavigateToProfile = (professionalId) => {
+    navigate(`/professional/${professionalId}`);
+  };
 
   return (
     <>
