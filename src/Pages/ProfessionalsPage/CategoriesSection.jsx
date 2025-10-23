@@ -1,3 +1,4 @@
+import AppButton from "../../Components/AppButton";
 import AppCategories from "../../Components/AppCategories";
 import AppSpinner from "../../Components/AppSpinner";
 import { useCategories } from "../../hooks";
@@ -35,9 +36,7 @@ const CategoriesSection = () => {
             {displayCategories()}
           </div>
           <div className="text-center">
-            <button className="bg-purple-primary text-white px-8 py-3 rounded-lg border border-black font-semibold hover:bg-purple-dark transition-colors">
-              View All Categories
-            </button>
+            <AppButton label="View All Categories" />
           </div>
         </div>
       </section>
