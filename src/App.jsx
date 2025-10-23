@@ -5,6 +5,8 @@ import Navigation from "./Layouts/Navigation";
 import LandingPage from "./Pages/LandingPage";
 import ProfessionalsPage from "./Pages/ProfessionalsPage";
 import ProfilePage from "./Pages/ProfilePage";
+import LoginPage from "./Pages/Auth/LoginPage";
+import SignupPage from "./Pages/Auth/SignupPage";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         />
         <Route path="/professionals" element={<ProfessionalsPage />} />
         <Route path="/professionals/:id" element={<ProfilePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
       </Routes>
       <Footer />
     </>
