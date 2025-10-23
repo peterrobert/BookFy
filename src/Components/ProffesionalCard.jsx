@@ -21,6 +21,10 @@ const ProffesionalCard = ({ professional }) => {
 
   const navigate = useNavigate();
 
+  const handleNavigateToProfile = (professionalId) => {
+    navigate(`/professional/${professionalId}`);
+  };
+
   return (
     <>
       <div className="bg-white rounded-xl border border-black shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group">
