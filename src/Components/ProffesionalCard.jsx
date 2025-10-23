@@ -18,6 +18,7 @@ const ProffesionalCard = ({ professional }) => {
     skills,
     verified,
   } = professional || {};
+
   const navigate = useNavigate();
 
   return (
