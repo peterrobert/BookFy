@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AccountTypeCard from "./AccountTypeCard";
-import SignupClientForm from "./SignupClientForm";
-import SignupProffesionalForm from "./SignupProffesionalForm";
+import SignupClientForm from "./clientForm/SignupClientForm";
+import SignupProffesionalForm from "./proffesionalForm/SignupProffesionalForm";
 
 const accountTypeData = [
   {

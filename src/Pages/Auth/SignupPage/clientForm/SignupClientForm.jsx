@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
-import AppButton from "../../../Components/AppButton";
-import AppInputField from "../../../Components/AppInputField";
+import AppButton from "../../../../Components/AppButton";
+import AppInputField from "../../../../Components/AppInputField";
 
 const SignupClientForm = () => {
   const {
