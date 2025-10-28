@@ -7,6 +7,26 @@ const PersonalInfo = ({ register, schema, errors }) => {
       <h3 className="text-xl font-bold text-black border-b border-gray-200 pb-2">
         Personal Information
       </h3>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <label className="block text-sm font-semibold text-gray-700 mb-2">
+            Profile Image
+          </label>
+          <div className="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center">
+            <i className="fa-solid fa-upload text-gray-400 text-2xl mb-2"></i>
+            <p className="text-sm text-gray-600 mb-2">
+              Upload a professional photo
+            </p>
+            <button
+              type="button"
+              className="text-purple-primary hover:text-purple-dark font-semibold text-sm"
+            >
+              Choose File
+            </button>
+          </div>
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <AppInputField

@@ -2,7 +2,7 @@ import AppInputField from "../../../../Components/AppInputField";
 
 const AccountSecurityInfo = ({ register, schema, errors }) => {
   return (
-    <div id="account-security" className="space-y-6">
+    <div id="account-security" className="space-y-6 pt-6">
       <h3 className="text-xl font-bold text-black border-b border-gray-200 pb-2">
         Account Security
       </h3>
