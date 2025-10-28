@@ -2,6 +2,8 @@ import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import PersonalInfo from "./PersonalInfo";
 import Professionalinfo from "./Professionalinfo";
+import BusinessInfo from "./BusinessInfo";
+import ServicePricingInfo from "./ServicePricingInfo";
 
 const SignupProffesionalForm = () => {
   const {
@@ -47,6 +49,17 @@ const SignupProffesionalForm = () => {
                 schema={schema}
               />
               <Professionalinfo
+                register={register}
+                errors={errors}
+                schema={schema}
+              />
+              <BusinessInfo
+                register={register}
+                errors={errors}
+                schema={schema}
+              />
+
+              <ServicePricingInfo
                 register={register}
                 errors={errors}
                 schema={schema}
