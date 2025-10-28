@@ -24,7 +24,7 @@ const SignupClientForm = () => {
   });
 
   return (
-    <section id="client-registration-form" className="py-6 px-5 bg-white">
+    <section id="client-registration-form" className="py-16 px-5 bg-gray-50">
       <div className="container mx-auto">
         <div className="max-w-2xl mx-auto">
           <div className="bg-white p-8 rounded-xl border border-black shadow-lg">

@@ -1,4 +1,5 @@
 import AccountTypeSelection from "./AccountTypeSelection";
+import RegistrationProcess from "./RegistrationProcess";
 
 const SignupPage = () => {
   return (
@@ -16,6 +17,7 @@ const SignupPage = () => {
         </div>
       </section>
       <AccountTypeSelection />
+      <RegistrationProcess />
     </>
   );
 };
