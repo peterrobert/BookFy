@@ -4,6 +4,9 @@ import PersonalInfo from "./PersonalInfo";
 import Professionalinfo from "./Professionalinfo";
 import BusinessInfo from "./BusinessInfo";
 import ServicePricingInfo from "./ServicePricingInfo";
+import AccountSecurityInfo from "./AccountSecurityInfo";
+import AvailabilityInfo from "./AvailabilityInfo";
+import AppButton from "../../../../Components/AppButton";
 
 const SignupProffesionalForm = () => {
   const {
@@ -64,6 +67,32 @@ const SignupProffesionalForm = () => {
                 errors={errors}
                 schema={schema}
               />
+              <AvailabilityInfo
+                register={register}
+                errors={errors}
+                schema={schema}
+              />
+
+              <AccountSecurityInfo
+                register={register}
+                errors={errors}
+                schema={schema}
+              />
+
+              <div className="flex flex-col sm:flex-row gap-4 pt-6">
+                <AppButton
+                  label="Save as Draft"
+                  variant="outline"
+                  className="flex-1 bg-gray-200 text-gray-700 py-4 rounded-lg border border-black font-semibold hover:bg-gray-300 transition-colors"
+                />
+
+                <AppButton
+                  type="submit"
+                  label="Create Professional Account"
+                  variant="outline"
+                  className="flex-1 bg-purple-primary text-white py-4 rounded-lg border border-black font-semibold hover:bg-purple-dark transition-colors"
+                />
+              </div>
             </form>
           </div>
         </div>
