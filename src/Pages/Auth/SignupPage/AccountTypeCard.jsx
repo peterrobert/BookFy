@@ -1,6 +1,6 @@
 import AppButton from "../../../Components/AppButton";
 
-function AccountTypeCard({ type, handleSelectedType }) {
+const AccountTypeCard = ({ type, handleSelectedType }) => {
   return (
     <div
       key={type.id}
@@ -31,6 +31,6 @@ function AccountTypeCard({ type, handleSelectedType }) {
       </div>
     </div>
   );
-}
+};
 
 export default AccountTypeCard;
