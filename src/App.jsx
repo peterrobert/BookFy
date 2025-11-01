@@ -1,6 +1,5 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Footer from "./Layouts/Footer";
 import Navigation from "./Layouts/Navigation";
 import LandingPage from "./Pages/LandingPage";
 import ProfessionalsPage from "./Pages/ProfessionalsPage";
@@ -21,7 +20,6 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
       </Routes>
-      {/* <Footer /> */}
     </>
   );
 }

@@ -7,6 +7,7 @@ import TestimonySection from "./TestimonySection";
 import StatsSection from "./StatsSection";
 import ProffessionalCallSection from "./ProfessionalCallSection";
 import FaqSection from "./FaqSection";
+import Footer from "../../Layouts/Footer";
 
 const LandingPage = () => {
   return (
@@ -20,6 +21,7 @@ const LandingPage = () => {
       <StatsSection />
       <ProffessionalCallSection />
       <FaqSection />
+      <Footer />
     </>
   );
 };
