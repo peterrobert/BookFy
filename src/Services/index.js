@@ -23,3 +23,9 @@ export const fetchCategories = async () => {
   if (!response.ok) throw new Error("Network response was not ok");
   return response.json();
 };
+
+export const fetchProffesionalID = async () => {
+  const response = await fetch(`${BASEURL}/categories`);
+  if (!response.ok) throw new Error("Network response was not ok");
+  return response.json();
+};
