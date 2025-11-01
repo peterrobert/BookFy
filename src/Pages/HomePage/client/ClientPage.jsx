@@ -1,7 +1,11 @@
-import React from "react";
+import SideNavigationSection from "./SideNavigationSection";
 
 const ClientPage = () => {
-  return <div>client PAGE</div>;
+  return (
+    <div className="flex">
+      <SideNavigationSection />
+    </div>
+  );
 };
 
 export default ClientPage;
