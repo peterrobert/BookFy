@@ -52,13 +52,15 @@ const WelcomeSection = () => {
               <p className="text-3xl font-bold text-black mt-2">
                 {value.value}
               </p>
-              <p className="text-yellow-500 text-sm mt-1">
-                <i className="fa-solid fa-star mr-1"></i>
+              <p className={`${value.subtitleColor} text-sm mt-1`}>
+                <i className={`${value.icon} mr-1`}></i>
                 {value.subtitle}
               </p>
             </div>
-            <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center">
-              <i className="fa-solid fa-heart text-yellow-500 text-xl"></i>
+            <div
+              className={`w-12 h-12 ${value.iconBg} rounded-lg flex items-center justify-center`}
+            >
+              <i className={`${value.icon} ${value.iconColor} text-xl`}></i>
             </div>
           </div>
         </div>
