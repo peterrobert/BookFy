@@ -8,10 +8,12 @@ const UpcomingAppointment = () => {
   const displayAppointments = () => {
     if (isLoading) return <AppSpinner />;
     if (isError) return <AppError name={"appointments"} />;
-    return data.map((value) => {
+
+    const appointments = data ? data.slice(0, 3) : [];
+    return appointments?.map((value) => {
       return (
         <div
-          className="flex items-center space-x-4 p-4 bg-purple-50 rounded-lg border border-purple-200"
+          className="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg cursor-pointer hover:bg-purple-50 "
           key={value.id}
         >
           <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-purple-primary">
@@ -23,9 +25,9 @@ const UpcomingAppointment = () => {
           </div>
           <div className="flex-1">
             <h3 className="font-semibold text-black">{value.name}</h3>
-            <p className="text-gray-600">{value.service}</p>
+            <p className="text-gray-600 font-light">{value.service}</p>
             <div className="flex items-center space-x-4 mt-2">
-              <span className="flex items-center text-sm text-gray-500">
+              <span className="flex items-center text-sm text-gray-500 font-light">
                 <i className="fa-solid fa-calendar mr-1"></i>
                 {value.date}
               </span>
@@ -114,19 +116,6 @@ const UpcomingAppointment = () => {
               <span className="font-medium text-black">Leave Review</span>
             </button>
           </div>
-        </div>
-
-        <div className="bg-gradient-to-br from-purple-primary to-purple-dark rounded-xl p-6 text-white">
-          <div className="flex items-center space-x-3 mb-4">
-            <i className="fa-solid fa-gift text-2xl text-yellow-300"></i>
-            <h3 className="text-lg font-bold">Special Offer</h3>
-          </div>
-          <p className="text-purple-100 mb-4">
-            Get 20% off your next appointment with any new professional!
-          </p>
-          <button className="bg-white text-purple-primary px-4 py-2 rounded-lg font-semibold hover:bg-purple-50 transition-colors w-full">
-            Claim Offer
-          </button>
         </div>
       </section>
     </div>
