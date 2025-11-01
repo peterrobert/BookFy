@@ -46,7 +46,7 @@ const FavProffesionals = () => {
   };
 
   return (
-    <section id="favorite-professionals" className="mb-8">
+    <section id="Professionals" className="mb-8">
       <div className="bg-white rounded-xl border border-gray-200 shadow-sm">
         <div className="p-6 border-b border-gray-200">
           <div className="flex items-center justify-between">

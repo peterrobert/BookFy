@@ -61,7 +61,7 @@ const UpcomingAppointment = () => {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
-      <section id="upcoming-appointments" className="lg:col-span-2">
+      <section id="Appointments" className="lg:col-span-2">
         <div className="bg-white rounded-xl border border-gray-200 shadow-sm">
           <div className="p-6 border-b border-gray-200">
             <div className="flex items-center justify-between">
