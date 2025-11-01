@@ -2,6 +2,15 @@ import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import AppButton from "../../../../Components/AppButton";
 import AppInputField from "../../../../Components/AppInputField";
+import AppSelectField from "../../../../Components/AppSelectField";
+
+const genderOptions = [
+  { value: "", label: "Select gender" },
+  { value: "male", label: "Male" },
+  { value: "female", label: "Female" },
+  { value: "other", label: "Other" },
+  { value: "prefer-not-to-say", label: "Prefer not to say" },
+];
 
 const SignupClientForm = () => {
   const {
@@ -66,16 +75,7 @@ const SignupClientForm = () => {
               />
               <AppInputField type="date" label="Date of Birth" />
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Gender
-                </label>
-                <select className="w-full px-4 py-3 border border-black rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-primary">
-                  <option value="">Select gender</option>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                  <option value="other">Other</option>
-                  <option value="prefer-not-to-say">Prefer not to say</option>
-                </select>
+                <AppSelectField label="Gender" options={genderOptions} />
               </div>
               <AppInputField
                 type="password"

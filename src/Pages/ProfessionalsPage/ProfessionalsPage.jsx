@@ -1,6 +1,7 @@
 import FiltersAndResultSection from "./FiltersAndResultSection";
 import HeroSection from "./HeroSection";
 import CategoriesSection from "./CategoriesSection";
+import DownloadApp from "./DownloadApp";
 
 const ProfessionalsPage = () => {
   return (
@@ -8,6 +9,7 @@ const ProfessionalsPage = () => {
       <HeroSection />
       <FiltersAndResultSection />
       <CategoriesSection />
+      <DownloadApp />
     </>
   );
 };

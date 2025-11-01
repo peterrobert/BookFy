@@ -5,7 +5,7 @@ import * as yup from "yup";
 import AppInputField from "../../../Components/AppInputField";
 import AppButton from "../../../Components/AppButton";
 
-function LoginForm() {
+const LoginForm = () => {
   const navigate = useNavigate();
   const {
     register,
@@ -146,6 +146,6 @@ function LoginForm() {
       </div>
     </div>
   );
-}
+};
 
 export default LoginForm;
