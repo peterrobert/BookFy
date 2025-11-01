@@ -463,5 +463,117 @@
     "question": "Is my data secure?",
     "answer": "We take your privacy seriously. All personal and payment data is encrypted and stored following industry-grade security standards."
   }
+], 
+"upcomingAppointments":[
+  {
+    "id": 1,
+    "name": "Dr. Mike Chen",
+    "service": "Dermatology Consultation",
+    "date": "Today, Nov 1",
+    "time": "2:00 PM - 3:00 PM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
+    "actions": ["Join Video Call", "Reschedule"]
+  },
+  {
+    "id": 2,
+    "name": "Emily Rodriguez",
+    "service": "Hair Cut & Styling",
+    "date": "Tomorrow, Nov 2",
+    "time": "11:00 AM - 12:30 PM",
+    "status": "Pending",
+    "statusColor": "blue",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
+    "actions": ["View Details", "Cancel"]
+  },
+  {
+    "id": 3,
+    "name": "David Kim",
+    "service": "Business Strategy Session",
+    "date": "Nov 3, 2024",
+    "time": "3:00 PM - 4:00 PM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-3.jpg",
+    "actions": ["View Details", "Reschedule"]
+  },
+  {
+    "id": 4,
+    "name": "Sarah Lee",
+    "service": "Nutrition Coaching",
+    "date": "Nov 4, 2024",
+    "time": "10:00 AM - 10:45 AM",
+    "status": "Pending",
+    "statusColor": "blue",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-6.jpg",
+    "actions": ["View Details", "Cancel"]
+  },
+  {
+    "id": 5,
+    "name": "James Parker",
+    "service": "Personal Training Session",
+    "date": "Nov 5, 2024",
+    "time": "8:30 AM - 9:30 AM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg",
+   "actions": ["Join Video Call", "Reschedule"]
+  },
+  {
+    "id": 6,
+    "name": "Rachel Adams",
+    "service": "Makeup Consultation",
+    "date": "Nov 6, 2024",
+    "time": "1:00 PM - 2:00 PM",
+    "status": "Cancelled",
+    "statusColor": "red",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+    "actions": ["View Details", "Rebook"]
+  },
+  {
+    "id": 7,
+    "name": "Chris Johnson",
+    "service": "Therapy Session",
+    "date": "Nov 7, 2024",
+    "time": "4:00 PM - 5:00 PM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
+    "actions": ["Join Video Call", "Reschedule"]
+  },
+  {
+    "id": 8,
+    "name": "Olivia Brown",
+    "service": "Facial Treatment",
+    "date": "Nov 8, 2024",
+    "time": "9:30 AM - 10:30 AM",
+    "status": "Pending",
+    "statusColor": "blue",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-10.jpg",
+    "actions": ["View Details", "Cancel"]
+  },
+  {
+    "id": 9,
+    "name": "Daniel White",
+    "service": "Career Mentorship Call",
+    "date": "Nov 9, 2024",
+    "time": "6:00 PM - 7:00 PM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-11.jpg",
+    "actions": ["Join Video Call", "Reschedule"]
+  },
+  {
+    "id": 10,
+    "name": "Sophia Martinez",
+    "service": "Yoga Session",
+    "date": "Nov 10, 2024",
+    "time": "7:00 AM - 8:00 AM",
+    "status": "Pending",
+    "statusColor": "blue",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-12.jpg",
+   "actions": ["View Details", "Cancel"]
+  }
 ]
 }

@@ -24,6 +24,12 @@ export const fetchCategories = async () => {
   return response.json();
 };
 
+export const fetchAppointments = async () => {
+  const response = await fetch(`${BASEURL}/upcomingAppointments`);
+  if (!response.ok) throw new Error("Network response was not ok");
+  return response.json();
+};
+
 export const fetchProffesionalID = async () => {
   const response = await fetch(`${BASEURL}/categories`);
   if (!response.ok) throw new Error("Network response was not ok");

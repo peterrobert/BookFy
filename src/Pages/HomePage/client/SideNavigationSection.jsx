@@ -32,7 +32,7 @@ const SideNavigationSection = () => {
       return (
         <div
           key={value.id}
-          class="flex items-center space-x-3 p-3 rounded-lg text-gray-700 hover:bg-purple-50 hover:text-purple-primary transition-colors cursor-pointer"
+          className="flex items-center space-x-3 p-3 rounded-lg text-gray-700 hover:bg-purple-50 hover:text-purple-primary transition-colors cursor-pointer"
         >
           {value.icon}
           <span class="font-medium">{value.name}</span>
