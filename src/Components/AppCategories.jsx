@@ -1,3 +1,4 @@
+// --- APP CATEGORIES REUSABLE COMPONENT TO DISPLAY THE CATEGORIES ---
 const AppCategories = ({ category }) => {
   const { icon, title, professionals } = category;
   return (
