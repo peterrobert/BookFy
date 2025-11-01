@@ -1,5 +1,3 @@
-import React from "react";
-
 const AppSpinner = () => {
   return (
     <div role="status">

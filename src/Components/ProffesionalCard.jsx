@@ -1,7 +1,7 @@
+// --- PROFESSIONAL CARD COMPONENT --- //
 import { useNavigate } from "react-router-dom";
 import AppButton from "./AppButton";
 
-// --- PROFESSIONAL CARD COMPONENT --- //
 const ProffesionalCard = ({ professional }) => {
   const {
     id,
