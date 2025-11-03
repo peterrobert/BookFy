@@ -13,7 +13,7 @@ const AppBookingForm = () => {
     return (
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <ProffessionalInfo professionalData={data} />
-        <FormBody />
+        <FormBody professionalData={data} />
       </div>
     );
   };
