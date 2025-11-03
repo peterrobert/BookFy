@@ -71,7 +71,7 @@ const WelcomeSection = () => {
 
   return (
     <>
-      <div className="mb-8">
+      <div className="mb-8" id="Dashboard">
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold text-black mb-2">
@@ -88,10 +88,7 @@ const WelcomeSection = () => {
           />
         </div>
       </div>
-      <section
-        id="quick-stats"
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"
-      >
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         {displayStatistics()}
       </section>
     </>

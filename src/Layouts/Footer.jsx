@@ -8,7 +8,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-purple-primary rounded-lg flex items-center justify-center">
                 <i className="fa-solid fa-palette text-white text-lg"></i>
               </div>
-              <h1 className="text-2xl font-bold">Appointment Palette</h1>
+              <h1 className="text-2xl font-bold">Bookfy</h1>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               The modern way to book appointments with verified professionals.

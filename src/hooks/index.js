@@ -4,6 +4,7 @@ import {
   fetchTestimonials,
   fetchFaqs,
   fetchCategories,
+  fetchAppointments,
 } from "../Services";
 
 export const useFaqs = () => {
@@ -31,5 +32,12 @@ export const useCategories = () => {
   return useQuery({
     queryKey: ["categories"],
     queryFn: fetchCategories,
+  });
+};
+
+export const useAppointments = () => {
+  return useQuery({
+    queryKey: ["appointments"],
+    queryFn: fetchAppointments,
   });
 };
