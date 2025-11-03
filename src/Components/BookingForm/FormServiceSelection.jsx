@@ -1,5 +1,3 @@
-import AppInputField from "../AppInputField";
-
 const FormServiceSelection = ({ skills, price }) => {
   const displayServices = () => {
     return skills.map((service, index) => {
