@@ -7,6 +7,7 @@ import ProfilePage from "./Pages/ProfilePage";
 import LoginPage from "./Pages/Auth/LoginPage";
 import SignupPage from "./Pages/Auth/SignupPage";
 import ClientPage from "./Pages/HomePage/client";
+import AppBookingForm from "./Components/BookingForm";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/professionals/:id" element={<ProfilePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
+        <Route path="/how-it-works" element={<AppBookingForm />} />
       </Routes>
     </>
   );

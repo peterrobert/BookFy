@@ -91,7 +91,10 @@ const ProffesionalCard = ({ professional }) => {
             </div>
             <div className="flex space-x-1">
               <span className="bg-purple-100 text-purple-primary text-xs px-2 py-1 rounded-full">
-                {skills[0]}
+                {skills.map((skill, index) => {
+                  if (index < 1) return skill.name;
+                  return null;
+                })}
               </span>
               <span className="bg-purple-100 text-purple-primary text-xs px-2 py-1 rounded-full">
                 +{skills.length - 1} more
