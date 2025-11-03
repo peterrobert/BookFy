@@ -5,6 +5,7 @@ import {
   fetchFaqs,
   fetchCategories,
   fetchAppointments,
+  fetchProfessionalID,
 } from "../Services";
 
 export const useFaqs = () => {
@@ -18,6 +19,14 @@ export const useProfessionals = () => {
   return useQuery({
     queryKey: ["professionals"],
     queryFn: fetchProfessionals,
+  });
+};
+
+export const useProfessionalDetails = (professionalId) => {
+  return useQuery({
+    queryKey: ["professional", professionalId],
+    queryFn: () => fetchProfessionalID(professionalId),
+    enabled: !!professionalId,
   });
 };
 

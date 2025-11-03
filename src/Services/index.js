@@ -30,8 +30,8 @@ export const fetchAppointments = async () => {
   return response.json();
 };
 
-export const fetchProffesionalID = async () => {
-  const response = await fetch(`${BASEURL}/categories`);
+export const fetchProfessionalID = async (id) => {
+  const response = await fetch(`${BASEURL}/professionals/${id}`);
   if (!response.ok) throw new Error("Network response was not ok");
   return response.json();
 };

@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+
 const progressBarStep = [
   { number: 1, label: "Professional", completed: false },
   { number: 2, label: "Service", completed: false },
@@ -10,8 +12,8 @@ const FormHeader = () => {
   const displayProgressBar = () => {
     return progressBarStep.map((step) => {
       return (
-        <>
-          <div className="flex items-center space-x-2" key={step.number}>
+        <Fragment key={step.number}>
+          <div className="flex items-center space-x-2">
             <div
               className={`w-8 h-8 ${
                 step.completed
@@ -34,7 +36,7 @@ const FormHeader = () => {
           ) : (
             step.number !== 5 && <div className="w-16 h-0.5 bg-gray-300"></div>
           )}
-        </>
+        </Fragment>
       );
     });
   };
