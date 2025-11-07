@@ -2,9 +2,12 @@ import AppButton from "../../../Components/AppButton";
 import AppError from "../../../Components/AppError";
 import AppSpinner from "../../../Components/AppSpinner";
 import AppStarRatings from "../../../Components/AppStarRatings";
+import AppBookingForm from "../../../Components/BookingForm";
+import FormHeader from "../../../Components/BookingForm/FormHeader";
+import { useModal } from "../../../Context/ModalContext";
 import { useProfessionals } from "../../../hooks";
 
-const FavProffesionalCard = ({ data }) => {
+const FavProffesionalCard = ({ data, handleOpen }) => {
   const { avatar, name, rating, profession } = data;
 
   return (
@@ -26,6 +29,7 @@ const FavProffesionalCard = ({ data }) => {
         <span className="text-xs text-gray-500">{rating}</span>
       </div>
       <AppButton
+        onClick={() => handleOpen()}
         label="Book Now"
         className="w-full bg-purple-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-purple-dark transition-colors"
       />
@@ -35,13 +39,24 @@ const FavProffesionalCard = ({ data }) => {
 
 const FavProffesionals = () => {
   const { data, isLoading, isError } = useProfessionals();
+  const { openModal } = useModal();
   const Professionals = data ? data.slice(0, 4) : [];
+
+  const handleOpen = () => {
+    openModal(<AppBookingForm />, { title: <FormHeader /> });
+  };
 
   const displayProffesionls = () => {
     if (isLoading) return <AppSpinner />;
     if (isError) return <AppError />;
     return Professionals.map((value) => {
-      return <FavProffesionalCard data={value} key={value.id} />;
+      return (
+        <FavProffesionalCard
+          data={value}
+          key={value.id}
+          handleOpen={handleOpen}
+        />
+      );
     });
   };
 

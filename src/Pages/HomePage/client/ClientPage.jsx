@@ -1,6 +1,7 @@
 import { useState } from "react";
 import MainContent from "./MainContent";
 import SideNavigationSection from "./SideNavigationSection";
+import AppBookingForm from "../../../Components/BookingForm/AppBookingForm";
 
 const navData = [
   {
@@ -32,6 +33,7 @@ const navData = [
 
 const ClientPage = () => {
   const [activeView, setActiveView] = useState("Dashboard");
+
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
