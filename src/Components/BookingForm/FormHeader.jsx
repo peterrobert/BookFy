@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { useModal } from "../../Context/ModalContext";
 
 const progressBarStep = [
   { number: 1, label: "Professional", completed: false },
@@ -9,6 +10,8 @@ const progressBarStep = [
 ];
 
 const FormHeader = () => {
+  const { closeModal } = useModal();
+
   const displayProgressBar = () => {
     return progressBarStep.map((step) => {
       return (
@@ -50,6 +53,7 @@ const FormHeader = () => {
           <button
             id="back-button"
             className="text-gray-600 hover:text-black transition-colors"
+            onClick={() => closeModal()}
           >
             <i className="fa-solid fa-arrow-left text-xl"></i>
           </button>
@@ -58,6 +62,7 @@ const FormHeader = () => {
         <button
           id="close-modal"
           className="text-gray-600 hover:text-black transition-colors"
+          onClick={() => closeModal()}
         >
           <i className="fa-solid fa-times text-xl"></i>
         </button>
