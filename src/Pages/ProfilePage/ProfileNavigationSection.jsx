@@ -62,14 +62,16 @@ const ProfileNavigationSection = () => {
     <Box
       sx={{ width: "100%" }}
       id="profile-navigation"
-      className="bg-white py-6 px-5 sticky top-20 z-40 border-b border-gray-200"
+      className="bg-white py-6 px-5 sticky top-20 z-40 border-b"
     >
-      <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+      <Box>
         <Tabs
+          textColor="secondary"
+          indicatorColor="secondary"
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
-          className="container mx-auto"
+          className="container mx-auto font-light"
         >
           {displayTabs()}
         </Tabs>
