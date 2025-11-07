@@ -51,7 +51,7 @@ const ProfileNavigationSection = () => {
       <Tab
         label={tab.label}
         {...a11yProps(tab.id)}
-        className="text-gray-600 hover:text-purple-primary pb-2 whitespace-nowrap font-light"
+        className="text-gray-600 hover:text-purple-primary pb-2 whitespace-nowrap font-medium"
         key={tab.id}
       >
         {tab.label}

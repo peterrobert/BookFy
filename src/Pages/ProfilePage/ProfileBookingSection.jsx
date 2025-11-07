@@ -30,7 +30,7 @@ const ProfileBookingSection = ({ professionalData }) => {
         className="w-full bg-purple-primary text-white py-3 rounded-lg font-semibold hover:bg-purple-dark transition-colors mb-4"
       />
 
-      <div className="flex space-x-2">
+      <div className="flex space-x-2 justify-center">
         <AppButton
           icon={<i className="fa-solid fa-message mr-2"></i>}
           variant="outline"
