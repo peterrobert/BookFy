@@ -16,10 +16,10 @@ const FormAppointmentType = () => {
     return appointmentType.map((type) => {
       return (
         <div
-          className="borderbg-purple-50 border-gray-200 rounded-lg p-4 cursor-pointer hover:border-purple-primary"
+          className="border bg-purple-50 border-gray-200 rounded-lg p-4 cursor-pointer hover:border-purple-primary "
           key={type.id}
         >
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3 border-gray-200">
             <input
               type="radio"
               name="appointment-type"
