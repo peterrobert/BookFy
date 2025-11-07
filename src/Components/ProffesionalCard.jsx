@@ -101,10 +101,17 @@ const ProffesionalCard = ({ professional }) => {
               </span>
             </div>
           </div>
-          <AppButton
-            label="Book Appointment"
-            onClick={() => handleNavigateToProfile(id)}
-          />
+          <div className="flex space-x-3 mb-4">
+            <AppButton
+              label="Book"
+              onClick={() => handleNavigateToProfile(id)}
+            />
+
+            <AppButton
+              label="Book Appointment"
+              onClick={() => handleNavigateToProfile(id)}
+            />
+          </div>
         </div>
       </div>
     </>

@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter } from "react-router-dom";
 import { ErrorBoundary } from "react-error-boundary";
 import ErrorFallback from "./Layouts/ErrorFallback.jsx";
+import { ModalProvider } from "./Context/ModalContext.jsx";
 
 const queryClient = new QueryClient();
 
@@ -19,7 +20,9 @@ createRoot(document.getElementById("root")).render(
             window.location.reload();
           }}
         >
-          <App />
+          <ModalProvider>
+            <App />
+          </ModalProvider>
         </ErrorBoundary>
       </BrowserRouter>
     </QueryClientProvider>

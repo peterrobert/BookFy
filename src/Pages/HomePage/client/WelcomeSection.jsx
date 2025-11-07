@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import AppButton from "../../../Components/AppButton";
 const statsData = [
   {
@@ -39,6 +40,7 @@ const statsData = [
 ];
 
 const WelcomeSection = () => {
+  const navigate = useNavigate();
   const displayStatistics = () => {
     const result = statsData.map((value) => {
       return (
@@ -82,6 +84,7 @@ const WelcomeSection = () => {
             </p>
           </div>
           <AppButton
+            onClick={() => navigate("/professionals")}
             icon={<i className="fa-solid fa-plus mr-2"></i>}
             label={"Book New Appointment"}
             className="bg-purple-primary text-white px-6 py-3 rounded-lg border border-black font-semibold hover:bg-purple-dark transition-colors flex items-center"
