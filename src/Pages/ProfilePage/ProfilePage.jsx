@@ -3,6 +3,7 @@ import ProfileHeroSection from "./ProfileHeroSection";
 import { useProfessionalDetails } from "../../hooks";
 import AppSpinner from "../../Components/AppSpinner";
 import AppError from "../../Components/AppError";
+import ProfileNavigationSection from "./ProfileNavigationSection";
 
 const ProfilePage = () => {
   const { id } = useParams();
@@ -15,6 +16,7 @@ const ProfilePage = () => {
   return (
     <>
       <ProfileHeroSection professionalData={data} />
+      <ProfileNavigationSection />
     </>
   );
 };
