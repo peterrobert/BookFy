@@ -1,8 +1,21 @@
+import { useParams } from "react-router-dom";
+import ProfileHeroSection from "./ProfileHeroSection";
+import { useProfessionalDetails } from "../../hooks";
+import AppSpinner from "../../Components/AppSpinner";
+import AppError from "../../Components/AppError";
+
 const ProfilePage = () => {
+  const { id } = useParams();
+  const { data, isLoading, isError } = useProfessionalDetails(id);
+
+  if (isLoading) return <AppSpinner />;
+  if (isError)
+    return <AppError message={"Failed to load professional details."} />;
+
   return (
-    <div>
-      <h1>Profile Page</h1>
-    </div>
+    <>
+      <ProfileHeroSection professionalData={data} />
+    </>
   );
 };
 
