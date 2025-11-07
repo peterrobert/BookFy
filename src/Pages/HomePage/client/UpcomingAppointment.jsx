@@ -1,9 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import AppError from "../../../Components/AppError";
 import AppSpinner from "../../../Components/AppSpinner";
 import { useAppointments } from "../../../hooks";
 
 const UpcomingAppointment = () => {
   const { isError, isLoading, data } = useAppointments();
+  const navigate = useNavigate();
 
   const displayAppointments = () => {
     if (isLoading) return <AppSpinner />;
@@ -90,7 +92,10 @@ const UpcomingAppointment = () => {
               <div className="w-10 h-10 bg-purple-primary rounded-lg flex items-center justify-center">
                 <i className="fa-solid fa-plus text-white"></i>
               </div>
-              <span className="font-medium text-black">
+              <span
+                className="font-medium text-black"
+                onClick={() => navigate("/professionals")}
+              >
                 Book New Appointment
               </span>
             </button>

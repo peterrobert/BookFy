@@ -1,6 +1,9 @@
 // --- PROFESSIONAL CARD COMPONENT --- //
 import { useNavigate } from "react-router-dom";
 import AppButton from "./AppButton";
+import { useModal } from "../Context/ModalContext";
+import AppBookingForm from "./BookingForm";
+import FormHeader from "./BookingForm/FormHeader";
 
 const ProffesionalCard = ({ professional }) => {
   const {
@@ -20,6 +23,7 @@ const ProffesionalCard = ({ professional }) => {
   } = professional || {};
 
   const navigate = useNavigate();
+  const { openModal } = useModal();
 
   const handleNavigateToProfile = (professionalId) => {
     navigate(`/professional/${professionalId}`);
@@ -101,15 +105,22 @@ const ProffesionalCard = ({ professional }) => {
               </span>
             </div>
           </div>
-          <div className="flex space-x-3 mb-4">
+          <div className="flex space-x-3 mb-4 justify-center mt-5">
             <AppButton
               label="Book"
-              onClick={() => handleNavigateToProfile(id)}
+              icon={<i className="fa-solid fa-plus mr-2"></i>}
+              onClick={() =>
+                openModal(<AppBookingForm />, {
+                  title: <FormHeader />,
+                  professionalId: id,
+                })
+              }
             />
 
             <AppButton
-              label="Book Appointment"
+              label="View Profile"
               onClick={() => handleNavigateToProfile(id)}
+              variant="outline"
             />
           </div>
         </div>

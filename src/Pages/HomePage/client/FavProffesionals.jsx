@@ -8,7 +8,7 @@ import { useModal } from "../../../Context/ModalContext";
 import { useProfessionals } from "../../../hooks";
 
 const FavProffesionalCard = ({ data, handleOpen }) => {
-  const { avatar, name, rating, profession } = data;
+  const { id, avatar, name, rating, profession } = data;
 
   return (
     <div className="text-center">
@@ -29,7 +29,7 @@ const FavProffesionalCard = ({ data, handleOpen }) => {
         <span className="text-xs text-gray-500">{rating}</span>
       </div>
       <AppButton
-        onClick={() => handleOpen()}
+        onClick={() => handleOpen(id)}
         label="Book Now"
         className="w-full bg-purple-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-purple-dark transition-colors"
       />
@@ -42,8 +42,11 @@ const FavProffesionals = () => {
   const { openModal } = useModal();
   const Professionals = data ? data.slice(0, 4) : [];
 
-  const handleOpen = () => {
-    openModal(<AppBookingForm />, { title: <FormHeader /> });
+  const handleOpen = (id) => {
+    openModal(<AppBookingForm />, {
+      title: <FormHeader />,
+      professionalId: id,
+    });
   };
 
   const displayProffesionls = () => {
