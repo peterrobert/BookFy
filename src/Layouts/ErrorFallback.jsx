@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const ErrorFallback = ({ error, resetErrorBoundary }) => {
   const navigate = useNavigate();
   return (
-    <main
+    <section
       id="error-main-section"
       className="min-h-screen flex items-center justify-center px-6 py-20"
     >
@@ -28,27 +28,27 @@ const ErrorFallback = ({ error, resetErrorBoundary }) => {
               <div className="absolute top-8 right-12 w-16 h-16 bg-brand-purple/20 rounded-full animate-pulse"></div>
               <div
                 className="absolute bottom-12 left-8 w-12 h-12 bg-purple-300/40 rounded-full animate-pulse"
-                style="animation-delay: 0.5s;"
+                style={{ animationDelay: "0.5s" }}
               ></div>
               <div
                 className="absolute top-1/2 -left-10 w-8 h-8 bg-brand-purple/15 rounded-full animate-pulse"
-                style="animation-delay: 1s;"
+                style={{ animationDelay: "1s" }}
               ></div>
               <div
                 className="absolute -top-4 left-1/3 w-6 h-6 bg-purple-400/30 rounded-full animate-pulse"
-                style="animation-delay: 1.5s;"
+                style={{ animationDelay: "1.5s" }}
               ></div>
             </div>
           </div>
           <div className="max-w-3xl mx-auto">
-            <h1 className="text-6xl font-black text-brand-dark-grey mb-6 leading-tight">
+            <h3 className="text-6xl font-black text-brand-dark-grey mb-6 leading-tight">
               Oops! Something Went Wrong
-            </h1>
-            <p className="text-2xl text-brand-dark-grey mb-5 leading-relaxed font-medium">
+            </h3>
+            <p className="text-2xl text-brand-dark-grey mb-5 font-light leading-relaxed ">
               We couldn't find the page you're looking for.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              {error.message}
+            <p className="text-xl text-red-600 font-light leading-relaxed">
+              ERROR: {error.message}
             </p>
           </div>
         </section>
@@ -58,15 +58,21 @@ const ErrorFallback = ({ error, resetErrorBoundary }) => {
         >
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-8">
             <button
-              onClick={() => navigate("/home")}
-              className="px-12 py-5 bg-brand-purple text-white rounded-2xl hover:bg-purple-700 transition-all font-bold text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 hover:scale-105"
+              onClick={() => {
+                navigate("/home");
+                window.location.reload();
+              }}
+              className="px-12 py-5 bg-brand-purple text-black rounded-2xl hover:bg-purple-700 hover:text-white transition-all font-bold text-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 hover:scale-105"
             >
               <i className="fa-solid fa-home mr-3"></i>
               Go Home
             </button>
             <button
-              onClick={() => navigate("/professionals")}
-              className="px-12 py-5 border-2 border-brand-purple text-brand-purple rounded-2xl hover:bg-brand-purple hover:text-white transition-all font-bold text-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              onClick={() => {
+                navigate("/professionals");
+                window.location.reload();
+              }}
+              className="px-12 py-5 border-2 border-brand-purple text-brand-purple rounded-2xl hover:bg-brand-purple  hover:bg-purple-700 hover:text-white transition-all font-bold text-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               <i className="fa-solid fa-users mr-3"></i>
               Browse Professionals
@@ -83,7 +89,10 @@ const ErrorFallback = ({ error, resetErrorBoundary }) => {
             <span className="text-gray-400">|</span>
             <button
               className="text-brand-purple hover:text-purple-700 font-bold text-lg underline flex items-center"
-              onClick={() => navigate("/")}
+              onClick={() => {
+                navigate("/");
+                window.location.reload();
+              }}
             >
               <i className="fa-solid fa-arrow-left mr-2"></i>
               Go Back
@@ -91,7 +100,7 @@ const ErrorFallback = ({ error, resetErrorBoundary }) => {
           </div>
         </section>
       </div>
-    </main>
+    </section>
   );
 };
 
