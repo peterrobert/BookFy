@@ -16,7 +16,7 @@ const FormAppointmentType = () => {
     return appointmentType.map((type) => {
       return (
         <div
-          className="border border-purple-primary bg-purple-50 rounded-lg p-4 cursor-pointer"
+          className="borderbg-purple-50 border-gray-200 rounded-lg p-4 cursor-pointer hover:border-purple-primary"
           key={type.id}
         >
           <div className="flex items-center space-x-3">
