@@ -5,6 +5,7 @@ import AppSpinner from "../../Components/AppSpinner";
 import AppError from "../../Components/AppError";
 import ProfileNavigationSection from "./ProfileNavigationSection";
 import ProfileBookingSection from "./ProfileBookingSection";
+import Footer from "../../Layouts/Footer";
 
 const ProfilePage = () => {
   const { id } = useParams();
@@ -29,6 +30,7 @@ const ProfilePage = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
