@@ -56,7 +56,29 @@
       { "name": "Creative Coloring", "description": "Vibrant or subtle tones blended for a natural finish.", "duration": "1.5 hours" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "Sophia Rivera",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-31.jpg",
+        "rating": 5,
+        "timeAgo": "1 week ago",
+        "verified": true,
+        "comment": "Her nutrition plan helped me lose 10kg in 3 months. She’s fantastic!",
+        "helpfulCount": 9
+      },
+      {
+        "id": 2,
+        "name": "Henry Scott",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-32.jpg",
+        "rating": 4,
+        "timeAgo": "1 month ago",
+        "verified": true,
+        "comment": "Insightful advice, but would appreciate more follow-up sessions.",
+        "helpfulCount": 3
+      }
+    ]
   },
   {
     "id": 2,
@@ -75,7 +97,29 @@
       { "name": "Mobility Enhancement", "description": "Movement and flexibility training for optimal recovery.", "duration": "45 minutes" }
     ],
     "verified": true,
-    "online": false
+    "online": false,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "Ethan Brooks",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-28.jpg",
+        "rating": 5,
+        "timeAgo": "4 days ago",
+        "verified": true,
+        "comment": "Dr. Kim’s exercises worked miracles for my back pain. Highly recommend!",
+        "helpfulCount": 6
+      },
+      {
+        "id": 2,
+        "name": "Grace Evans",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-29.jpg",
+        "rating": 5,
+        "timeAgo": "3 weeks ago",
+        "verified": true,
+        "comment": "Great listener and very knowledgeable about rehabilitation routines.",
+        "helpfulCount": 5
+      }
+    ]
   },
   {
     "id": 3,
@@ -94,7 +138,29 @@
       { "name": "Editorial Looks", "description": "Magazine-ready makeup for professional photos.", "duration": "1.5 hours" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+     "reviews_list": [
+      {
+        "id": 1,
+        "name": "Benjamin King",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-25.jpg",
+        "rating": 5,
+        "timeAgo": "5 days ago",
+        "verified": true,
+        "comment": "Friendly, efficient, and very thorough. I trust Dr. Patel completely with my health.",
+        "helpfulCount": 8
+      },
+      {
+        "id": 2,
+        "name": "Lucy Walker",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-26.jpg",
+        "rating": 4,
+        "timeAgo": "2 weeks ago",
+        "verified": true,
+        "comment": "Helpful and approachable, though appointment wait time can vary.",
+        "helpfulCount": 2
+      }
+    ]
   },
   {
     "id": 4,
@@ -113,7 +179,29 @@
       { "name": "Hot Stone Treatment", "description": "Soothing stone therapy for tension relief.", "duration": "1.5 hours" }
     ],
     "verified": true,
-    "online": false
+    "online": false,
+     "reviews_list": [
+      {
+        "id": 1,
+        "name": "Emma Collins",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-19.jpg",
+        "rating": 5,
+        "timeAgo": "6 days ago",
+        "verified": true,
+        "comment": "Dr. Mitchell has helped me immensely with anxiety. Empathetic and professional.",
+        "helpfulCount": 13
+      },
+      {
+        "id": 2,
+        "name": "Mark Davis",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-20.jpg",
+        "rating": 5,
+        "timeAgo": "3 weeks ago",
+        "verified": true,
+        "comment": "Patient listener and great insight into cognitive therapy techniques.",
+        "helpfulCount": 5
+      }
+    ]
   },
   {
     "id": 5,
@@ -132,7 +220,29 @@
       { "name": "Acrylic Design", "description": "Custom acrylic extensions and creative nail art.", "duration": "1.5 hours" }
     ],
     "verified": false,
-    "online": true
+    "online": true,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "Laura Baker",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-16.jpg",
+        "rating": 5,
+        "timeAgo": "4 days ago",
+        "verified": true,
+        "comment": "Dr. Lee is amazing with kids. My son actually enjoys his checkups now!",
+        "helpfulCount": 11
+      },
+      {
+        "id": 2,
+        "name": "David Green",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-17.jpg",
+        "rating": 4,
+        "timeAgo": "1 month ago",
+        "verified": true,
+        "comment": "Very caring doctor, though appointments can take time to schedule.",
+        "helpfulCount": 2
+      }
+    ]
   },
   {
     "id": 6,
@@ -151,7 +261,29 @@
       { "name": "Studio Lighting", "description": "Controlled light setup for high-end visual shoots.", "duration": "2 hours" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+     "reviews_list": [
+      {
+        "id": 1,
+        "name": "George Wilson",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-13.jpg",
+        "rating": 5,
+        "timeAgo": "1 week ago",
+        "verified": true,
+        "comment": "My knee surgery was a success. Dr. Carter explained every step and recovery was smooth.",
+        "helpfulCount": 6
+      },
+      {
+        "id": 2,
+        "name": "Hannah White",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-14.jpg",
+        "rating": 5,
+        "timeAgo": "2 weeks ago",
+        "verified": true,
+        "comment": "Highly skilled and patient-focused. Would recommend to anyone needing orthopedic care.",
+        "helpfulCount": 7
+      }
+    ]
   },
   {
     "id": 7,
@@ -170,7 +302,29 @@
       { "name": "Event Glam", "description": "Flawless event makeup for special occasions.", "duration": "1 hour" }
     ],
     "verified": true,
-    "online": false
+    "online": false,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "James Anderson",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-10.jpg",
+        "rating": 5,
+        "timeAgo": "5 days ago",
+        "verified": true,
+        "comment": "Dr. Smith helped me manage my heart condition with a detailed plan. Life-changing care.",
+        "helpfulCount": 9
+      },
+      {
+        "id": 2,
+        "name": "Maria Lopez",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-11.jpg",
+        "rating": 4,
+        "timeAgo": "3 weeks ago",
+        "verified": true,
+        "comment": "Very attentive and compassionate, though the wait time was a bit long.",
+        "helpfulCount": 3
+      }
+    ]
   },
   {
     "id": 8,
@@ -188,7 +342,29 @@
       { "name": "Bodybuilding Program", "description": "Targeted training for muscle growth and tone.", "duration": "1 hour" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "Sophia Clark",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
+        "rating": 5,
+        "timeAgo": "3 days ago",
+        "verified": true,
+        "comment": "Dr. Brown made my dental cleaning painless and quick. Very gentle and friendly.",
+        "helpfulCount": 10
+      },
+      {
+        "id": 2,
+        "name": "Daniel Evans",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
+        "rating": 4,
+        "timeAgo": "2 weeks ago",
+        "verified": true,
+        "comment": "Professional and polite. The clinic is clean and modern. Will visit again.",
+        "helpfulCount": 4
+      }
+    ]
   },
   {
     "id": 9,
@@ -207,7 +383,39 @@
       { "name": "Guided Meditation", "description": "Mindfulness and relaxation through breath focus.", "duration": "30 minutes" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+     "reviews_list": [
+      {
+        "id": 1,
+        "name": "Jessica Martinez",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-6.jpg",
+        "rating": 5,
+        "timeAgo": "2 days ago",
+        "verified": true,
+        "comment": "Dr. Johnson is absolutely amazing! She took time to examine my skin concerns and the treatment plan has worked wonders.",
+        "helpfulCount": 12
+      },
+      {
+        "id": 2,
+        "name": "Robert Thompson",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+        "rating": 5,
+        "timeAgo": "1 week ago",
+        "verified": true,
+        "comment": "Excellent care. Very thorough during my skin cancer screening and explained everything clearly.",
+        "helpfulCount": 8
+      },
+      {
+        "id": 3,
+        "name": "Amanda Davis",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg",
+        "rating": 5,
+        "timeAgo": "2 weeks ago",
+        "verified": true,
+        "comment": "Her Botox treatment exceeded my expectations. Natural and comfortable experience.",
+        "helpfulCount": 15
+      }
+    ]
   },
   {
     "id": 10,
@@ -226,7 +434,8 @@
       { "name": "Realism Design", "description": "Hyper-detailed, lifelike tattoo art.", "duration": "4 hours" }
     ],
     "verified": true,
-    "online": false
+    "online": false,
+     "reviews_list":[]
   },
   {
     "id": 11,
@@ -244,7 +453,8 @@
       { "name": "Weight Loss Coaching", "description": "Science-based strategies for sustainable fat loss.", "duration": "45 minutes" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+    "reviews_list":[]
   },
   {
     "id": 12,
@@ -263,7 +473,8 @@
       { "name": "Hair Styling", "description": "Finishing styles with product and blow-dry.", "duration": "20 minutes" }
     ],
     "verified": true,
-    "online": false
+    "online": false,
+    "reviews_list":[]
   },
   {
     "id": 13,
@@ -282,7 +493,8 @@
       { "name": "Personal Shopping", "description": "Helping clients find clothing for any occasion.", "duration": "1.5 hours" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+    "reviews_list":[]
   },
   {
     "id": 14,
@@ -301,7 +513,8 @@
       { "name": "Muscle Stretching", "description": "Assisted stretches for flexibility improvement.", "duration": "30 minutes" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+    "reviews_list":[]
   },
   {
     "id": 15,
@@ -320,7 +533,8 @@
       { "name": "Abstract Concepts", "description": "Creative freestyle tattoo concepts.", "duration": "2.5 hours" }
     ],
     "verified": false,
-    "online": false
+    "online": false,
+    "reviews_list":[]
   },
   {
     "id": 16,
@@ -339,7 +553,8 @@
       { "name": "Menu Design", "description": "Tailored culinary menus for various cuisines.", "duration": "2 hours" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+    "reviews_list":[]
   },
   {
     "id": 17,
@@ -358,7 +573,8 @@
       { "name": "Ombre Technique", "description": "Soft gradient transitions between hair colors.", "duration": "1.5 hours" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+    "reviews_list":[]
   },
   {
     "id": 18,
@@ -376,7 +592,8 @@
       { "name": "CrossFit Training", "description": "High-intensity routines for overall fitness.", "duration": "1 hour" }
     ],
     "verified": true,
-    "online": false
+    "online": false,
+    "reviews_list":[]
   },
   {
     "id": 19,
@@ -395,7 +612,8 @@
       { "name": "Special Effects", "description": "Creative prosthetic and cinematic makeup.", "duration": "3 hours" }
     ],
     "verified": true,
-    "online": true
+    "online": true,
+     "reviews_list":[]
   },
   {
     "id": 20,
@@ -414,7 +632,8 @@
       { "name": "Creative Editorials", "description": "Styled photo sessions for brands and magazines.", "duration": "2 hours" }
     ],
     "verified": true,
-    "online": false
+    "online": false,
+   "reviews_list":[]
   }
 ],
   "testimonials":[
