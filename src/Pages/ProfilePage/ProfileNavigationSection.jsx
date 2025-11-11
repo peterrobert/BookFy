@@ -1,18 +1,22 @@
 import { useState } from "react";
-import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
+import ProfileServices from "./ProfileServices";
+import ProfileReviewsSection from "./ProfileReviewsSection";
 
 const profileTabs = [
   { id: 1, label: "Overview", active: true },
   { id: 2, label: "About", active: false },
-  { id: 3, label: "Services", active: false },
-  { id: 4, label: "Availability", active: false },
-  { id: 5, label: "Reviews", active: false },
-  { id: 6, label: "Gallery", active: false },
-  { id: 7, label: "Insurance", active: false },
-  { id: 8, label: "Location", active: false },
+  { id: 3, label: "Services", active: false, component: <ProfileServices /> },
+  {
+    id: 4,
+    label: "Reviews",
+    active: false,
+    component: <ProfileReviewsSection />,
+  },
+  { id: 5, label: "Gallery", active: false },
+  { id: 6, label: "Location", active: false },
 ];
 
 const CustomTabPanel = (props) => {
@@ -58,25 +62,37 @@ const ProfileNavigationSection = () => {
       </Tab>
     ));
   };
+
+  const displayPanels = () => {
+    return profileTabs.map((tab, index) => (
+      <CustomTabPanel value={value} index={index} key={tab.id}>
+        {tab.component}
+      </CustomTabPanel>
+    ));
+  };
+
   return (
-    <Box
-      sx={{ width: "100%" }}
-      id="profile-navigation"
-      className="bg-white py-6 px-5 sticky top-20 z-40 border-b"
-    >
-      <Box>
-        <Tabs
-          textColor="secondary"
-          indicatorColor="secondary"
-          value={value}
-          onChange={handleChange}
-          aria-label="basic tabs example"
-          className="container mx-auto font-light"
-        >
-          {displayTabs()}
-        </Tabs>
+    <>
+      <Box
+        sx={{ width: "100%" }}
+        id="profile-navigation"
+        className="bg-white py-6 px-5 top-20 z-40"
+      >
+        <Box className=" border-b">
+          <Tabs
+            textColor="secondary"
+            indicatorColor="secondary"
+            value={value}
+            onChange={handleChange}
+            aria-label="basic tabs example"
+            className="container mx-auto font-light"
+          >
+            {displayTabs()}
+          </Tabs>
+        </Box>
+        {displayPanels()}
       </Box>
-    </Box>
+    </>
   );
 };
 

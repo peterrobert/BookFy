@@ -19,7 +19,7 @@ const ProfileHeroSection = ({ professionalData }) => {
 
   const { openModal } = useModal();
   return (
-    <section id="professional-hero" className="bg-white py-12 px-5">
+    <section id="professional-hero" className="bg-white py-8 px-5">
       <div className="container mx-auto">
         <div className="bg-gradient-to-r from-purple-50 to-white rounded-2xl border border-gray-200 p-8 shadow-lg">
           <div className="flex flex-col lg:flex-row items-start gap-8">
