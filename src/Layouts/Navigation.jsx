@@ -15,13 +15,12 @@ const NavItems = [
     href: "/professionals",
   },
   {
-    label: "404 Page",
-    href: "/how-it-works",
-  },
-
-  {
     label: "Proffesional Dashboard",
     href: "/proffesional_dashboard",
+  },
+  {
+    label: "404 Page",
+    href: "/how-it-works",
   },
 ];
 

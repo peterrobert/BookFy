@@ -1,11 +1,13 @@
 import { useParams } from "react-router-dom";
+import { useProfessionalDetails } from "../../hooks/queries";
 import ProfileHeroSection from "./ProfileHeroSection";
-import { useProfessionalDetails } from "../../hooks";
+
 import AppSpinner from "../../Components/AppSpinner";
 import AppError from "../../Components/AppError";
 import ProfileNavigationSection from "./ProfileNavigationSection";
 import ProfileBookingSection from "./ProfileBookingSection";
 import Footer from "../../Layouts/Footer";
+import SimilarProfiles from "./SimilarProfiles";
 
 const ProfilePage = () => {
   const { id } = useParams();
@@ -30,6 +32,7 @@ const ProfilePage = () => {
           </div>
         </div>
       </section>
+      <SimilarProfiles />
       <Footer />
     </>
   );

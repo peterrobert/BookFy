@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { useProfessionals } from "../../hooks";
+import { useProfessionals } from "../../hooks/queries";
+
 import ProfessionalCard from "../../Components/ProffesionalCard";
 import AppSpinner from "../../Components/AppSpinner";
 import FilterElements from "./Filters/FilterElements";

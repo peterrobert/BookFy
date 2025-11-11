@@ -1,7 +1,7 @@
 import AppButton from "../../Components/AppButton";
 import AppCategories from "../../Components/AppCategories";
 import AppSpinner from "../../Components/AppSpinner";
-import { useCategories } from "../../hooks";
+import { useCategories } from "../../hooks/queries";
 
 const CategoriesSection = () => {
   const { data, isLoading, error } = useCategories();

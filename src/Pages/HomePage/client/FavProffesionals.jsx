@@ -1,11 +1,12 @@
+import { useModal } from "../../../Context/ModalContext";
+import { useProfessionals } from "../../../hooks/queries";
+
 import AppButton from "../../../Components/AppButton";
 import AppError from "../../../Components/AppError";
 import AppSpinner from "../../../Components/AppSpinner";
 import AppStarRatings from "../../../Components/AppStarRatings";
 import AppBookingForm from "../../../Components/BookingForm";
 import FormHeader from "../../../Components/BookingForm/FormHeader";
-import { useModal } from "../../../Context/ModalContext";
-import { useProfessionals } from "../../../hooks";
 
 const FavProffesionalCard = ({ data, handleOpen }) => {
   const { id, avatar, name, rating, profession } = data;

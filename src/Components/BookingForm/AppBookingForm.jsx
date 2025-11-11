@@ -1,5 +1,5 @@
 import { useModal } from "../../Context/ModalContext";
-import { useProfessionalDetails } from "../../hooks";
+import { useProfessionalDetails } from "../../hooks/queries";
 
 // --- COMPONENTS ---
 import AppSpinner from "../AppSpinner";
@@ -11,7 +11,6 @@ const AppBookingForm = () => {
   const { data, isLoading, error, isError } = useProfessionalDetails(
     modalProps.professionalId
   );
-
   const displayFormContent = () => {
     if (isLoading) return <AppSpinner />;
     if (isError) return <AppError message={error.message} />;
