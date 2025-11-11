@@ -8,7 +8,7 @@ import FormHeader from "../../Components/BookingForm/FormHeader";
 
 const ProfileServices = () => {
   const { id } = useParams();
-  const { isOpen } = useModal();
+  const { openModal } = useModal();
   const data = useProffessDetailsCache(id);
 
   const displayServices = () => {
@@ -41,7 +41,7 @@ const ProfileServices = () => {
           <AppButton
             label="Book Now"
             onClick={() =>
-              isOpen(<AppBookingForm />, {
+              openModal(<AppBookingForm />, {
                 title: <FormHeader />,
                 professionalId: id,
               })
