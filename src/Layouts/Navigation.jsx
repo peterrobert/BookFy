@@ -15,7 +15,7 @@ const NavItems = [
     href: "/professionals",
   },
   {
-    label: "How It Works",
+    label: "404 Page",
     href: "/how-it-works",
   },
 
