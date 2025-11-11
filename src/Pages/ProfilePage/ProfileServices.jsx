@@ -1,9 +1,14 @@
 import { useParams } from "react-router-dom";
 import { useProffessDetailsCache } from "../../hooks/cache";
+import { useModal } from "../../Context/ModalContext";
+
 import AppButton from "../../Components/AppButton";
+import AppBookingForm from "../../Components/BookingForm";
+import FormHeader from "../../Components/BookingForm/FormHeader";
 
 const ProfileServices = () => {
   const { id } = useParams();
+  const { isOpen } = useModal();
   const data = useProffessDetailsCache(id);
 
   const displayServices = () => {
@@ -33,7 +38,15 @@ const ProfileServices = () => {
               </div>
             </div>
           </div>
-          <AppButton label="Book Now" />
+          <AppButton
+            label="Book Now"
+            onClick={() =>
+              isOpen(<AppBookingForm />, {
+                title: <FormHeader />,
+                professionalId: id,
+              })
+            }
+          />
         </div>
       );
     });
