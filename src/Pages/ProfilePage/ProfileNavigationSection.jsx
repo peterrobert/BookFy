@@ -4,19 +4,38 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import ProfileServices from "./ProfileServices";
 import ProfileReviewsSection from "./ProfileReviewsSection";
+import ProfileAboutSection from "./ProfileAboutSection";
+import ProfileOverviewSection from "./ProfileOverviewSection";
+import ProfileEducationSection from "./ProfileEducationSection";
+import ProfileLocationSection from "./ProfileLocationSection";
 
 const profileTabs = [
-  { id: 1, label: "Overview", active: true },
-  { id: 2, label: "About", active: false },
-  { id: 3, label: "Services", active: false, component: <ProfileServices /> },
   {
-    id: 4,
+    id: 1,
+    label: "Overview",
+    active: false,
+    component: <ProfileOverviewSection />,
+  },
+  { id: 2, label: "About", active: false, component: <ProfileAboutSection /> },
+  {
+    id: 3,
+    label: "Education",
+    active: false,
+    component: <ProfileEducationSection />,
+  },
+  { id: 4, label: "Services", active: false, component: <ProfileServices /> },
+  {
+    id: 5,
     label: "Reviews",
     active: false,
     component: <ProfileReviewsSection />,
   },
-  { id: 5, label: "Gallery", active: false },
-  { id: 6, label: "Location", active: false },
+  {
+    id: 6,
+    label: "Location",
+    active: false,
+    component: <ProfileLocationSection />,
+  },
 ];
 
 const CustomTabPanel = (props) => {
