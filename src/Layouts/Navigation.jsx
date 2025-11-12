@@ -7,7 +7,7 @@ const NavItems = [
     href: "/",
   },
   {
-    label: "Home",
+    label: "Client Dashboard",
     href: "/home",
   },
   {
