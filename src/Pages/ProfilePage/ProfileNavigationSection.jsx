@@ -7,6 +7,7 @@ import ProfileReviewsSection from "./ProfileReviewsSection";
 import ProfileAboutSection from "./ProfileAboutSection";
 import ProfileOverviewSection from "./ProfileOverviewSection";
 import ProfileEducationSection from "./ProfileEducationSection";
+import ProfileLocationSection from "./ProfileLocationSection";
 
 const profileTabs = [
   {
@@ -29,7 +30,12 @@ const profileTabs = [
     active: false,
     component: <ProfileReviewsSection />,
   },
-  { id: 6, label: "Location", active: false },
+  {
+    id: 6,
+    label: "Location",
+    active: false,
+    component: <ProfileLocationSection />,
+  },
 ];
 
 const CustomTabPanel = (props) => {
