@@ -52,9 +52,11 @@ const WelcomeSection = () => {
           key={value.id}
         >
           <div className="flex items-center justify-between mb-4">
-            <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+            <div
+              className={`w-12 h-12 ${value.iconBg} rounded-lg flex items-center justify-center`}
+            >
               <i
-                className={`fa-solid ${value.icon} text-purple-primary text-xl`}
+                className={`fa-solid ${value.icon} ${value.iconColor} text-xl`}
               ></i>
             </div>
             <span className="text-green-600 text-sm font-medium">
