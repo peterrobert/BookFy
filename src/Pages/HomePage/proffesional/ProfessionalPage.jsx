@@ -1,5 +1,5 @@
 const ProfessionalPage = () => {
-  return <div>preoffesional</div>;
+  return <div>proffesional Page</div>;
 };
 
 export default ProfessionalPage;
