@@ -6,6 +6,7 @@ import ProfileServices from "./ProfileServices";
 import ProfileReviewsSection from "./ProfileReviewsSection";
 import ProfileAboutSection from "./ProfileAboutSection";
 import ProfileOverviewSection from "./ProfileOverviewSection";
+import ProfileEducationSection from "./ProfileEducationSection";
 
 const profileTabs = [
   {
@@ -15,14 +16,19 @@ const profileTabs = [
     component: <ProfileOverviewSection />,
   },
   { id: 2, label: "About", active: false, component: <ProfileAboutSection /> },
-  { id: 3, label: "Services", active: false, component: <ProfileServices /> },
   {
-    id: 4,
+    id: 3,
+    label: "Education",
+    active: false,
+    component: <ProfileEducationSection />,
+  },
+  { id: 4, label: "Services", active: false, component: <ProfileServices /> },
+  {
+    id: 5,
     label: "Reviews",
     active: false,
     component: <ProfileReviewsSection />,
   },
-  { id: 5, label: "Gallery", active: false },
   { id: 6, label: "Location", active: false },
 ];
 
