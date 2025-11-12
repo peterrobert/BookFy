@@ -16,7 +16,7 @@ const NavItems = [
   },
   {
     label: "Proffesional Dashboard",
-    href: "/proffesional_dashboard",
+    href: "/proffessionalDashboard",
   },
   {
     label: "404 Page",

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import MainContent from "./MainContent";
 import SideNavigationSection from "./SideNavigationSection";
+import MainContent from "./MainContent";
 
 const navData = [
   {
@@ -11,26 +11,32 @@ const navData = [
   },
   {
     id: 2,
-    name: "My Appointments",
-    icon: <i className="fa-solid fa-calendar-alt text-lg"></i>,
-    view: "Appointments",
+    name: "Analytics",
+    icon: <i className="fa-solid fa-chart-line"></i>,
+    view: "Analytics",
   },
   {
     id: 3,
-    name: "Fav Professionals",
-    icon: <i className="fa-solid fa-heart text-lg"></i>,
-    view: "Professionals",
+    name: "Clients",
+    icon: <i className="fa-solid fa-users"></i>,
+    view: "Clients",
   },
 
   {
     id: 4,
-    name: "Account Settings",
-    icon: <i className="fa-solid fa-cog text-lg"></i>,
-    view: "Settings",
+    name: "Availability",
+    icon: <i className="fa-solid fa-question-circle"></i>,
+    view: "Availability",
+  },
+  {
+    id: 5,
+    name: "Notifications",
+    icon: <i className="fa-solid fa-bullhorn"></i>,
+    view: "Notifications",
   },
 ];
 
-const ClientPage = () => {
+const ProfessionalDashboard = () => {
   const [activeView, setActiveView] = useState("Dashboard");
 
   const scrollToSection = (id) => {
@@ -55,4 +61,4 @@ const ClientPage = () => {
   );
 };
 
-export default ClientPage;
+export default ProfessionalDashboard;

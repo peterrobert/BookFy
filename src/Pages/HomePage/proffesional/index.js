@@ -1,2 +1,2 @@
-import ProfessionalPage from "./ProfessionalPage";
-export { ProfessionalPage };
+import ProfessionalDashboard from "./ProfessionalDashboard";
+export { ProfessionalDashboard };
