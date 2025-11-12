@@ -4,10 +4,17 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import ProfileServices from "./ProfileServices";
 import ProfileReviewsSection from "./ProfileReviewsSection";
+import ProfileAboutSection from "./ProfileAboutSection";
+import ProfileOverviewSection from "./ProfileOverviewSection";
 
 const profileTabs = [
-  { id: 1, label: "Overview", active: true },
-  { id: 2, label: "About", active: false },
+  {
+    id: 1,
+    label: "Overview",
+    active: false,
+    component: <ProfileOverviewSection />,
+  },
+  { id: 2, label: "About", active: false, component: <ProfileAboutSection /> },
   { id: 3, label: "Services", active: false, component: <ProfileServices /> },
   {
     id: 4,
