@@ -78,7 +78,39 @@
         "comment": "Insightful advice, but would appreciate more follow-up sessions.",
         "helpfulCount": 3
       }
-    ]
+    ],
+    "about": {
+    "title": "About Emily Rodriguez",
+    "summary": "Emily Rodriguez is a master hair stylist with over 12 years of experience creating signature looks for her clients. Trained at the Vidal Sassoon Academy, she specializes in precision cuts, color artistry, and bridal hairstyling.",
+    "details": [
+      "Emily has styled hair for major fashion events and has been featured in local beauty magazines.",
+      "She’s passionate about helping clients express their individuality through creative and manageable hairstyles.",
+      "Her approach blends technical excellence with a personal touch, ensuring every client leaves feeling confident and radiant."
+    ],
+    "stats": {
+      "experience": "12+ years",
+      "clients": "3,000+",
+      "success_rate": "99%",
+      "reviews": 312
+    }
+  },
+  "credentials": [
+    {
+      "title": "Hair Design Diploma",
+      "institution": "Vidal Sassoon Academy",
+      "details": "Graduated with honors, 2010"
+    },
+    {
+      "title": "Advanced Color Certification",
+      "institution": "Redken Exchange NYC",
+      "details": "Certified Color Expert, 2015"
+    },
+    {
+      "title": "Professional Membership",
+      "institution": "National Cosmetology Association",
+      "details": "Active member since 2011"
+    }
+  ]
   },
   {
     "id": 2,
@@ -119,7 +151,39 @@
         "comment": "Great listener and very knowledgeable about rehabilitation routines.",
         "helpfulCount": 5
       }
-    ]
+    ],
+    "about": {
+    "title": "About Liam Johnson",
+    "summary": "Liam Johnson is a certified personal trainer known for his dynamic, evidence-based fitness programs that help clients achieve lasting results. With over 10 years in the industry, he’s helped hundreds reach peak performance.",
+    "details": [
+      "Liam holds multiple certifications in strength and conditioning, mobility training, and nutrition.",
+      "His programs are data-driven and tailored to individual goals, whether fat loss, muscle gain, or rehabilitation.",
+      "He’s a strong advocate for holistic wellness—balancing body, mind, and discipline."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "1,200+",
+      "success_rate": "97%",
+      "reviews": 204
+    }
+  },
+  "credentials": [
+    {
+      "title": "Certified Personal Trainer (CPT)",
+      "institution": "National Academy of Sports Medicine (NASM)",
+      "details": "Certified since 2013"
+    },
+    {
+      "title": "Strength & Conditioning Specialist",
+      "institution": "NSCA",
+      "details": "Certified Specialist, 2016"
+    },
+    {
+      "title": "Nutrition Coach Certification",
+      "institution": "Precision Nutrition",
+      "details": "Completed in 2018"
+    }
+  ]
   },
   {
     "id": 3,
@@ -160,7 +224,39 @@
         "comment": "Helpful and approachable, though appointment wait time can vary.",
         "helpfulCount": 2
       }
-    ]
+    ],
+    "about": {
+    "title": "About Sophia Kim",
+    "summary": "Sophia Kim is a creative makeup artist celebrated for her flawless, camera-ready looks and refined artistry. With over 8 years in the beauty industry, she’s worked with models, brides, and fashion photographers alike.",
+    "details": [
+      "Sophia trained under international beauty experts and continually updates her techniques to reflect the latest trends.",
+      "Her artistry balances precision and creativity, ensuring each look enhances natural features while expressing individuality.",
+      "She believes makeup should empower clients by reflecting their confidence and personality."
+    ],
+    "stats": {
+      "experience": "8+ years",
+      "clients": "1,800+",
+      "success_rate": "98%",
+      "reviews": 178
+    }
+  },
+  "credentials": [
+    {
+      "title": "Professional Makeup Certification",
+      "institution": "Make Up For Ever Academy, Seoul",
+      "details": "Certified Makeup Artist, 2015"
+    },
+    {
+      "title": "Advanced Bridal Makeup Course",
+      "institution": "London College of Beauty Therapy",
+      "details": "Completed in 2018"
+    },
+    {
+      "title": "Fashion & Editorial Makeup Award",
+      "institution": "BeautyPro Awards",
+      "details": "Winner, 2022"
+    }
+  ]
   },
   {
     "id": 4,
@@ -201,7 +297,39 @@
         "comment": "Patient listener and great insight into cognitive therapy techniques.",
         "helpfulCount": 5
       }
-    ]
+    ],
+    "about": {
+    "title": "About Noah Williams",
+    "summary": "Noah Williams is a licensed massage therapist with over 9 years of experience specializing in deep tissue and therapeutic relaxation techniques. He’s known for his calm presence and tailored approach to wellness.",
+    "details": [
+      "Noah’s sessions focus on restoring balance, reducing chronic pain, and improving flexibility.",
+      "He integrates holistic techniques such as aromatherapy and mindfulness for total-body healing.",
+      "Clients appreciate his empathetic nature and precise understanding of anatomy and tension release."
+    ],
+    "stats": {
+      "experience": "9+ years",
+      "clients": "2,500+",
+      "success_rate": "96%",
+      "reviews": 145
+    }
+  },
+  "credentials": [
+    {
+      "title": "Massage Therapy Diploma",
+      "institution": "Wellness Academy of Bodywork",
+      "details": "Licensed in 2014"
+    },
+    {
+      "title": "Certified Deep Tissue Specialist",
+      "institution": "American Massage Therapy Association",
+      "details": "Certified since 2016"
+    },
+    {
+      "title": "Aromatherapy Integration Course",
+      "institution": "Holistic Health Institute",
+      "details": "Completed 2019"
+    }
+  ]
   },
   {
     "id": 5,
@@ -242,7 +370,39 @@
         "comment": "Very caring doctor, though appointments can take time to schedule.",
         "helpfulCount": 2
       }
-    ]
+    ],
+    "about": {
+    "title": "About Ava Patel",
+    "summary": "Ava Patel is a nail artist and technician recognized for her meticulous craftsmanship and artistic flair. With over 7 years of experience, she combines hygiene, style, and creativity in every appointment.",
+    "details": [
+      "Ava specializes in luxury manicures, acrylic extensions, and custom nail designs for special occasions.",
+      "Her studio is known for its relaxing ambiance and commitment to client comfort.",
+      "She values precision and innovation, always exploring new materials and trends in nail art."
+    ],
+    "stats": {
+      "experience": "7+ years",
+      "clients": "1,400+",
+      "success_rate": "99%",
+      "reviews": 190
+    }
+  },
+  "credentials": [
+    {
+      "title": "Advanced Nail Technician Certification",
+      "institution": "CND Academy",
+      "details": "Certified in 2016"
+    },
+    {
+      "title": "Master Nail Artist Program",
+      "institution": "OPI Institute",
+      "details": "Completed in 2019"
+    },
+    {
+      "title": "Salon Hygiene & Safety Accreditation",
+      "institution": "Nail Professionals Guild",
+      "details": "Awarded 2021"
+    }
+  ]
   },
   {
     "id": 6,
@@ -283,7 +443,39 @@
         "comment": "Highly skilled and patient-focused. Would recommend to anyone needing orthopedic care.",
         "helpfulCount": 7
       }
-    ]
+    ],
+    "about": {
+    "title": "About Ethan Chen",
+    "summary": "Ethan Chen is a professional photographer with a passion for storytelling through images. With over 10 years of experience, he captures authentic emotions in weddings, portraits, and commercial shoots.",
+    "details": [
+      "Ethan blends technical mastery with creative vision to produce magazine-quality imagery.",
+      "His studio offers personalized sessions that bring out each client’s individuality.",
+      "He believes great photography is about emotion, not just exposure."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "1,000+",
+      "success_rate": "98%",
+      "reviews": 254
+    }
+  },
+  "credentials": [
+    {
+      "title": "Bachelor of Fine Arts in Photography",
+      "institution": "Savannah College of Art and Design",
+      "details": "Graduated 2013"
+    },
+    {
+      "title": "Wedding Photography Masterclass",
+      "institution": "CreativeLive",
+      "details": "Completed 2016"
+    },
+    {
+      "title": "Professional Photographer Membership",
+      "institution": "PPA (Professional Photographers of America)",
+      "details": "Active member since 2015"
+    }
+  ]
   },
   {
     "id": 7,
@@ -324,7 +516,39 @@
         "comment": "Very attentive and compassionate, though the wait time was a bit long.",
         "helpfulCount": 3
       }
-    ]
+    ],
+     "about": {
+    "title": "About Mia Brown",
+    "summary": "Mia Brown is a professional makeup artist with over 9 years of experience specializing in bridal and event glam. Her attention to detail and gentle technique make her one of the most sought-after artists in the city.",
+    "details": [
+      "Mia focuses on enhancing natural beauty using top-tier cosmetic brands.",
+      "She has worked backstage for fashion shows and collaborates with photographers for editorial projects.",
+      "Her clients love her friendly energy and ability to customize every look to their personality."
+    ],
+    "stats": {
+      "experience": "9+ years",
+      "clients": "2,000+",
+      "success_rate": "97%",
+      "reviews": 123
+    }
+  },
+  "credentials": [
+    {
+      "title": "Professional Makeup Certification",
+      "institution": "MAC Pro Academy",
+      "details": "Certified Makeup Artist, 2014"
+    },
+    {
+      "title": "Bridal Makeup Mastery",
+      "institution": "Makeup Forever Academy, NYC",
+      "details": "Completed 2018"
+    },
+    {
+      "title": "Fashion Week Contributor",
+      "institution": "New York Fashion Week",
+      "details": "Backstage artist, 2022"
+    }
+  ]
   },
   {
     "id": 8,
@@ -364,7 +588,39 @@
         "comment": "Professional and polite. The clinic is clean and modern. Will visit again.",
         "helpfulCount": 4
       }
-    ]
+    ],
+    "about": {
+    "title": "About Oliver Davis",
+    "summary": "Oliver Davis is a fitness coach dedicated to helping clients transform their bodies through science-backed training. With over 8 years in the industry, he specializes in strength, mobility, and athletic conditioning.",
+    "details": [
+      "Oliver tailors his sessions to fit all experience levels and body types.",
+      "His coaching emphasizes consistency, discipline, and lifestyle integration.",
+      "He regularly posts free workout tutorials and nutrition advice to inspire community wellness."
+    ],
+    "stats": {
+      "experience": "8+ years",
+      "clients": "1,500+",
+      "success_rate": "95%",
+      "reviews": 112
+    }
+  },
+  "credentials": [
+    {
+      "title": "Certified Fitness Instructor",
+      "institution": "American Council on Exercise (ACE)",
+      "details": "Certified since 2015"
+    },
+    {
+      "title": "Functional Movement Specialist",
+      "institution": "FMS Institute",
+      "details": "Completed 2018"
+    },
+    {
+      "title": "Sports Nutrition Certification",
+      "institution": "ISSA",
+      "details": "Awarded 2020"
+    }
+  ]
   },
   {
     "id": 9,
@@ -415,7 +671,39 @@
         "comment": "Her Botox treatment exceeded my expectations. Natural and comfortable experience.",
         "helpfulCount": 15
       }
-    ]
+    ],
+    "about": {
+    "title": "About Isabella Garcia",
+    "summary": "Isabella Garcia is a certified yoga instructor with over 11 years of experience guiding students toward mindfulness, balance, and strength. She blends ancient yoga traditions with modern wellness practices.",
+    "details": [
+      "Isabella’s sessions are known for their calming atmosphere and emphasis on self-awareness.",
+      "She has led retreats and workshops across Asia and Europe.",
+      "Her teaching philosophy centers on nurturing both physical and emotional harmony."
+    ],
+    "stats": {
+      "experience": "11+ years",
+      "clients": "2,800+",
+      "success_rate": "99%",
+      "reviews": 189
+    }
+  },
+  "credentials": [
+    {
+      "title": "RYT-500 Certified Yoga Instructor",
+      "institution": "Yoga Alliance",
+      "details": "Certified since 2012"
+    },
+    {
+      "title": "Mindfulness & Meditation Certification",
+      "institution": "Himalayan Yoga Institute",
+      "details": "Completed 2015"
+    },
+    {
+      "title": "Holistic Wellness Instructor",
+      "institution": "Global Yoga Network",
+      "details": "Certified 2019"
+    }
+  ]
   },
   {
     "id": 10,
@@ -435,7 +723,39 @@
     ],
     "verified": true,
     "online": false,
-     "reviews_list":[]
+     "reviews_list":[],
+      "about": {
+    "title": "About James Carter",
+    "summary": "James Carter is a professional tattoo artist with over 13 years of experience bringing creative visions to life through ink. Known for his precision and artistry, his studio is one of the top-rated in town.",
+    "details": [
+      "James specializes in fine line, color realism, and custom designs.",
+      "He believes every tattoo tells a story and prioritizes client comfort and hygiene above all.",
+      "His portfolio includes collaborations with top artists and participation in international tattoo conventions."
+    ],
+    "stats": {
+      "experience": "13+ years",
+      "clients": "5,000+",
+      "success_rate": "98%",
+      "reviews": 321
+    }
+  },
+  "credentials": [
+    {
+      "title": "Tattoo Artistry Certification",
+      "institution": "International Tattoo School, Berlin",
+      "details": "Certified in 2010"
+    },
+    {
+      "title": "Color Theory & Pigment Training",
+      "institution": "World Tattoo Convention",
+      "details": "Completed 2016"
+    },
+    {
+      "title": "Health & Safety Accreditation",
+      "institution": "American Body Art Association",
+      "details": "Renewed 2024"
+    }
+  ]
   },
   {
     "id": 11,
@@ -454,7 +774,39 @@
     ],
     "verified": true,
     "online": true,
-    "reviews_list":[]
+    "reviews_list":[],
+    "about": {
+    "title": "About Ella Martinez",
+    "summary": "Ella Martinezis a certified nutritionist with over 8 years of experience helping clients build sustainable, science-backed eating habits. Her approach focuses on personalized meal plans and mindful eating.",
+    "details": [
+      "Ella Martinez combines modern nutritional science with behavioral coaching to help clients reach long-term goals.",
+      "She specializes in weight management, gut health, and plant-based nutrition.",
+      "Her passion is making healthy eating practical, enjoyable, and accessible for everyone."
+    ],
+    "stats": {
+      "experience": "8+ years",
+      "clients": "1,600+",
+      "success_rate": "96%",
+      "reviews": 210
+    }
+  },
+  "credentials": [
+    {
+      "title": "Bachelor of Science in Nutrition",
+      "institution": "University of Sydney",
+      "details": "Graduated 2015"
+    },
+    {
+      "title": "Registered Nutritionist (RNutr)",
+      "institution": "Nutrition Society",
+      "details": "Certified since 2016"
+    },
+    {
+      "title": "Plant-Based Nutrition Certificate",
+      "institution": "Cornell University",
+      "details": "Completed 2020"
+    }
+  ]
   },
   {
     "id": 12,
@@ -474,7 +826,39 @@
     ],
     "verified": true,
     "online": false,
-    "reviews_list":[]
+    "reviews_list":[],
+    "about": {
+    "title": "About William Green",
+    "summary": "William Green is a professional barber with over 9 years of experience creating sharp, modern looks for men of all ages. His expertise lies in precision fades, beard styling, and grooming transformations.",
+    "details": [
+      "William Green barbershop is known for its friendly atmosphere and attention to detail.",
+      "He tailors each cut to match his client’s lifestyle and facial structure.",
+      "His dedication to the craft has earned him a loyal clientele and numerous awards."
+    ],
+    "stats": {
+      "experience": "9+ years",
+      "clients": "3,500+",
+      "success_rate": "99%",
+      "reviews": 165
+    }
+  },
+  "credentials": [
+    {
+      "title": "Professional Barber Certification",
+      "institution": "American Barber Institute",
+      "details": "Licensed since 2014"
+    },
+    {
+      "title": "Advanced Beard Sculpting Course",
+      "institution": "BarberCraft Academy",
+      "details": "Completed 2018"
+    },
+    {
+      "title": "Men’s Grooming Excellence Award",
+      "institution": "Barber World Expo",
+      "details": "Winner, 2022"
+    }
+  ]
   },
   {
     "id": 13,
@@ -494,11 +878,43 @@
     ],
     "verified": true,
     "online": true,
-    "reviews_list":[]
+    "reviews_list":[],
+    "about": {
+    "title": "About Charlotte Evans",
+    "summary": "Charlotte Evans is a certified life coach with 7 years of experience helping professionals overcome self-doubt, build confidence, and create meaningful success. She’s known for her empathetic and strategic coaching style.",
+    "details": [
+      "Charlotte blends neuroscience, mindfulness, and goal-setting frameworks for sustainable transformation.",
+      "Her sessions empower clients to break through fear and build clarity in career and relationships.",
+      "She offers both one-on-one and corporate workshops focused on growth mindset and resilience."
+    ],
+    "stats": {
+      "experience": "7+ years",
+      "clients": "900+",
+      "success_rate": "95%",
+      "reviews": 143
+    }
+  },
+  "credentials": [
+    {
+      "title": "Certified Life Coach (CLC)",
+      "institution": "Coach Training Alliance",
+      "details": "Certified since 2017"
+    },
+    {
+      "title": "Neuro-Linguistic Programming (NLP) Practitioner",
+      "institution": "Mindvalley Institute",
+      "details": "Certified 2019"
+    },
+    {
+      "title": "Positive Psychology Specialization",
+      "institution": "University of Pennsylvania (Coursera)",
+      "details": "Completed 2021"
+    }
+  ]
   },
   {
     "id": 14,
-    "name": "Benjamin Scott",
+    "name": "Benjamin Lee",
     "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
     "profession": "Physiotherapist",
     "location": "Rehab Zone",
@@ -514,7 +930,39 @@
     ],
     "verified": true,
     "online": true,
-    "reviews_list":[]
+    "reviews_list":[],
+     "about": {
+    "title": "About Benjamin Lee",
+    "summary": "Benjamin Lee is a licensed therapist with over 11 years of experience in mental health counseling. He specializes in cognitive-behavioral therapy and emotional wellness coaching.",
+    "details": [
+      "Benjamin works with individuals and couples to improve communication, manage anxiety, and navigate life transitions.",
+      "His sessions combine empathy, structure, and measurable progress tracking.",
+      "He’s passionate about breaking stigma and making mental health care accessible to all."
+    ],
+    "stats": {
+      "experience": "11+ years",
+      "clients": "1,800+",
+      "success_rate": "98%",
+      "reviews": 232
+    }
+  },
+  "credentials": [
+    {
+      "title": "Master’s in Clinical Psychology",
+      "institution": "University of Toronto",
+      "details": "Graduated 2012"
+    },
+    {
+      "title": "Licensed Professional Counselor (LPC)",
+      "institution": "Canadian Counseling Association",
+      "details": "Licensed since 2013"
+    },
+    {
+      "title": "CBT Certification",
+      "institution": "Beck Institute",
+      "details": "Completed 2017"
+    }
+  ]
   },
   {
     "id": 15,
@@ -534,7 +982,39 @@
     ],
     "verified": false,
     "online": false,
-    "reviews_list":[]
+    "reviews_list":[],
+     "about": {
+    "title": "About Harper Lewis",
+    "summary": "Harper Lewis is a skincare specialist and licensed esthetician with over 10 years of experience in facial treatments, chemical peels, and holistic skincare routines.",
+    "details": [
+      "Harper Lewis treatments focus on long-term skin health, not just short-term results.",
+      "He uses natural and medical-grade products based on skin analysis.",
+      "Her calm, luxurious sessions make her spa one of the top-rated in the city."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "2,100+",
+      "success_rate": "97%",
+      "reviews": 175
+    }
+  },
+  "credentials": [
+    {
+      "title": "Licensed Esthetician",
+      "institution": "Dermal Institute of California",
+      "details": "Certified 2013"
+    },
+    {
+      "title": "Advanced Skincare Formulation Course",
+      "institution": "School of Natural Skincare",
+      "details": "Completed 2017"
+    },
+    {
+      "title": "Dermaplaning & Chemical Peel Certification",
+      "institution": "Dermal Science Academy",
+      "details": "Awarded 2020"
+    }
+  ]
   },
   {
     "id": 16,
@@ -554,7 +1034,39 @@
     ],
     "verified": true,
     "online": true,
-    "reviews_list":[]
+    "reviews_list":[],
+    "about": {
+    "title": "About Lucas Walker",
+    "summary": "Lucas Walker is a professional chef and culinary consultant with 15 years of global experience in fine dining, catering, and recipe development.",
+    "details": [
+      "Lucas Walker culinary philosophy centers around simplicity, flavor, and authenticity.",
+      "He has led Michelin-starred restaurant kitchens and now teaches gourmet cooking classes.",
+      "His recipes have been featured in food magazines and culinary competitions."
+    ],
+    "stats": {
+      "experience": "15+ years",
+      "clients": "3,000+",
+      "success_rate": "99%",
+      "reviews": 310
+    }
+  },
+  "credentials": [
+    {
+      "title": "Culinary Arts Diploma",
+      "institution": "Le Cordon Bleu, Paris",
+      "details": "Graduated 2009"
+    },
+    {
+      "title": "Executive Chef Certification",
+      "institution": "American Culinary Federation",
+      "details": "Awarded 2015"
+    },
+    {
+      "title": "Food Safety & Hygiene License",
+      "institution": "ServSafe",
+      "details": "Renewed 2024"
+    }
+  ]
   },
   {
     "id": 17,
@@ -574,7 +1086,39 @@
     ],
     "verified": true,
     "online": true,
-    "reviews_list":[]
+    "reviews_list":[],
+     "about": {
+    "title": "About Amelia Turner",
+    "summary": "Amelia Turner is a professional event planner with over 10 years of experience crafting elegant weddings, corporate events, and private celebrations.",
+    "details": [
+      "Amelia Turner manages everything from concept to execution, ensuring each event feels unique and seamless.",
+      "Her portfolio includes over 300 successful events across 5 countries.",
+      "Clients appreciate her organization, creativity, and calm leadership under pressure."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "900+",
+      "success_rate": "99%",
+      "reviews": 278
+    }
+  },
+  "credentials": [
+    {
+      "title": "Event Management Certification",
+      "institution": "International Event Planning Institute",
+      "details": "Certified 2014"
+    },
+    {
+      "title": "Wedding Planning Professional (WPP)",
+      "institution": "Bridal Society",
+      "details": "Awarded 2017"
+    },
+    {
+      "title": "Luxury Event Design Masterclass",
+      "institution": "EventPro Institute",
+      "details": "Completed 2021"
+    }
+  ]
   },
   {
     "id": 18,
@@ -593,7 +1137,39 @@
     ],
     "verified": true,
     "online": false,
-    "reviews_list":[]
+    "reviews_list":[],
+    "about": {
+    "title": "About Henry Adams",
+    "summary": "Henry Adams is a professional fitness and strength coach with over 12 years of experience training athletes and clients for performance and endurance.",
+    "details": [
+      "Henry’s programs are built on progressive overload, data tracking, and mindset development.",
+      "He’s coached both amateur and professional athletes across various sports.",
+      "His philosophy: consistency, recovery, and precision create champions."
+    ],
+    "stats": {
+      "experience": "12+ years",
+      "clients": "2,600+",
+      "success_rate": "96%",
+      "reviews": 208
+    }
+  },
+  "credentials": [
+    {
+      "title": "Certified Strength and Conditioning Specialist (CSCS)",
+      "institution": "NSCA",
+      "details": "Certified 2012"
+    },
+    {
+      "title": "Sports Performance Coach",
+      "institution": "Exos Academy",
+      "details": "Completed 2016"
+    },
+    {
+      "title": "Biomechanics & Injury Prevention Course",
+      "institution": "Athletic Lab",
+      "details": "Completed 2019"
+    }
+  ]
   },
   {
     "id": 19,
@@ -613,7 +1189,39 @@
     ],
     "verified": true,
     "online": true,
-     "reviews_list":[]
+     "reviews_list":[],
+      "about": {
+    "title": "About Grace Parker",
+    "summary": "Grace Parker is a professional event planner with over 10 years of experience crafting elegant weddings, corporate events, and private celebrations.",
+    "details": [
+      "Grace manages everything from concept to execution, ensuring each event feels unique and seamless.",
+      "Her portfolio includes over 300 successful events across 5 countries.",
+      "Clients appreciate her organization, creativity, and calm leadership under pressure."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "900+",
+      "success_rate": "99%",
+      "reviews": 278
+    }
+  },
+  "credentials": [
+    {
+      "title": "Event Management Certification",
+      "institution": "International Event Planning Institute",
+      "details": "Certified 2014"
+    },
+    {
+      "title": "Wedding Planning Professional (WPP)",
+      "institution": "Bridal Society",
+      "details": "Awarded 2017"
+    },
+    {
+      "title": "Luxury Event Design Masterclass",
+      "institution": "EventPro Institute",
+      "details": "Completed 2021"
+    }
+  ]
   },
   {
     "id": 20,
@@ -633,7 +1241,39 @@
     ],
     "verified": true,
     "online": false,
-   "reviews_list":[]
+   "reviews_list":[],
+   "about": {
+    "title": "About Daniel Foster",
+    "summary": "Daniel Foster is a professional chef and culinary consultant with 15 years of global experience in fine dining, catering, and recipe development.",
+    "details": [
+      "Daniel Foster culinary philosophy centers around simplicity, flavor, and authenticity.",
+      "He has led Michelin-starred restaurant kitchens and now teaches gourmet cooking classes.",
+      "His recipes have been featured in food magazines and culinary competitions."
+    ],
+    "stats": {
+      "experience": "15+ years",
+      "clients": "3,000+",
+      "success_rate": "99%",
+      "reviews": 310
+    }
+  },
+  "credentials": [
+    {
+      "title": "Culinary Arts Diploma",
+      "institution": "Le Cordon Bleu, Paris",
+      "details": "Graduated 2009"
+    },
+    {
+      "title": "Executive Chef Certification",
+      "institution": "American Culinary Federation",
+      "details": "Awarded 2015"
+    },
+    {
+      "title": "Food Safety & Hygiene License",
+      "institution": "ServSafe",
+      "details": "Renewed 2024"
+    }
+  ]
   }
 ],
   "testimonials":[
