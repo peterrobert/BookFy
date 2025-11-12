@@ -14,8 +14,8 @@ const ProfileEducationSection = () => {
           </div>
           <div>
             <h3 className="font-semibold text-black">{value.title}</h3>
-            <p className="text-gray-600">{value.institution}</p>
-            <p className="text-sm text-gray-500">{value.details}</p>
+            <p className="text-gray-600 font-medium">{value.institution}</p>
+            <p className="text-sm text-gray-500 font-light">{value.details}</p>
           </div>
         </div>
       );

@@ -9,6 +9,7 @@ import SignupPage from "./Pages/Auth/SignupPage";
 import ClientPage from "./Pages/HomePage/client";
 import AppBookingForm from "./Components/BookingForm";
 import AppDialog from "./Components/AppDialog";
+import { ProfessionalDashboard } from "./Pages/HomePage/proffesional";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/home" element={<ClientPage />} />
+        <Route
+          path="/proffessionalDashboard"
+          element={<ProfessionalDashboard />}
+        />
         <Route path="/professionals" element={<ProfessionalsPage />} />
         <Route path="/professional/:id" element={<ProfilePage />} />
         <Route path="/login" element={<LoginPage />} />
