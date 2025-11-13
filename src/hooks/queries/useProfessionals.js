@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchProfessionals } from "../../Services";
+import { fetchProfessionals } from "../../services";
 
 export const useProfessionals = () => {
   return useQuery({
