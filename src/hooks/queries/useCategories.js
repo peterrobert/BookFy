@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchCategories } from "../../Services";
+import { fetchCategories } from "../../services";
 
 export const useCategories = () => {
   return useQuery({

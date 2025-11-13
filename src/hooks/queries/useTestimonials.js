@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchTestimonials } from "../../Services";
+import { fetchTestimonials } from "../../services";
 
 export const useTestimonials = () => {
   return useQuery({
