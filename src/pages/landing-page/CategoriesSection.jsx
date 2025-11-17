@@ -1,6 +1,6 @@
 import { useCategories } from "../../hooks/queries";
-import AppCategories from "../../Components/AppCategories";
-import AppSpinner from "../../Components/AppSpinner";
+import AppCategories from "../../components/AppCategories";
+import AppSpinner from "../../components/AppSpinner";
 
 // --- LANDING PAGE CATEGORIES SECTION COMPONENT --- //
 const CategoriesSection = () => {

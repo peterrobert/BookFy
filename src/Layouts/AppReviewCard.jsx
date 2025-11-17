@@ -1,5 +1,5 @@
 // --- REVIEW CARD COMPONENT --- //
-import AppStarRatings from "../Components/AppStarRatings";
+import AppStarRatings from "../components/AppStarRatings";
 
 const AppReviewCard = ({ testimonial }) => {
   const { avatar, comment, name, rating, role } = testimonial || {};

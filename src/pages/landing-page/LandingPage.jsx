@@ -7,7 +7,7 @@ import TestimonySection from "./TestimonySection";
 import StatsSection from "./StatsSection";
 import ProffessionalCallSection from "./ProfessionalCallSection";
 import FaqSection from "./FaqSection";
-import Footer from "../../Layouts/Footer";
+import Footer from "../../layouts/Footer";
 
 const LandingPage = () => {
   return (

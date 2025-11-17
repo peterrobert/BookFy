@@ -1,8 +1,8 @@
 import { useProfessionals } from "../../hooks/queries";
 // --- LANDING PAGE PROFESSIONAL SECTION COMPONENT --- //
-import AppButton from "../../Components/AppButton";
-import AppSpinner from "../../Components/AppSpinner";
-import ProffesionalCard from "../../Components/ProffesionalCard";
+import AppButton from "../../components/AppButton";
+import AppSpinner from "../../components/AppSpinner";
+import ProffesionalCard from "../../components/ProffesionalCard";
 
 const ProffesionalSection = () => {
   const { data, isLoading, isError } = useProfessionals();
