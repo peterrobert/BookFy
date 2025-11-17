@@ -1,6 +1,6 @@
 // --- PROFESSIONAL CALL SECTION COMPONENT --- //
 import ProffesionalImage from "../../assets/proffesional.png";
-import AppButton from "../../Components/AppButton";
+import AppButton from "../../components/AppButton";
 const ProfessionalCallSection = () => {
   return (
     <section id="professionals-cta" className="py-20 px-5 bg-gray-50">

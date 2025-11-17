@@ -1,7 +1,7 @@
 import { useTestimonials } from "../../hooks/queries";
 
-import AppReviewCard from "../../Layouts/AppReviewCard";
-import AppSpinner from "../../Components/AppSpinner";
+import AppReviewCard from "../../layouts/AppReviewCard";
+import AppSpinner from "../../components/AppSpinner";
 
 const TestimonySection = () => {
   const { data, isLoading, error } = useTestimonials();

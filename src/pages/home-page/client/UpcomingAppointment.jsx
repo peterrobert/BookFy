@@ -1,8 +1,8 @@
 import { useAppointments } from "../../../hooks/queries";
 
 import { useNavigate } from "react-router-dom";
-import AppError from "../../../Components/AppError";
-import AppSpinner from "../../../Components/AppSpinner";
+import AppError from "../../../components/AppError";
+import AppSpinner from "../../../components/AppSpinner";
 
 const UpcomingAppointment = () => {
   const { isError, isLoading, data } = useAppointments();
