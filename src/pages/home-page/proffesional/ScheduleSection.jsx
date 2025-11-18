@@ -1,3 +1,5 @@
+import QuickActions from "./QuickActions";
+
 const appointments = [
   {
     time: "9:00",
@@ -124,6 +126,7 @@ const ScheduleSection = () => {
         </div>
         <div class="space-y-4">{displayAppointments()}</div>
       </div>
+      <QuickActions />
     </section>
   );
 };
