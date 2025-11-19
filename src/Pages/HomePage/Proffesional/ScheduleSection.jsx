@@ -124,7 +124,7 @@ const ScheduleSection = () => {
             </button>
           </div>
         </div>
-        <div class="space-y-4">{displayAppointments()}</div>
+        <div className="space-y-4">{displayAppointments()}</div>
       </div>
       <QuickActions />
     </section>

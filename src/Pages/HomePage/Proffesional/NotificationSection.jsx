@@ -40,21 +40,20 @@ const NotificationSection = () => {
     return notifications.map((value, index) => {
       return (
         <div
-          className="flex items-start p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500"
+          className={`flex items-start p-3 bg-${value.color}-50 rounded-lg border-l-4 border-${value.color}-500 cursor-pointer`}
           key={index}
         >
-          <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
-            <i className="fa-solid fa-calendar-plus text-white text-sm"></i>
+          <div
+            className={`w-8 h-8 bg-${value.color}-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0`}
+          >
+            <i className={`fa-solid ${value.icon} text-black text-sm`}></i>
           </div>
           <div>
-            <p className="text-sm font-medium text-black">
-              New appointment booked
+            <p className="text-sm font-medium text-black">{value.title}</p>
+            <p className="text-xs text-gray-600 font-light">{value.message}</p>
+            <p className="text-xs text-gray-500 mt-1 font-light">
+              {value.timeAgo}
             </p>
-            <p className="text-xs text-gray-600">
-              Jennifer Davis booked a full service package for tomorrow at 2:30
-              PM
-            </p>
-            <p className="text-xs text-gray-500 mt-1">5 minutes ago</p>
           </div>
         </div>
       );
