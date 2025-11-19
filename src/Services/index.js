@@ -1,4 +1,4 @@
-import { BASEURL } from "../api";
+import { BASEURL } from "../Api";
 
 export const fetchFaqs = async () => {
   const response = await fetch(`${BASEURL}/faqs`);

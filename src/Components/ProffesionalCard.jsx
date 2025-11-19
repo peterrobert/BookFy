@@ -1,9 +1,9 @@
 // --- PROFESSIONAL CARD COMPONENT --- //
 import { useNavigate } from "react-router-dom";
 import AppButton from "./AppButton";
-import { useModal } from "../context/ModalContext";
-import AppBookingForm from "./booking-form";
-import FormHeader from "./booking-form/FormHeader";
+import { useModal } from "../Context/ModalContext";
+import AppBookingForm from "./BookingForm";
+import FormHeader from "./BookingForm/FormHeader";
 
 const ProffesionalCard = ({ professional }) => {
   const {
