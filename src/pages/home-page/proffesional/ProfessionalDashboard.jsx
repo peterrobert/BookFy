@@ -11,25 +11,19 @@ const navData = [
   },
   {
     id: 2,
-    name: "Analytics",
-    icon: <i className="fa-solid fa-chart-line"></i>,
-    view: "Analytics",
-  },
-  {
-    id: 3,
     name: "Clients",
     icon: <i className="fa-solid fa-users"></i>,
     view: "Clients",
   },
 
   {
-    id: 4,
+    id: 3,
     name: "Availability",
     icon: <i className="fa-solid fa-question-circle"></i>,
     view: "Availability",
   },
   {
-    id: 5,
+    id: 4,
     name: "Notifications",
     icon: <i className="fa-solid fa-bullhorn"></i>,
     view: "Notifications",
