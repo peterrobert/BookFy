@@ -1,5 +1,6 @@
 import AppButton from "../../../components/AppButton";
 import AppStarRatings from "../../../components/AppStarRatings";
+import UpcomingAppointmentSection from "./UpcomingAppointmentSection";
 
 const clientsData = [
   {
@@ -78,10 +79,11 @@ const ClientSection = () => {
       >
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl font-bold text-black">Recent Clients</h2>
-          <AppButton label="View All" variant="outline" />
+          <AppButton label="View All" variant="outline" className="text-sm" />
         </div>
         <div className="space-y-4">{displayClientsData()}</div>
       </div>
+      <UpcomingAppointmentSection />
     </section>
   );
 };
