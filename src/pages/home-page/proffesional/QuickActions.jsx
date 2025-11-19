@@ -50,7 +50,7 @@ const QuickActions = () => {
     return quickActions.map((value, index) => {
       return (
         <button
-          className={`w-full ${value.style} p-4 rounded-lg border border-black font-medium hover:bg-purple-dark transition-colors flex items-center`}
+          className={`w-full ${value.style} p-4 rounded-lg border border-black font-medium hover:bg-purple-dark hover:text-white transition-colors flex items-center`}
           key={index}
         >
           <i className={value.icon}></i>

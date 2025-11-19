@@ -64,7 +64,7 @@ const ScheduleSection = () => {
     return appointments.map((value, index) => {
       return (
         <div
-          className={`flex items-center p-4 bg-${value.color}-50 rounded-lg border border-purple-200`}
+          className={`flex items-center p-4 bg-${value.color}-50 rounded-lg border border-purple-200 cursor-pointer hover:bg-purple-light hover:text-white`}
           key={index}
         >
           <div className="flex-shrink-0 w-12 h-12 bg-purple-primary rounded-lg flex items-center justify-center text-white font-semibold">
@@ -73,11 +73,11 @@ const ScheduleSection = () => {
           <div className="ml-4 flex-grow">
             <div className="flex items-center justify-between">
               <h3 className="font-semibold text-black">{value.service}</h3>
-              <span className="text-purple-primary font-semibold">
+              <span className="text-purple-primary font-bold ">
                 ${value.price}
               </span>
             </div>
-            <p className="text-gray-600 text-sm">
+            <p className="text-gray-600 text-sm font-light">
               {value.customer} • {value.duration}
             </p>
             <div className="flex items-center mt-2 space-x-4">
