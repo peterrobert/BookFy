@@ -49,7 +49,7 @@ const ClientSection = () => {
             />
             <div>
               <h3 className="font-semibold text-black">{value.name}</h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-light">
                 Last visit: {value.lastVisit}
               </p>
             </div>
