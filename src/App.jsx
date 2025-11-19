@@ -1,15 +1,16 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Navigation from "./layouts/Navigation";
-import LandingPage from "./pages/landing-page";
-import ProfessionalsPage from "./pages/professionals-page";
-import ProfilePage from "./pages/profile-page";
-import LoginPage from "./pages/auth/login-page";
-import SignupPage from "./pages/auth/signup-page";
-import ClientPage from "./pages/home-page/client";
-import AppBookingForm from "./components/booking-form";
-import AppDialog from "./components/AppDialog";
-import { ProfessionalDashboard } from "./pages/home-page/proffesional";
+import Navigation from "./Layouts/Navigation";
+import LandingPage from "./Pages/LandingPage";
+import ProfessionalsPage from "./Pages/ProfessionalsPage";
+import ProfilePage from "./Pages/ProfilePage";
+import LoginPage from "./Pages/Auth/LoginPage";
+import SignupPage from "./Pages/Auth/SignupPage";
+import ClientPage from "./Pages/HomePage/Client";
+
+import AppDialog from "./Components/AppDialog";
+import { ProfessionalDashboard } from "./Pages/HomePage/Proffesional";
+import AppBookingForm from "./Components/BookingForm";
 
 function App() {
   return (
