@@ -1,4 +1,5 @@
 import AppButton from "../../../Components/AppButton";
+import SystemSection from "./SystemSection";
 const notifications = [
   {
     type: "appointment_booked",
@@ -75,6 +76,7 @@ const NotificationSection = () => {
         </div>
         <div className="space-y-4">{displayNotifications()}</div>
       </div>
+      <SystemSection />
     </section>
   );
 };
