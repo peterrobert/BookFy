@@ -1,3 +1,5 @@
+import AppButton from "../../../components/AppButton";
+
 const UpcomingAppointmentSection = () => {
   return (
     <div
@@ -6,9 +8,11 @@ const UpcomingAppointmentSection = () => {
     >
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-xl font-bold text-black">Upcoming This Week</h2>
-        <button className="text-purple-primary hover:text-purple-dark transition-colors text-sm font-medium">
-          View Calendar
-        </button>
+        <AppButton
+          label="View Calendar"
+          className="text-purple-primary hover:text-purple-dark transition-colors text-sm font-medium"
+          variant="outline"
+        />
       </div>
     </div>
   );
