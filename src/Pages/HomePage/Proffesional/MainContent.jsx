@@ -1,5 +1,6 @@
 import AvailabilitySection from "./AvailabilitySection";
 import ClientSection from "./ClientSection";
+import NotificationSection from "./NotificationSection";
 import ScheduleSection from "./ScheduleSection";
 import WelcomeSection from "./WelcomeSection";
 
@@ -10,6 +11,7 @@ const MainContent = () => {
       <ScheduleSection />
       <ClientSection />
       <AvailabilitySection />
+      <NotificationSection />
     </main>
   );
 };
