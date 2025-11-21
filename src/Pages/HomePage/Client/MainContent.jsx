@@ -1,4 +1,4 @@
-import Footer from "../../../layouts/Footer";
+import Footer from "../../../Layouts/Footer";
 import AccountSettings from "./AccountSettings";
 import FavProffesionals from "./FavProffesionals";
 import UpcomingAppointment from "./UpcomingAppointment";
