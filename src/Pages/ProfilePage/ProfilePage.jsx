@@ -15,7 +15,7 @@ const ProfilePage = () => {
 
   if (isLoading) return <AppSpinner />;
   if (isError)
-    return <AppError message={"Failed to load professional details."} />;
+    return <AppError message={"Failed to load professional details"} />;
 
   return (
     <>
