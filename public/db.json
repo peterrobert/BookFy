@@ -1,0 +1,1515 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Healthcare",
+      "icon": "fa-solid fa-user-md",
+      "professionals": "1,250+ Professionals"
+    },
+    {
+      "id": 2,
+      "title": "Technology",
+      "icon": "fa-solid fa-laptop-code",
+      "professionals": "2,800+ Professionals"
+    },
+    {
+      "id": 3,
+      "title": "Education",
+      "icon": "fa-solid fa-graduation-cap",
+      "professionals": "950+ Professionals"
+    },
+    {
+      "id": 4,
+      "title": "Finance",
+      "icon": "fa-solid fa-coins",
+      "professionals": "1,400+ Professionals"
+    },
+    {
+      "id": 5,
+      "title": "Creative Arts",
+      "icon": "fa-solid fa-palette",
+      "professionals": "1,050+ Professionals"
+    },
+    {
+      "id": 6,
+      "title": "Engineering",
+      "icon": "fa-solid fa-cogs",
+      "professionals": "1,700+ Professionals"
+    }
+  ],
+
+  "professionals": [
+  {
+    "id": 1,
+    "name": "Emily Rodriguez",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
+    "profession": "Hair Stylist",
+    "location": "Bella Salon & Spa",
+    "distance": "3.1 miles",
+    "rating": 5.0,
+    "price": 95,
+    "availability": "Today 5:30 PM",
+    "reviews": 312,
+    "skills": [
+      { "name": "Bridal Preparation", "description": "Elegant hairstyles tailored for weddings and special events.", "duration": "2 hours" },
+      { "name": "Precision Cutting", "description": "Custom haircuts designed to match facial structure.", "duration": "1 hour" },
+      { "name": "Creative Coloring", "description": "Vibrant or subtle tones blended for a natural finish.", "duration": "1.5 hours" }
+    ],
+    "verified": true,
+    "online": true,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "Sophia Rivera",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-31.jpg",
+        "rating": 5,
+        "timeAgo": "1 week ago",
+        "verified": true,
+        "comment": "Her nutrition plan helped me lose 10kg in 3 months. She’s fantastic!",
+        "helpfulCount": 9
+      },
+      {
+        "id": 2,
+        "name": "Henry Scott",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-32.jpg",
+        "rating": 4,
+        "timeAgo": "1 month ago",
+        "verified": true,
+        "comment": "Insightful advice, but would appreciate more follow-up sessions.",
+        "helpfulCount": 3
+      }
+    ],
+    "about": {
+    "title": "About Emily Rodriguez",
+    "summary": "Emily Rodriguez is a master hair stylist with over 12 years of experience creating signature looks for her clients. Trained at the Vidal Sassoon Academy, she specializes in precision cuts, color artistry, and bridal hairstyling.",
+    "details": [
+      "Emily has styled hair for major fashion events and has been featured in local beauty magazines.",
+      "She’s passionate about helping clients express their individuality through creative and manageable hairstyles.",
+      "Her approach blends technical excellence with a personal touch, ensuring every client leaves feeling confident and radiant."
+    ],
+    "stats": {
+      "experience": "12+ years",
+      "clients": "3,000+",
+      "success_rate": "99%",
+      "reviews": 312
+    }
+  },
+  "credentials": [
+    {
+      "title": "Hair Design Diploma",
+      "institution": "Vidal Sassoon Academy",
+      "details": "Graduated with honors, 2010"
+    },
+    {
+      "title": "Advanced Color Certification",
+      "institution": "Redken Exchange NYC",
+      "details": "Certified Color Expert, 2015"
+    },
+    {
+      "title": "Professional Membership",
+      "institution": "National Cosmetology Association",
+      "details": "Active member since 2011"
+    }
+  ]
+  },
+  {
+    "id": 2,
+    "name": "Liam Johnson",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
+    "profession": "Personal Trainer",
+    "location": "FitZone Gym",
+    "distance": "1.8 miles",
+    "rating": 4.9,
+    "price": 75,
+    "availability": "Tomorrow 9:00 AM",
+    "reviews": 204,
+    "skills": [
+      { "name": "Strength Training", "description": "Custom resistance training to build muscle and power.", "duration": "1 hour" },
+      { "name": "Endurance Coaching", "description": "Cardio routines to improve stamina and performance.", "duration": "1 hour" },
+      { "name": "Mobility Enhancement", "description": "Movement and flexibility training for optimal recovery.", "duration": "45 minutes" }
+    ],
+    "verified": true,
+    "online": false,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "Ethan Brooks",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-28.jpg",
+        "rating": 5,
+        "timeAgo": "4 days ago",
+        "verified": true,
+        "comment": "Dr. Kim’s exercises worked miracles for my back pain. Highly recommend!",
+        "helpfulCount": 6
+      },
+      {
+        "id": 2,
+        "name": "Grace Evans",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-29.jpg",
+        "rating": 5,
+        "timeAgo": "3 weeks ago",
+        "verified": true,
+        "comment": "Great listener and very knowledgeable about rehabilitation routines.",
+        "helpfulCount": 5
+      }
+    ],
+    "about": {
+    "title": "About Liam Johnson",
+    "summary": "Liam Johnson is a certified personal trainer known for his dynamic, evidence-based fitness programs that help clients achieve lasting results. With over 10 years in the industry, he’s helped hundreds reach peak performance.",
+    "details": [
+      "Liam holds multiple certifications in strength and conditioning, mobility training, and nutrition.",
+      "His programs are data-driven and tailored to individual goals, whether fat loss, muscle gain, or rehabilitation.",
+      "He’s a strong advocate for holistic wellness—balancing body, mind, and discipline."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "1,200+",
+      "success_rate": "97%",
+      "reviews": 204
+    }
+  },
+  "credentials": [
+    {
+      "title": "Certified Personal Trainer (CPT)",
+      "institution": "National Academy of Sports Medicine (NASM)",
+      "details": "Certified since 2013"
+    },
+    {
+      "title": "Strength & Conditioning Specialist",
+      "institution": "NSCA",
+      "details": "Certified Specialist, 2016"
+    },
+    {
+      "title": "Nutrition Coach Certification",
+      "institution": "Precision Nutrition",
+      "details": "Completed in 2018"
+    }
+  ]
+  },
+  {
+    "id": 3,
+    "name": "Sophia Kim",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-3.jpg",
+    "profession": "Makeup Artist",
+    "location": "Glow Studio",
+    "distance": "2.4 miles",
+    "rating": 4.8,
+    "price": 120,
+    "availability": "Today 2:00 PM",
+    "reviews": 178,
+    "skills": [
+      { "name": "Bridal Glam", "description": "Long-lasting, photo-ready makeup for wedding days.", "duration": "2 hours" },
+      { "name": "Fashion Runway", "description": "Bold, high-impact looks for runway and photo shoots.", "duration": "1.5 hours" },
+      { "name": "Editorial Looks", "description": "Magazine-ready makeup for professional photos.", "duration": "1.5 hours" }
+    ],
+    "verified": true,
+    "online": true,
+     "reviews_list": [
+      {
+        "id": 1,
+        "name": "Benjamin King",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-25.jpg",
+        "rating": 5,
+        "timeAgo": "5 days ago",
+        "verified": true,
+        "comment": "Friendly, efficient, and very thorough. I trust Dr. Patel completely with my health.",
+        "helpfulCount": 8
+      },
+      {
+        "id": 2,
+        "name": "Lucy Walker",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-26.jpg",
+        "rating": 4,
+        "timeAgo": "2 weeks ago",
+        "verified": true,
+        "comment": "Helpful and approachable, though appointment wait time can vary.",
+        "helpfulCount": 2
+      }
+    ],
+    "about": {
+    "title": "About Sophia Kim",
+    "summary": "Sophia Kim is a creative makeup artist celebrated for her flawless, camera-ready looks and refined artistry. With over 8 years in the beauty industry, she’s worked with models, brides, and fashion photographers alike.",
+    "details": [
+      "Sophia trained under international beauty experts and continually updates her techniques to reflect the latest trends.",
+      "Her artistry balances precision and creativity, ensuring each look enhances natural features while expressing individuality.",
+      "She believes makeup should empower clients by reflecting their confidence and personality."
+    ],
+    "stats": {
+      "experience": "8+ years",
+      "clients": "1,800+",
+      "success_rate": "98%",
+      "reviews": 178
+    }
+  },
+  "credentials": [
+    {
+      "title": "Professional Makeup Certification",
+      "institution": "Make Up For Ever Academy, Seoul",
+      "details": "Certified Makeup Artist, 2015"
+    },
+    {
+      "title": "Advanced Bridal Makeup Course",
+      "institution": "London College of Beauty Therapy",
+      "details": "Completed in 2018"
+    },
+    {
+      "title": "Fashion & Editorial Makeup Award",
+      "institution": "BeautyPro Awards",
+      "details": "Winner, 2022"
+    }
+  ]
+  },
+  {
+    "id": 4,
+    "name": "Noah Williams",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg",
+    "profession": "Massage Therapist",
+    "location": "Wellness Haven",
+    "distance": "4.3 miles",
+    "rating": 4.6,
+    "price": 80,
+    "availability": "Tomorrow 11:00 AM",
+    "reviews": 145,
+    "skills": [
+      { "name": "Deep Tissue Therapy", "description": "Focused pressure massage for muscle relief.", "duration": "1 hour" },
+      { "name": "Relaxation Massage", "description": "Gentle full-body massage to reduce stress.", "duration": "1 hour" },
+      { "name": "Hot Stone Treatment", "description": "Soothing stone therapy for tension relief.", "duration": "1.5 hours" }
+    ],
+    "verified": true,
+    "online": false,
+     "reviews_list": [
+      {
+        "id": 1,
+        "name": "Emma Collins",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-19.jpg",
+        "rating": 5,
+        "timeAgo": "6 days ago",
+        "verified": true,
+        "comment": "Dr. Mitchell has helped me immensely with anxiety. Empathetic and professional.",
+        "helpfulCount": 13
+      },
+      {
+        "id": 2,
+        "name": "Mark Davis",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-20.jpg",
+        "rating": 5,
+        "timeAgo": "3 weeks ago",
+        "verified": true,
+        "comment": "Patient listener and great insight into cognitive therapy techniques.",
+        "helpfulCount": 5
+      }
+    ],
+    "about": {
+    "title": "About Noah Williams",
+    "summary": "Noah Williams is a licensed massage therapist with over 9 years of experience specializing in deep tissue and therapeutic relaxation techniques. He’s known for his calm presence and tailored approach to wellness.",
+    "details": [
+      "Noah’s sessions focus on restoring balance, reducing chronic pain, and improving flexibility.",
+      "He integrates holistic techniques such as aromatherapy and mindfulness for total-body healing.",
+      "Clients appreciate his empathetic nature and precise understanding of anatomy and tension release."
+    ],
+    "stats": {
+      "experience": "9+ years",
+      "clients": "2,500+",
+      "success_rate": "96%",
+      "reviews": 145
+    }
+  },
+  "credentials": [
+    {
+      "title": "Massage Therapy Diploma",
+      "institution": "Wellness Academy of Bodywork",
+      "details": "Licensed in 2014"
+    },
+    {
+      "title": "Certified Deep Tissue Specialist",
+      "institution": "American Massage Therapy Association",
+      "details": "Certified since 2016"
+    },
+    {
+      "title": "Aromatherapy Integration Course",
+      "institution": "Holistic Health Institute",
+      "details": "Completed 2019"
+    }
+  ]
+  },
+  {
+    "id": 5,
+    "name": "Ava Patel",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
+    "profession": "Nail Technician",
+    "location": "Polish & Glow",
+    "distance": "2.0 miles",
+    "rating": 4.9,
+    "price": 65,
+    "availability": "Today 1:30 PM",
+    "reviews": 190,
+    "skills": [
+      { "name": "Luxury Manicure", "description": "Cuticle care, shaping, and polish application.", "duration": "45 minutes" },
+      { "name": "Spa Pedicure", "description": "Relaxing pedicure with exfoliation and massage.", "duration": "1 hour" },
+      { "name": "Acrylic Design", "description": "Custom acrylic extensions and creative nail art.", "duration": "1.5 hours" }
+    ],
+    "verified": false,
+    "online": true,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "Laura Baker",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-16.jpg",
+        "rating": 5,
+        "timeAgo": "4 days ago",
+        "verified": true,
+        "comment": "Dr. Lee is amazing with kids. My son actually enjoys his checkups now!",
+        "helpfulCount": 11
+      },
+      {
+        "id": 2,
+        "name": "David Green",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-17.jpg",
+        "rating": 4,
+        "timeAgo": "1 month ago",
+        "verified": true,
+        "comment": "Very caring doctor, though appointments can take time to schedule.",
+        "helpfulCount": 2
+      }
+    ],
+    "about": {
+    "title": "About Ava Patel",
+    "summary": "Ava Patel is a nail artist and technician recognized for her meticulous craftsmanship and artistic flair. With over 7 years of experience, she combines hygiene, style, and creativity in every appointment.",
+    "details": [
+      "Ava specializes in luxury manicures, acrylic extensions, and custom nail designs for special occasions.",
+      "Her studio is known for its relaxing ambiance and commitment to client comfort.",
+      "She values precision and innovation, always exploring new materials and trends in nail art."
+    ],
+    "stats": {
+      "experience": "7+ years",
+      "clients": "1,400+",
+      "success_rate": "99%",
+      "reviews": 190
+    }
+  },
+  "credentials": [
+    {
+      "title": "Advanced Nail Technician Certification",
+      "institution": "CND Academy",
+      "details": "Certified in 2016"
+    },
+    {
+      "title": "Master Nail Artist Program",
+      "institution": "OPI Institute",
+      "details": "Completed in 2019"
+    },
+    {
+      "title": "Salon Hygiene & Safety Accreditation",
+      "institution": "Nail Professionals Guild",
+      "details": "Awarded 2021"
+    }
+  ]
+  },
+  {
+    "id": 6,
+    "name": "Ethan Chen",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+    "profession": "Photographer",
+    "location": "Chen Visuals",
+    "distance": "3.7 miles",
+    "rating": 5.0,
+    "price": 150,
+    "availability": "Tomorrow 10:00 AM",
+    "reviews": 254,
+    "skills": [
+      { "name": "Portrait Photography", "description": "Professional portraits with natural lighting setup.", "duration": "1 hour" },
+      { "name": "Wedding Coverage", "description": "Full-day photography for weddings and receptions.", "duration": "6 hours" },
+      { "name": "Studio Lighting", "description": "Controlled light setup for high-end visual shoots.", "duration": "2 hours" }
+    ],
+    "verified": true,
+    "online": true,
+     "reviews_list": [
+      {
+        "id": 1,
+        "name": "George Wilson",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-13.jpg",
+        "rating": 5,
+        "timeAgo": "1 week ago",
+        "verified": true,
+        "comment": "My knee surgery was a success. Dr. Carter explained every step and recovery was smooth.",
+        "helpfulCount": 6
+      },
+      {
+        "id": 2,
+        "name": "Hannah White",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-14.jpg",
+        "rating": 5,
+        "timeAgo": "2 weeks ago",
+        "verified": true,
+        "comment": "Highly skilled and patient-focused. Would recommend to anyone needing orthopedic care.",
+        "helpfulCount": 7
+      }
+    ],
+    "about": {
+    "title": "About Ethan Chen",
+    "summary": "Ethan Chen is a professional photographer with a passion for storytelling through images. With over 10 years of experience, he captures authentic emotions in weddings, portraits, and commercial shoots.",
+    "details": [
+      "Ethan blends technical mastery with creative vision to produce magazine-quality imagery.",
+      "His studio offers personalized sessions that bring out each client’s individuality.",
+      "He believes great photography is about emotion, not just exposure."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "1,000+",
+      "success_rate": "98%",
+      "reviews": 254
+    }
+  },
+  "credentials": [
+    {
+      "title": "Bachelor of Fine Arts in Photography",
+      "institution": "Savannah College of Art and Design",
+      "details": "Graduated 2013"
+    },
+    {
+      "title": "Wedding Photography Masterclass",
+      "institution": "CreativeLive",
+      "details": "Completed 2016"
+    },
+    {
+      "title": "Professional Photographer Membership",
+      "institution": "PPA (Professional Photographers of America)",
+      "details": "Active member since 2015"
+    }
+  ]
+  },
+  {
+    "id": 7,
+    "name": "Mia Brown",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
+    "profession": "Makeup Artist",
+    "location": "Beauty Loft",
+    "distance": "1.2 miles",
+    "rating": 4.7,
+    "price": 110,
+    "availability": "Today 4:00 PM",
+    "reviews": 123,
+    "skills": [
+      { "name": "Bridal Preparation", "description": "Elegant makeup for brides and bridal parties.", "duration": "2 hours" },
+      { "name": "Photoshoot Looks", "description": "Soft or dramatic looks for studio photoshoots.", "duration": "1.5 hours" },
+      { "name": "Event Glam", "description": "Flawless event makeup for special occasions.", "duration": "1 hour" }
+    ],
+    "verified": true,
+    "online": false,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "James Anderson",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-10.jpg",
+        "rating": 5,
+        "timeAgo": "5 days ago",
+        "verified": true,
+        "comment": "Dr. Smith helped me manage my heart condition with a detailed plan. Life-changing care.",
+        "helpfulCount": 9
+      },
+      {
+        "id": 2,
+        "name": "Maria Lopez",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-11.jpg",
+        "rating": 4,
+        "timeAgo": "3 weeks ago",
+        "verified": true,
+        "comment": "Very attentive and compassionate, though the wait time was a bit long.",
+        "helpfulCount": 3
+      }
+    ],
+     "about": {
+    "title": "About Mia Brown",
+    "summary": "Mia Brown is a professional makeup artist with over 9 years of experience specializing in bridal and event glam. Her attention to detail and gentle technique make her one of the most sought-after artists in the city.",
+    "details": [
+      "Mia focuses on enhancing natural beauty using top-tier cosmetic brands.",
+      "She has worked backstage for fashion shows and collaborates with photographers for editorial projects.",
+      "Her clients love her friendly energy and ability to customize every look to their personality."
+    ],
+    "stats": {
+      "experience": "9+ years",
+      "clients": "2,000+",
+      "success_rate": "97%",
+      "reviews": 123
+    }
+  },
+  "credentials": [
+    {
+      "title": "Professional Makeup Certification",
+      "institution": "MAC Pro Academy",
+      "details": "Certified Makeup Artist, 2014"
+    },
+    {
+      "title": "Bridal Makeup Mastery",
+      "institution": "Makeup Forever Academy, NYC",
+      "details": "Completed 2018"
+    },
+    {
+      "title": "Fashion Week Contributor",
+      "institution": "New York Fashion Week",
+      "details": "Backstage artist, 2022"
+    }
+  ]
+  },
+  {
+    "id": 8,
+    "name": "Oliver Davis",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
+    "profession": "Fitness Coach",
+    "location": "NextGen Gym",
+    "distance": "2.9 miles",
+    "rating": 4.5,
+    "price": 70,
+    "availability": "Today 6:00 PM",
+    "reviews": 112,
+    "skills": [
+      { "name": "Cardio Conditioning", "description": "High-intensity workouts to boost endurance.", "duration": "45 minutes" },
+      { "name": "Bodybuilding Program", "description": "Targeted training for muscle growth and tone.", "duration": "1 hour" }
+    ],
+    "verified": true,
+    "online": true,
+    "reviews_list": [
+      {
+        "id": 1,
+        "name": "Sophia Clark",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
+        "rating": 5,
+        "timeAgo": "3 days ago",
+        "verified": true,
+        "comment": "Dr. Brown made my dental cleaning painless and quick. Very gentle and friendly.",
+        "helpfulCount": 10
+      },
+      {
+        "id": 2,
+        "name": "Daniel Evans",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
+        "rating": 4,
+        "timeAgo": "2 weeks ago",
+        "verified": true,
+        "comment": "Professional and polite. The clinic is clean and modern. Will visit again.",
+        "helpfulCount": 4
+      }
+    ],
+    "about": {
+    "title": "About Oliver Davis",
+    "summary": "Oliver Davis is a fitness coach dedicated to helping clients transform their bodies through science-backed training. With over 8 years in the industry, he specializes in strength, mobility, and athletic conditioning.",
+    "details": [
+      "Oliver tailors his sessions to fit all experience levels and body types.",
+      "His coaching emphasizes consistency, discipline, and lifestyle integration.",
+      "He regularly posts free workout tutorials and nutrition advice to inspire community wellness."
+    ],
+    "stats": {
+      "experience": "8+ years",
+      "clients": "1,500+",
+      "success_rate": "95%",
+      "reviews": 112
+    }
+  },
+  "credentials": [
+    {
+      "title": "Certified Fitness Instructor",
+      "institution": "American Council on Exercise (ACE)",
+      "details": "Certified since 2015"
+    },
+    {
+      "title": "Functional Movement Specialist",
+      "institution": "FMS Institute",
+      "details": "Completed 2018"
+    },
+    {
+      "title": "Sports Nutrition Certification",
+      "institution": "ISSA",
+      "details": "Awarded 2020"
+    }
+  ]
+  },
+  {
+    "id": 9,
+    "name": "Isabella Garcia",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
+    "profession": "Yoga Instructor",
+    "location": "Serenity Yoga",
+    "distance": "1.5 miles",
+    "rating": 4.9,
+    "price": 60,
+    "availability": "Tomorrow 8:00 AM",
+    "reviews": 189,
+    "skills": [
+      { "name": "Vinyasa Flow", "description": "Smooth transitions to improve balance and breathing.", "duration": "1 hour" },
+      { "name": "Hatha Yoga", "description": "Traditional yoga postures for flexibility and calm.", "duration": "1 hour" },
+      { "name": "Guided Meditation", "description": "Mindfulness and relaxation through breath focus.", "duration": "30 minutes" }
+    ],
+    "verified": true,
+    "online": true,
+     "reviews_list": [
+      {
+        "id": 1,
+        "name": "Jessica Martinez",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-6.jpg",
+        "rating": 5,
+        "timeAgo": "2 days ago",
+        "verified": true,
+        "comment": "Dr. Johnson is absolutely amazing! She took time to examine my skin concerns and the treatment plan has worked wonders.",
+        "helpfulCount": 12
+      },
+      {
+        "id": 2,
+        "name": "Robert Thompson",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+        "rating": 5,
+        "timeAgo": "1 week ago",
+        "verified": true,
+        "comment": "Excellent care. Very thorough during my skin cancer screening and explained everything clearly.",
+        "helpfulCount": 8
+      },
+      {
+        "id": 3,
+        "name": "Amanda Davis",
+        "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg",
+        "rating": 5,
+        "timeAgo": "2 weeks ago",
+        "verified": true,
+        "comment": "Her Botox treatment exceeded my expectations. Natural and comfortable experience.",
+        "helpfulCount": 15
+      }
+    ],
+    "about": {
+    "title": "About Isabella Garcia",
+    "summary": "Isabella Garcia is a certified yoga instructor with over 11 years of experience guiding students toward mindfulness, balance, and strength. She blends ancient yoga traditions with modern wellness practices.",
+    "details": [
+      "Isabella’s sessions are known for their calming atmosphere and emphasis on self-awareness.",
+      "She has led retreats and workshops across Asia and Europe.",
+      "Her teaching philosophy centers on nurturing both physical and emotional harmony."
+    ],
+    "stats": {
+      "experience": "11+ years",
+      "clients": "2,800+",
+      "success_rate": "99%",
+      "reviews": 189
+    }
+  },
+  "credentials": [
+    {
+      "title": "RYT-500 Certified Yoga Instructor",
+      "institution": "Yoga Alliance",
+      "details": "Certified since 2012"
+    },
+    {
+      "title": "Mindfulness & Meditation Certification",
+      "institution": "Himalayan Yoga Institute",
+      "details": "Completed 2015"
+    },
+    {
+      "title": "Holistic Wellness Instructor",
+      "institution": "Global Yoga Network",
+      "details": "Certified 2019"
+    }
+  ]
+  },
+  {
+    "id": 10,
+    "name": "James Carter",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+    "profession": "Tattoo Artist",
+    "location": "InkHouse Studio",
+    "distance": "4.5 miles",
+    "rating": 4.8,
+    "price": 180,
+    "availability": "Next Week",
+    "reviews": 321,
+    "skills": [
+      { "name": "Fine Linework", "description": "Clean, detailed tattoo outlines with precision tools.", "duration": "2 hours" },
+      { "name": "Color Tattooing", "description": "Vibrant pigment blending for custom art pieces.", "duration": "3 hours" },
+      { "name": "Realism Design", "description": "Hyper-detailed, lifelike tattoo art.", "duration": "4 hours" }
+    ],
+    "verified": true,
+    "online": false,
+     "reviews_list":[],
+      "about": {
+    "title": "About James Carter",
+    "summary": "James Carter is a professional tattoo artist with over 13 years of experience bringing creative visions to life through ink. Known for his precision and artistry, his studio is one of the top-rated in town.",
+    "details": [
+      "James specializes in fine line, color realism, and custom designs.",
+      "He believes every tattoo tells a story and prioritizes client comfort and hygiene above all.",
+      "His portfolio includes collaborations with top artists and participation in international tattoo conventions."
+    ],
+    "stats": {
+      "experience": "13+ years",
+      "clients": "5,000+",
+      "success_rate": "98%",
+      "reviews": 321
+    }
+  },
+  "credentials": [
+    {
+      "title": "Tattoo Artistry Certification",
+      "institution": "International Tattoo School, Berlin",
+      "details": "Certified in 2010"
+    },
+    {
+      "title": "Color Theory & Pigment Training",
+      "institution": "World Tattoo Convention",
+      "details": "Completed 2016"
+    },
+    {
+      "title": "Health & Safety Accreditation",
+      "institution": "American Body Art Association",
+      "details": "Renewed 2024"
+    }
+  ]
+  },
+  {
+    "id": 11,
+    "name": "Ella Martinez",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg",
+    "profession": "Nutritionist",
+    "location": "HealthWise Center",
+    "distance": "3.8 miles",
+    "rating": 4.7,
+    "price": 130,
+    "availability": "Tomorrow 2:00 PM",
+    "reviews": 210,
+    "skills": [
+      { "name": "Meal Planning", "description": "Personalized meal plans for your health goals.", "duration": "30 minutes" },
+      { "name": "Weight Loss Coaching", "description": "Science-based strategies for sustainable fat loss.", "duration": "45 minutes" }
+    ],
+    "verified": true,
+    "online": true,
+    "reviews_list":[],
+    "about": {
+    "title": "About Ella Martinez",
+    "summary": "Ella Martinezis a certified nutritionist with over 8 years of experience helping clients build sustainable, science-backed eating habits. Her approach focuses on personalized meal plans and mindful eating.",
+    "details": [
+      "Ella Martinez combines modern nutritional science with behavioral coaching to help clients reach long-term goals.",
+      "She specializes in weight management, gut health, and plant-based nutrition.",
+      "Her passion is making healthy eating practical, enjoyable, and accessible for everyone."
+    ],
+    "stats": {
+      "experience": "8+ years",
+      "clients": "1,600+",
+      "success_rate": "96%",
+      "reviews": 210
+    }
+  },
+  "credentials": [
+    {
+      "title": "Bachelor of Science in Nutrition",
+      "institution": "University of Sydney",
+      "details": "Graduated 2015"
+    },
+    {
+      "title": "Registered Nutritionist (RNutr)",
+      "institution": "Nutrition Society",
+      "details": "Certified since 2016"
+    },
+    {
+      "title": "Plant-Based Nutrition Certificate",
+      "institution": "Cornell University",
+      "details": "Completed 2020"
+    }
+  ]
+  },
+  {
+    "id": 12,
+    "name": "William Green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-3.jpg",
+    "profession": "Barber",
+    "location": "The Cut Room",
+    "distance": "0.8 miles",
+    "rating": 4.6,
+    "price": 40,
+    "availability": "Today 3:00 PM",
+    "reviews": 420,
+    "skills": [
+      { "name": "Fade Mastery", "description": "Clean fades and modern styles for men.", "duration": "45 minutes" },
+      { "name": "Beard Grooming", "description": "Precision beard trimming and shaping.", "duration": "30 minutes" },
+      { "name": "Hair Styling", "description": "Finishing styles with product and blow-dry.", "duration": "20 minutes" }
+    ],
+    "verified": true,
+    "online": false,
+    "reviews_list":[],
+    "about": {
+    "title": "About William Green",
+    "summary": "William Green is a professional barber with over 9 years of experience creating sharp, modern looks for men of all ages. His expertise lies in precision fades, beard styling, and grooming transformations.",
+    "details": [
+      "William Green barbershop is known for its friendly atmosphere and attention to detail.",
+      "He tailors each cut to match his client’s lifestyle and facial structure.",
+      "His dedication to the craft has earned him a loyal clientele and numerous awards."
+    ],
+    "stats": {
+      "experience": "9+ years",
+      "clients": "3,500+",
+      "success_rate": "99%",
+      "reviews": 165
+    }
+  },
+  "credentials": [
+    {
+      "title": "Professional Barber Certification",
+      "institution": "American Barber Institute",
+      "details": "Licensed since 2014"
+    },
+    {
+      "title": "Advanced Beard Sculpting Course",
+      "institution": "BarberCraft Academy",
+      "details": "Completed 2018"
+    },
+    {
+      "title": "Men’s Grooming Excellence Award",
+      "institution": "Barber World Expo",
+      "details": "Winner, 2022"
+    }
+  ]
+  },
+  {
+    "id": 13,
+    "name": "Charlotte Evans",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg",
+    "profession": "Fashion Stylist",
+    "location": "Trendy Hub",
+    "distance": "5.2 miles",
+    "rating": 4.8,
+    "price": 210,
+    "availability": "Next Monday",
+    "reviews": 164,
+    "skills": [
+      { "name": "Wardrobe Planning", "description": "Curating looks that enhance personal style.", "duration": "1 hour" },
+      { "name": "Editorial Styling", "description": "High-fashion looks for photo shoots and magazines.", "duration": "2 hours" },
+      { "name": "Personal Shopping", "description": "Helping clients find clothing for any occasion.", "duration": "1.5 hours" }
+    ],
+    "verified": true,
+    "online": true,
+    "reviews_list":[],
+    "about": {
+    "title": "About Charlotte Evans",
+    "summary": "Charlotte Evans is a certified life coach with 7 years of experience helping professionals overcome self-doubt, build confidence, and create meaningful success. She’s known for her empathetic and strategic coaching style.",
+    "details": [
+      "Charlotte blends neuroscience, mindfulness, and goal-setting frameworks for sustainable transformation.",
+      "Her sessions empower clients to break through fear and build clarity in career and relationships.",
+      "She offers both one-on-one and corporate workshops focused on growth mindset and resilience."
+    ],
+    "stats": {
+      "experience": "7+ years",
+      "clients": "900+",
+      "success_rate": "95%",
+      "reviews": 143
+    }
+  },
+  "credentials": [
+    {
+      "title": "Certified Life Coach (CLC)",
+      "institution": "Coach Training Alliance",
+      "details": "Certified since 2017"
+    },
+    {
+      "title": "Neuro-Linguistic Programming (NLP) Practitioner",
+      "institution": "Mindvalley Institute",
+      "details": "Certified 2019"
+    },
+    {
+      "title": "Positive Psychology Specialization",
+      "institution": "University of Pennsylvania (Coursera)",
+      "details": "Completed 2021"
+    }
+  ]
+  },
+  {
+    "id": 14,
+    "name": "Benjamin Lee",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
+    "profession": "Physiotherapist",
+    "location": "Rehab Zone",
+    "distance": "3.3 miles",
+    "rating": 4.9,
+    "price": 140,
+    "availability": "Tomorrow 12:00 PM",
+    "reviews": 198,
+    "skills": [
+      { "name": "Rehabilitation Therapy", "description": "Programs for recovery from injuries.", "duration": "1 hour" },
+      { "name": "Mobility Restoration", "description": "Joint and movement recovery techniques.", "duration": "45 minutes" },
+      { "name": "Muscle Stretching", "description": "Assisted stretches for flexibility improvement.", "duration": "30 minutes" }
+    ],
+    "verified": true,
+    "online": true,
+    "reviews_list":[],
+     "about": {
+    "title": "About Benjamin Lee",
+    "summary": "Benjamin Lee is a licensed therapist with over 11 years of experience in mental health counseling. He specializes in cognitive-behavioral therapy and emotional wellness coaching.",
+    "details": [
+      "Benjamin works with individuals and couples to improve communication, manage anxiety, and navigate life transitions.",
+      "His sessions combine empathy, structure, and measurable progress tracking.",
+      "He’s passionate about breaking stigma and making mental health care accessible to all."
+    ],
+    "stats": {
+      "experience": "11+ years",
+      "clients": "1,800+",
+      "success_rate": "98%",
+      "reviews": 232
+    }
+  },
+  "credentials": [
+    {
+      "title": "Master’s in Clinical Psychology",
+      "institution": "University of Toronto",
+      "details": "Graduated 2012"
+    },
+    {
+      "title": "Licensed Professional Counselor (LPC)",
+      "institution": "Canadian Counseling Association",
+      "details": "Licensed since 2013"
+    },
+    {
+      "title": "CBT Certification",
+      "institution": "Beck Institute",
+      "details": "Completed 2017"
+    }
+  ]
+  },
+  {
+    "id": 15,
+    "name": "Harper Lewis",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg",
+    "profession": "Tattoo Artist",
+    "location": "Ink Paradise",
+    "distance": "2.6 miles",
+    "rating": 4.5,
+    "price": 200,
+    "availability": "Next Week",
+    "reviews": 110,
+    "skills": [
+      { "name": "Blackwork Design", "description": "Minimalistic or bold black ink tattoo art.", "duration": "3 hours" },
+      { "name": "Lettering Art", "description": "Custom typography and script tattoos.", "duration": "2 hours" },
+      { "name": "Abstract Concepts", "description": "Creative freestyle tattoo concepts.", "duration": "2.5 hours" }
+    ],
+    "verified": false,
+    "online": false,
+    "reviews_list":[],
+     "about": {
+    "title": "About Harper Lewis",
+    "summary": "Harper Lewis is a skincare specialist and licensed esthetician with over 10 years of experience in facial treatments, chemical peels, and holistic skincare routines.",
+    "details": [
+      "Harper Lewis treatments focus on long-term skin health, not just short-term results.",
+      "He uses natural and medical-grade products based on skin analysis.",
+      "Her calm, luxurious sessions make her spa one of the top-rated in the city."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "2,100+",
+      "success_rate": "97%",
+      "reviews": 175
+    }
+  },
+  "credentials": [
+    {
+      "title": "Licensed Esthetician",
+      "institution": "Dermal Institute of California",
+      "details": "Certified 2013"
+    },
+    {
+      "title": "Advanced Skincare Formulation Course",
+      "institution": "School of Natural Skincare",
+      "details": "Completed 2017"
+    },
+    {
+      "title": "Dermaplaning & Chemical Peel Certification",
+      "institution": "Dermal Science Academy",
+      "details": "Awarded 2020"
+    }
+  ]
+  },
+  {
+    "id": 16,
+    "name": "Lucas Walker",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
+    "profession": "Chef",
+    "location": "Gourmet Haven",
+    "distance": "1.9 miles",
+    "rating": 4.7,
+    "price": 250,
+    "availability": "Today 7:00 PM",
+    "reviews": 312,
+    "skills": [
+      { "name": "Private Dining Experience", "description": "Exclusive in-home gourmet experiences.", "duration": "3 hours" },
+      { "name": "Catering Service", "description": "Event catering for large or intimate gatherings.", "duration": "5 hours" },
+      { "name": "Menu Design", "description": "Tailored culinary menus for various cuisines.", "duration": "2 hours" }
+    ],
+    "verified": true,
+    "online": true,
+    "reviews_list":[],
+    "about": {
+    "title": "About Lucas Walker",
+    "summary": "Lucas Walker is a professional chef and culinary consultant with 15 years of global experience in fine dining, catering, and recipe development.",
+    "details": [
+      "Lucas Walker culinary philosophy centers around simplicity, flavor, and authenticity.",
+      "He has led Michelin-starred restaurant kitchens and now teaches gourmet cooking classes.",
+      "His recipes have been featured in food magazines and culinary competitions."
+    ],
+    "stats": {
+      "experience": "15+ years",
+      "clients": "3,000+",
+      "success_rate": "99%",
+      "reviews": 310
+    }
+  },
+  "credentials": [
+    {
+      "title": "Culinary Arts Diploma",
+      "institution": "Le Cordon Bleu, Paris",
+      "details": "Graduated 2009"
+    },
+    {
+      "title": "Executive Chef Certification",
+      "institution": "American Culinary Federation",
+      "details": "Awarded 2015"
+    },
+    {
+      "title": "Food Safety & Hygiene License",
+      "institution": "ServSafe",
+      "details": "Renewed 2024"
+    }
+  ]
+  },
+  {
+    "id": 17,
+    "name": "Amelia Turner",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
+    "profession": "Hair Colorist",
+    "location": "Pure Salon",
+    "distance": "2.3 miles",
+    "rating": 5.0,
+    "price": 100,
+    "availability": "Today 12:00 PM",
+    "reviews": 288,
+    "skills": [
+      { "name": "Balayage Coloring", "description": "Hand-painted highlights for natural blending.", "duration": "2 hours" },
+      { "name": "Highlight Perfection", "description": "Customized foiling and tonal balancing.", "duration": "1.5 hours" },
+      { "name": "Ombre Technique", "description": "Soft gradient transitions between hair colors.", "duration": "1.5 hours" }
+    ],
+    "verified": true,
+    "online": true,
+    "reviews_list":[],
+     "about": {
+    "title": "About Amelia Turner",
+    "summary": "Amelia Turner is a professional event planner with over 10 years of experience crafting elegant weddings, corporate events, and private celebrations.",
+    "details": [
+      "Amelia Turner manages everything from concept to execution, ensuring each event feels unique and seamless.",
+      "Her portfolio includes over 300 successful events across 5 countries.",
+      "Clients appreciate her organization, creativity, and calm leadership under pressure."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "900+",
+      "success_rate": "99%",
+      "reviews": 278
+    }
+  },
+  "credentials": [
+    {
+      "title": "Event Management Certification",
+      "institution": "International Event Planning Institute",
+      "details": "Certified 2014"
+    },
+    {
+      "title": "Wedding Planning Professional (WPP)",
+      "institution": "Bridal Society",
+      "details": "Awarded 2017"
+    },
+    {
+      "title": "Luxury Event Design Masterclass",
+      "institution": "EventPro Institute",
+      "details": "Completed 2021"
+    }
+  ]
+  },
+  {
+    "id": 18,
+    "name": "Henry Adams",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
+    "profession": "Fitness Instructor",
+    "location": "ShapeUp Gym",
+    "distance": "3.6 miles",
+    "rating": 4.4,
+    "price": 60,
+    "availability": "Tomorrow 8:30 AM",
+    "reviews": 178,
+    "skills": [
+      { "name": "Strength Conditioning", "description": "Workouts for power and muscle endurance.", "duration": "1 hour" },
+      { "name": "CrossFit Training", "description": "High-intensity routines for overall fitness.", "duration": "1 hour" }
+    ],
+    "verified": true,
+    "online": false,
+    "reviews_list":[],
+    "about": {
+    "title": "About Henry Adams",
+    "summary": "Henry Adams is a professional fitness and strength coach with over 12 years of experience training athletes and clients for performance and endurance.",
+    "details": [
+      "Henry’s programs are built on progressive overload, data tracking, and mindset development.",
+      "He’s coached both amateur and professional athletes across various sports.",
+      "His philosophy: consistency, recovery, and precision create champions."
+    ],
+    "stats": {
+      "experience": "12+ years",
+      "clients": "2,600+",
+      "success_rate": "96%",
+      "reviews": 208
+    }
+  },
+  "credentials": [
+    {
+      "title": "Certified Strength and Conditioning Specialist (CSCS)",
+      "institution": "NSCA",
+      "details": "Certified 2012"
+    },
+    {
+      "title": "Sports Performance Coach",
+      "institution": "Exos Academy",
+      "details": "Completed 2016"
+    },
+    {
+      "title": "Biomechanics & Injury Prevention Course",
+      "institution": "Athletic Lab",
+      "details": "Completed 2019"
+    }
+  ]
+  },
+  {
+    "id": 19,
+    "name": "Grace Parker",
+   "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+    "profession": "Makeup Artist",
+    "location": "Glam Studio",
+    "distance": "1.5 miles",
+    "rating": 4.9,
+    "price": 115,
+    "availability": "Today 3:30 PM",
+    "reviews": 256,
+    "skills": [
+      { "name": "Bridal Glam Preparation", "description": "Soft and lasting makeup for weddings.", "duration": "2 hours" },
+      { "name": "Editorial Makeup", "description": "Professional makeup for photoshoots.", "duration": "1.5 hours" },
+      { "name": "Special Effects", "description": "Creative prosthetic and cinematic makeup.", "duration": "3 hours" }
+    ],
+    "verified": true,
+    "online": true,
+     "reviews_list":[],
+      "about": {
+    "title": "About Grace Parker",
+    "summary": "Grace Parker is a professional event planner with over 10 years of experience crafting elegant weddings, corporate events, and private celebrations.",
+    "details": [
+      "Grace manages everything from concept to execution, ensuring each event feels unique and seamless.",
+      "Her portfolio includes over 300 successful events across 5 countries.",
+      "Clients appreciate her organization, creativity, and calm leadership under pressure."
+    ],
+    "stats": {
+      "experience": "10+ years",
+      "clients": "900+",
+      "success_rate": "99%",
+      "reviews": 278
+    }
+  },
+  "credentials": [
+    {
+      "title": "Event Management Certification",
+      "institution": "International Event Planning Institute",
+      "details": "Certified 2014"
+    },
+    {
+      "title": "Wedding Planning Professional (WPP)",
+      "institution": "Bridal Society",
+      "details": "Awarded 2017"
+    },
+    {
+      "title": "Luxury Event Design Masterclass",
+      "institution": "EventPro Institute",
+      "details": "Completed 2021"
+    }
+  ]
+  },
+  {
+    "id": 20,
+    "name": "Daniel Foster",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
+    "profession": "Photographer",
+    "location": "Foster Frames",
+    "distance": "4.1 miles",
+    "rating": 4.8,
+    "price": 160,
+    "availability": "Tomorrow 1:00 PM",
+    "reviews": 230,
+    "skills": [
+      { "name": "Landscape Photography", "description": "Capturing stunning natural scenery.", "duration": "2 hours" },
+      { "name": "Studio Portraits", "description": "Professional portraits with lighting setup.", "duration": "1.5 hours" },
+      { "name": "Creative Editorials", "description": "Styled photo sessions for brands and magazines.", "duration": "2 hours" }
+    ],
+    "verified": true,
+    "online": false,
+   "reviews_list":[],
+   "about": {
+    "title": "About Daniel Foster",
+    "summary": "Daniel Foster is a professional chef and culinary consultant with 15 years of global experience in fine dining, catering, and recipe development.",
+    "details": [
+      "Daniel Foster culinary philosophy centers around simplicity, flavor, and authenticity.",
+      "He has led Michelin-starred restaurant kitchens and now teaches gourmet cooking classes.",
+      "His recipes have been featured in food magazines and culinary competitions."
+    ],
+    "stats": {
+      "experience": "15+ years",
+      "clients": "3,000+",
+      "success_rate": "99%",
+      "reviews": 310
+    }
+  },
+  "credentials": [
+    {
+      "title": "Culinary Arts Diploma",
+      "institution": "Le Cordon Bleu, Paris",
+      "details": "Graduated 2009"
+    },
+    {
+      "title": "Executive Chef Certification",
+      "institution": "American Culinary Federation",
+      "details": "Awarded 2015"
+    },
+    {
+      "title": "Food Safety & Hygiene License",
+      "institution": "ServSafe",
+      "details": "Renewed 2024"
+    }
+  ]
+  }
+],
+  "testimonials":[
+  {
+    "id": 1,
+    "rating": 5,
+    "comment": "Appointment Palette made it so easy to find and book a dermatologist appointment. The interface is clean and the booking process was seamless.",
+    "name": "Jessica Martinez",
+    "role": "Marketing Manager",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-6.jpg"
+  },
+  {
+    "id": 2,
+    "rating": 4,
+    "comment": "I found a great personal trainer within minutes. The filters are intuitive, and the booking confirmation was instant!",
+    "name": "Liam Johnson",
+    "role": "Software Engineer",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg"
+  },
+  {
+    "id": 3,
+    "rating": 5,
+    "comment": "Such a smooth experience. I booked a hairstylist for my wedding, and everything went perfectly — highly recommend it!",
+    "name": "Sophia Carter",
+    "role": "Event Planner",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg"
+  },
+  {
+    "id": 4,
+    "rating": 3,
+    "comment": "Customer support was excellent and very responsive. I managed to reschedule my appointment with no hassle.",
+    "name": "Michael Evans",
+    "role": "Product Designer",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg"
+  },
+  {
+    "id": 5,
+    "rating": 5,
+    "comment": "The review system helps so much. I booked a massage therapist with confidence after seeing verified ratings.",
+    "name": "Emily Brown",
+    "role": "HR Specialist",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-10.jpg"
+  },
+  {
+    "id": 6,
+    "rating": 4.7,
+    "comment": "I love how fast the app is. No endless forms — just click, book, and go. It feels so modern!",
+    "name": "Noah Williams",
+    "role": "Digital Marketer",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-3.jpg"
+  },
+  {
+    "id": 7,
+    "rating": 2.5,
+    "comment": "It’s like having a personal assistant for appointments. I use it for my whole family now.",
+    "name": "Isabella Thompson",
+    "role": "Accountant",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-11.jpg"
+  },
+  {
+    "id": 8,
+    "rating": 5,
+    "comment": "The design is gorgeous and user-friendly. I booked a stylist in under a minute!",
+    "name": "Olivia Davis",
+    "role": "Fashion Blogger",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg"
+  },
+  {
+    "id": 9,
+    "rating": 4.8,
+    "comment": "Super reliable platform. I appreciate how it shows real-time availability and trusted professionals.",
+    "name": "Ethan Wilson",
+    "role": "Entrepreneur",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-12.jpg"
+  },
+  {
+    "id": 10,
+    "rating": 5,
+    "comment": "Booking appointments has never been easier. The reminders feature is a game-changer for me.",
+    "name": "Ava Patel",
+    "role": "Nurse Practitioner",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg"
+  }
+],
+"faqs":[
+  {
+    "id": "1",
+    "question": "How do I book an appointment?",
+    "answer": "Simply browse through our professionals, select your preferred service provider, choose an available time slot, and complete the booking with secure payment. You'll receive instant confirmation."
+  },
+  {
+    "id": "2",
+    "question": "Can I reschedule or cancel my appointment?",
+    "answer": "Yes, you can reschedule or cancel your booking up to 24 hours before the appointment through your dashboard. Late cancellations may incur a small fee depending on the provider’s policy."
+  },
+  {
+    "id": "3",
+    "question": "Do I need to create an account to book?",
+    "answer": "Yes, creating an account allows you to manage bookings, view your history, save favorite professionals, and get personalized recommendations."
+  },
+  {
+    "id": "4",
+    "question": "How do I pay for my appointment?",
+    "answer": "All payments are handled securely through our integrated payment gateway. You can pay using credit/debit cards, PayPal, or mobile money depending on your region."
+  },
+  {
+    "id": "5",
+    "question": "Are the professionals verified?",
+    "answer": "Yes, every professional on our platform goes through a verification process to ensure qualifications, professionalism, and customer safety."
+  },
+  {
+    "id": "6",
+    "question": "What happens if my professional cancels?",
+    "answer": "In the rare event of a cancellation, you’ll be notified immediately and offered the option to reschedule with another professional or receive a full refund."
+  },
+  {
+    "id": "7",
+    "question": "Can I leave a review after my appointment?",
+    "answer": "Absolutely! After your session, you’ll be prompted to rate and review your experience to help others make informed choices."
+  },
+  {
+    "id": "8",
+    "question": "Is my data secure?",
+    "answer": "We take your privacy seriously. All personal and payment data is encrypted and stored following industry-grade security standards."
+  }
+], 
+"upcomingAppointments":[
+  {
+    "id": 1,
+    "name": "Dr. Mike Chen",
+    "service": "Dermatology Consultation",
+    "date": "Today, Nov 1",
+    "time": "2:00 PM - 3:00 PM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg",
+    "actions": ["Join Video Call", "Reschedule"]
+  },
+  {
+    "id": 2,
+    "name": "Emily Rodriguez",
+    "service": "Hair Cut & Styling",
+    "date": "Tomorrow, Nov 2",
+    "time": "11:00 AM - 12:30 PM",
+    "status": "Pending",
+    "statusColor": "blue",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-5.jpg",
+    "actions": ["View Details", "Cancel"]
+  },
+  {
+    "id": 3,
+    "name": "David Kim",
+    "service": "Business Strategy Session",
+    "date": "Nov 3, 2024",
+    "time": "3:00 PM - 4:00 PM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-3.jpg",
+    "actions": ["View Details", "Reschedule"]
+  },
+  {
+    "id": 4,
+    "name": "Sarah Lee",
+    "service": "Nutrition Coaching",
+    "date": "Nov 4, 2024",
+    "time": "10:00 AM - 10:45 AM",
+    "status": "Pending",
+    "statusColor": "blue",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-6.jpg",
+    "actions": ["View Details", "Cancel"]
+  },
+  {
+    "id": 5,
+    "name": "James Parker",
+    "service": "Personal Training Session",
+    "date": "Nov 5, 2024",
+    "time": "8:30 AM - 9:30 AM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-7.jpg",
+   "actions": ["Join Video Call", "Reschedule"]
+  },
+  {
+    "id": 6,
+    "name": "Rachel Adams",
+    "service": "Makeup Consultation",
+    "date": "Nov 6, 2024",
+    "time": "1:00 PM - 2:00 PM",
+    "status": "Cancelled",
+    "statusColor": "red",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg",
+    "actions": ["View Details", "Rebook"]
+  },
+  {
+    "id": 7,
+    "name": "Chris Johnson",
+    "service": "Therapy Session",
+    "date": "Nov 7, 2024",
+    "time": "4:00 PM - 5:00 PM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-9.jpg",
+    "actions": ["Join Video Call", "Reschedule"]
+  },
+  {
+    "id": 8,
+    "name": "Olivia Brown",
+    "service": "Facial Treatment",
+    "date": "Nov 8, 2024",
+    "time": "9:30 AM - 10:30 AM",
+    "status": "Pending",
+    "statusColor": "blue",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-10.jpg",
+    "actions": ["View Details", "Cancel"]
+  },
+  {
+    "id": 9,
+    "name": "Daniel White",
+    "service": "Career Mentorship Call",
+    "date": "Nov 9, 2024",
+    "time": "6:00 PM - 7:00 PM",
+    "status": "Confirmed",
+    "statusColor": "green",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-11.jpg",
+    "actions": ["Join Video Call", "Reschedule"]
+  },
+  {
+    "id": 10,
+    "name": "Sophia Martinez",
+    "service": "Yoga Session",
+    "date": "Nov 10, 2024",
+    "time": "7:00 AM - 8:00 AM",
+    "status": "Pending",
+    "statusColor": "blue",
+    "avatar": "https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-12.jpg",
+   "actions": ["View Details", "Cancel"]
+  }
+]
+}
