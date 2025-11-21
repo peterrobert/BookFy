@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useProfessionals } from "../../Hooks/Queries";
+import { useProfessionals } from "../../hooks/queries";
 import AppButton from "../../Components/AppButton";
 import AppSpinner from "../../Components/AppSpinner";
 import AppError from "../../Components/AppError";

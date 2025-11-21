@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useProffessDetailsCache } from "../../Hooks/Cache";
+import { useProffessDetailsCache } from "../../hooks/cache";
 import AppButton from "../../Components/AppButton";
 
 const ProfileLocationSection = () => {

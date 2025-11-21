@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useProfessionalDetails } from "../../Hooks/Queries";
+import { useProfessionalDetails } from "../../hooks/queries";
 import ProfileHeroSection from "./ProfileHeroSection";
 
 import AppSpinner from "../../Components/AppSpinner";

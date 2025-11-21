@@ -1,5 +1,5 @@
 import { useModal } from "../../Context/ModalContext";
-import { useProfessionalDetails } from "../../Hooks/Queries";
+import { useProfessionalDetails } from "../../hooks/queries";
 
 // --- COMPONENTS ---
 import AppSpinner from "../AppSpinner";
