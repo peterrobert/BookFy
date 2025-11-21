@@ -1,6 +1,6 @@
 // --- LANDING PAGE HERO SECTION COMPONENT --- //
 import HeroImg from "../../assets/hero.png";
-import AppButton from "../../components/AppButton";
+import AppButton from "../../Components/AppButton";
 
 const HeroSection = () => {
   return (
