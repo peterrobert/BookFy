@@ -6,7 +6,7 @@ import AppSpinner from "../../components/AppSpinner";
 import AppError from "../../components/AppError";
 import ProfileNavigationSection from "./ProfileNavigationSection";
 import ProfileBookingSection from "./ProfileBookingSection";
-import Footer from "../../Layouts/Footer";
+import Footer from "../../layouts/Footer";
 import SimilarProfiles from "./SimilarProfiles";
 
 const ProfilePage = () => {
