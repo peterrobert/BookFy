@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import AppButton from "../../../components/AppButton";
+import AppButton from "../../../Components/AppButton";
 const statsData = [
   {
     title: "Upcoming Appointments",
