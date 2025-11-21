@@ -2,9 +2,9 @@ import { useParams } from "react-router-dom";
 import { useProffessDetailsCache } from "../../hooks/cache";
 import { useModal } from "../../Context/ModalContext";
 
-import AppButton from "../../components/AppButton";
-import AppBookingForm from "../../components/BookingForm";
-import FormHeader from "../../components/BookingForm/FormHeader";
+import AppButton from "../../Components/AppButton";
+import AppBookingForm from "../../Components/BookingForm";
+import FormHeader from "../../Components/BookingForm/FormHeader";
 
 const ProfileServices = () => {
   const { id } = useParams();

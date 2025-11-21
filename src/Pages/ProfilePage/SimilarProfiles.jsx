@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import { useProfessionals } from "../../hooks/queries";
-import AppButton from "../../components/AppButton";
-import AppSpinner from "../../components/AppSpinner";
-import AppError from "../../components/AppError";
-import ProffesionalCard from "../../components/ProffesionalCard";
+import AppButton from "../../Components/AppButton";
+import AppSpinner from "../../Components/AppSpinner";
+import AppError from "../../Components/AppError";
+import ProffesionalCard from "../../Components/ProffesionalCard";
 
 const SimilarProfiles = () => {
   const { data, isLoading, isError } = useProfessionals();

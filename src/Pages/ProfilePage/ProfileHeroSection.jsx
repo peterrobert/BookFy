@@ -1,7 +1,7 @@
-import AppButton from "../../components/AppButton";
-import AppStarRatings from "../../components/AppStarRatings";
-import AppBookingForm from "../../components/BookingForm";
-import FormHeader from "../../components/BookingForm/FormHeader";
+import AppButton from "../../Components/AppButton";
+import AppStarRatings from "../../Components/AppStarRatings";
+import AppBookingForm from "../../Components/BookingForm";
+import FormHeader from "../../Components/BookingForm/FormHeader";
 import { useModal } from "../../Context/ModalContext";
 
 const ProfileHeroSection = ({ professionalData }) => {
