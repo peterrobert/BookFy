@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useProfessionals } from "../../hooks/queries";
 
-import ProfessionalCard from "../../components/ProffesionalCard";
-import AppSpinner from "../../components/AppSpinner";
+import ProfessionalCard from "../../Components/ProffesionalCard";
+import AppSpinner from "../../Components/AppSpinner";
 import FilterElements from "./Filters/FilterElements";
 
 // --- PROFESSIONALS DISPLAY SECTION ---- //
