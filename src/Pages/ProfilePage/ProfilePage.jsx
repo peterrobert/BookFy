@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 import { useProfessionalDetails } from "../../hooks/queries";
 import ProfileHeroSection from "./ProfileHeroSection";
 
-import AppSpinner from "../../Components/AppSpinner";
-import AppError from "../../Components/AppError";
+import AppSpinner from "../../components/AppSpinner";
+import AppError from "../../components/AppError";
 import ProfileNavigationSection from "./ProfileNavigationSection";
 import ProfileBookingSection from "./ProfileBookingSection";
 import Footer from "../../Layouts/Footer";

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useProffessDetailsCache } from "../../hooks/cache";
-import AppStarRatings from "../../Components/AppStarRatings";
+import AppStarRatings from "../../components/AppStarRatings";
 import Alert from "@mui/material/Alert";
 import Avatar from "@mui/material/Avatar";
 
