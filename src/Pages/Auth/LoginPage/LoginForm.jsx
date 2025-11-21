@@ -2,8 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
-import AppInputField from "../../../components/AppInputField";
-import AppButton from "../../../components/AppButton";
+import AppInputField from "../../../Components/AppInputField";
+import AppButton from "../../../Components/AppButton";
 
 const LoginForm = () => {
   const navigate = useNavigate();
