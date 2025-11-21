@@ -3,6 +3,7 @@ import ClientSection from "./ClientSection";
 import NotificationSection from "./NotificationSection";
 import ScheduleSection from "./ScheduleSection";
 import WelcomeSection from "./WelcomeSection";
+import Footer from "./../../../Layouts/Footer";
 
 const MainContent = () => {
   return (
@@ -12,6 +13,7 @@ const MainContent = () => {
       <ClientSection />
       <AvailabilitySection />
       <NotificationSection />
+      <Footer />
     </main>
   );
 };
