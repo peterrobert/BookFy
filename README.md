@@ -17,6 +17,10 @@ This project focuses on creating a **responsive and intuitive user interface**, 
 
 ---
 
+## 🚀 Features
+
+- 🧑‍💻 **LIVE-LINK** - https://book-fy.vercel.app/
+
 ## 🧱 Tech Stack
 
 | Area               | Technology          |
