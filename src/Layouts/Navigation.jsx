@@ -1,5 +1,5 @@
 import { NavLink, useNavigate } from "react-router-dom";
-import AppButton from "../components/AppButton";
+import AppButton from "../Components/AppButton";
 
 const NavItems = [
   {
