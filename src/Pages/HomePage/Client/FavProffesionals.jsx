@@ -1,5 +1,5 @@
 import { useModal } from "../../../Context/ModalContext";
-import { useProfessionals } from "../../../Hooks/Queries";
+import { useProfessionals } from "../../../hooks/queries";
 
 import AppButton from "../../../Components/AppButton";
 import AppError from "../../../Components/AppError";
